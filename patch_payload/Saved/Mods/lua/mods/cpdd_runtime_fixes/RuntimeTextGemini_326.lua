@@ -271,5 +271,6 @@ return {
     ["This is Ms. Temperance, and she is also a member of the Tarot Club."] = "Это госпожа «Умеренность», она тоже член Клуба Таро.",
     ["When dealing or receiving damage, Attack is increased by <HighLight>1%</>, stacking up to <HighLight>10</> times."] = "При нанесении или получении урона атака повышается на <HighLight>1%</>, суммируется до <HighLight>10</> раз.",
     ["North Snowy Mountain"] = "Северные снежные горы",
+    ["Нажмите, чтобы выполнить <Orange>Dodge</>!"] = "Нажмите, чтобы выполнить <Orange>уклонение</>!",
     ["Gia"] = "Джиа",
 }

@@ -278,5 +278,6 @@ return {
     ["恭喜您在本次众神之巅巅峰挑战赛中累计获得15胜场，以下是您的奖励，请查收。"] = "Поздравляем! В этом Пиковом турнире «Вершина богов» вы одержали 15 побед. Ваша награда ниже, пожалуйста, заберите её.",
     ["攻击+150"] = "Атака +150",
     ["巨龙分线"] = "Линия Дракона",
+    ["行于都市，将山茶芬芳佩戴于领侧，将雅致时尚收拢在袖边。"] = "Шагая по городу, носи аромат камелий у воротника, а изящество и стиль храни у манжет.",
     ["\"For example—Ted, disguised as a tutor, called a professor, I don't know him, but I remember him... He is in my mind like a circling ghost... He was originally just a Primordial Moon believer being hunted, someone who was resurrected because of a strange gray fog, someone who was corrupted by the crimson and surrendered to the crimson... He walked among the nobles, using the lies of a benevolent mother and the truth of the world to bewitch those who had fallen into despair...\""] = "«Например, Тед, выдававший себя за домашнего учителя, которого называли профессором. Я его не знаю, но помню... Он в моей голове, как кружащий призрак... Сначала он был лишь верующим в Изначальную Луну, за которым охотились, человеком, воскресшим из-за странного серого тумана, человеком, заражённым алой скверной и покорившимся алому... Он бродил среди дворян и ложью о милосердной матери и истине мира соблазнял тех, кто впал в отчаяние...»",
 }

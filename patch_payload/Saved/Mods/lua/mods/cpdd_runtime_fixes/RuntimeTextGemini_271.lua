@@ -272,6 +272,7 @@ return {
     ["Select a friend or contact to replace"] = "Выберите друга или знакомого для замены",
     ["Of course, I am a Sanguine Marquis. Corresponding to the Sequence 3 Summoner, I can bring powerful creatures from the depths of the Spirit World into the real world. You can try this summoning contract; it should still work."] = "Ещё бы, я же кровавый маркиз. Соответствую Мастеру призыва Последовательности 3 и могу приводить в реальный мир могучих существ из глубин Мира Духов. Попробуй этот контракт призыва, он должен ещё действовать.",
     ["Bonnie: Bury me along with these twenty years of hatred. This is my final request..."] = "Бонни: Похорони меня вместе с этими двадцатью годами ненависти. Это моя последняя просьба...",
+    ["罗塞尔Boss终局-计算结算AOE"] = "Босс Розель, финал: расчёт, АОЕ",
     ["但这里本就弱肉强食，疯狂又诡异。战争是永恒的主题，例如那场第四纪的四皇之战……"] = "Но это место по своей сути является местом, где сильные охотятся на слабых, безумных и странных. Война — вечная тема, как, например, Война Четырех Императоров в Четвертой Эпохе…",
     ["Nico"] = "Нико",
 }

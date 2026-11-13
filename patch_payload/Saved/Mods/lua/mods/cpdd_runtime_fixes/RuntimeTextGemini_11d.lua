@@ -268,6 +268,7 @@ return {
     ["西北港口环线"] = "Кольцевой маршрут северо-западного порта",
     ["传奇穿越者"] = "Легендарный попаданец",
     ["称号·机械意志的赞歌"] = "Титул · Гимн механической воли",
+    ["进入场景后，将自动开启艺术学派玩法。"] = "После входа в сцену режим школы искусств включится автоматически.",
     ["Venus"] = "Венера·",
     ["Maisie"] = "Мэйси",
     ["\"I'm already a bit unable to distinguish, is what appears in my mind the knowledge that was infused, or my own hallucinations?\"\n        \"Some knowledge is gradually being lost, while other knowledge—perhaps hallucinations—is constantly being generated... Some cannot be described in words, exceeding ordinary human cognition, making me go mad just thinking about it; others are like personal experiences, echoing in my ears, surging in my dreams, until the world rots, they cannot be erased...\""] = "«Я уже с трудом различаю, что всплывает в моей голове: внушённые мне знания или мои собственные галлюцинации?»\n«Одни знания постепенно утекают, а другие, возможно галлюцинации, непрерывно возникают... Некоторые невозможно описать словами, они выходят за пределы человеческого понимания, и от одной мысли о них можно сойти с ума; другие же похожи на пережитое лично, они звучат в ушах, всплывают во снах и не сотрутся, даже когда мир сгниёт...»",

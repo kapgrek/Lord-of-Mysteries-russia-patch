@@ -245,6 +245,8 @@ return {
     ["邦尼：哈哈哈哈哈，不错，你和花种融合得非常完美，但是……"] = "Бонни: Ха-ха-ха-ха-ха, неплохо, ты слился с семенем цветка идеально, но...",
     ["终末猎杀-草丛19逐簇隐匿07"] = "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 07",
     ["拾取装备自动穿戴"] = "Автоэкипировка подобранного снаряжения",
+    ["那些凶手呢？"] = "А что с теми убийцами?",
+    ["Нажмите здесь, чтобы перейти к <Highlight>Создать </> клуб."] = "Нажмите здесь, чтобы перейти к <Highlight>созданию </> клуба.",
     ["Hamza"] = "Хамза",
     ["……\n\nSince the beginning of July, child disappearance incidents in Tingen have occurred many times. The total number of missing persons is <Mark id=\"#159\"> thirteen </>, including five boys and eight girls.\nCurrently, three bodies have been found, and the murderer has been caught and the case closed.\nBut the autopsy determined that the causes of death were all different, belonging to three different realistic ordinary events."] = "……\n\nС начала июля в городе Тинген произошла серия исчезновений детей; общее число пропавших без вести составляет <Mark id=\"#159\"> тринадцать человек </>, в том числе пять мальчиков и восемь девочек.\nК настоящему моменту обнаружены тела трех детей, убийца арестован, и дело закрыто.\nОднако судебно-медицинская экспертиза показала разные причины смерти, относящиеся к трем не связанным между собой бытовым происшествиям.",
 }

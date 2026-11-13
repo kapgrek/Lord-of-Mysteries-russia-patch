@@ -279,6 +279,7 @@ return {
     ["限时射击_普通宝箱锁定状态_C"] = "Стрельба на время_Обычный сундук закрыт_C",
     ["马车已到达%s"] = "Карета прибыла в %s",
     ["黑桃A"] = "Туз пик",
+    ["Достигните ранга Герцога в Dominator's Clash."] = "Достигните ранга Герцога в «Схватке Властителей».",
     ["别——四下无人的河边.....原本的<P_Yellow>地点</>就很完美了，我警告你不要轻举妄动！"] = "Не надо — пустынный берег реки... исходное <P_Yellow> место </> было идеальным; Предупреждаю, не поступайте опрометчиво!",
     ["Loretta"] = "Лоретта",
     ["Keynote Speaker: Dr. Conrad\nLocation: Tingen University Auditorium\nGuard Health, Ensure Safety, Cherish Life\nLet the light of medicine benefit all of Tingen\nParticipate in the lecture and receive a complimentary home medical kit on-site!\nNo admission fee | Friends from all over the city are welcome to attend | No food or drinks provided"] = "Лектор: доктор Конрад\nМесто: Актовый зал Тингенского университета\nБерегите здоровье, обеспечивайте безопасность, цените жизнь!\nДа озарит свет медицины весь Тинген!\nПосетившим лекцию на месте бесплатно выдается домашняя аптечка!\nВход свободный | Приглашаются все жители города | Питание не предоставляется",

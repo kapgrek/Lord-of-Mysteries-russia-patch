@@ -312,6 +312,8 @@ return {
     ["终末猎杀-草丛10逐簇隐匿06"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 06",
     ["终末猎杀草丛;草丛组19"] = "End-of-Days Hunt Thicket; Thicket Group 19",
     ["参与一次斗邪恶"] = "Участвовать в «Битве со злом» 1 раз",
+    ["Вы получили велосипед, нажмите здесь или клавишу <img id=\"KeyPrompt_T\" width=\"33\" height=\"38\"/><Highlight>Сесть</>"] = "Вы получили велосипед, нажмите здесь или клавишу <img id=\"KeyPrompt_T\" width=\"33\" height=\"38\"/><Highlight>Сесть</>",
+    ["打开后随机获得<Highlight>80</>、<Highlight>120</>、<Highlight>200</>、<Highlight>500</>、<Highlight>1000</>或<Highlight>2000</>绑定金镑。"] = "После открытия вы случайно получите <Highlight>80</>, <Highlight>120</>, <Highlight>200</>, <Highlight>500</>, <Highlight>1000</> или <Highlight>2000</> привязанных золотых фунтов.",
     ["Antonine"] = "Антонина",
     ["任务自定义事件  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

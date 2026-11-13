@@ -326,6 +326,7 @@ return {
     ["That's good, we can proceed to the next step."] = "Хорошо, можно переходить к следующему шагу.",
     ["【自走棋】朗伯绞索3星5费-筛选全部敌人（上限15）"] = "[Auto Chess] Lambert's Noose 3-Star 5-Cost - Select all enemies (Max 15)",
     ["这不在计划之内"] = "Это не входило в планы",
+    ["Мастер боя II"] = "Мастер боя II",
     ["Converse with NPC  Player plays speech text visible only to self  Delayed execution"] = "Диалог с NPC  Игрок воспроизводит текст реплики, видимый только себе  Отложенное выполнение",
     ["Arlette"] = "Арлетт",
     ["\"My Favorite Thing\"\nI like to close my eyes during class the most because it's very comfortable. In front of my eyes it's <Hide id=\"#157\">A</> pitch black, and inside my ears it's also pitch black.\nTeacher Ruff says, get up! No sleeping in class.\nSo my favorite thing is <Hide id=\"#157\">sleep</>ing in class."] = "«Мое самое любимое дело»\nБольше всего я люблю на уроках закрывать глаза, потому что это очень приятно. Перед глазами все <Hide id=\"#157\">А</>темно-темно, и в ушах тоже темно-темно.\nУчитель Рафф говорит: «А ну вставай! На уроках спать нельзя!»\nОказывается, мое самое любимое дело — <Hide id=\"#157\">спа</>ать на уроке.",

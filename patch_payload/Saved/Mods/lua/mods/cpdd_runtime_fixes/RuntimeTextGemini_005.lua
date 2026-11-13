@@ -265,4 +265,5 @@ return {
     ["This is a sailor's favorite combination; have a cup early in the morning and you'll be full of energy."] = "Любимое сочетание моряков: выпьешь чашку с утра, и сил хоть отбавляй.",
     ["Gain <HighLight>1 random three-star 1-cost unit</> and <HighLight>7/11 Gold</>."] = "Вы получаете <HighLight>1 случайную 3-звёздную фигуру стоимостью 1</> и <HighLight>7/11 монет</>.",
     ["Gain random units worth <HighLight>12/18/26 Gold</> in total, including at least <HighLight>1 unit costing 3/4/5 Gold</>."] = "Вы получаете случайные фигуры общей стоимостью <HighLight>12/18/26 монет</>, включая минимум <HighLight>1 фигуру стоимостью 3/4/5</>.",
+    ["现在您也结束了一生的征程，是时候休息了。"] = "Теперь и вы завершили свой жизненный путь, пора отдохнуть.",
 }

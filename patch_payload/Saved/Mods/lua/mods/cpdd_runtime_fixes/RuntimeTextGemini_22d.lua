@@ -311,5 +311,7 @@ return {
     ["暖霜晴绮"] = "Тёплый иней ясного шёлка",
     ["斗邪恶获取"] = "Получение: Битва со злом",
     ["我也赞美"] = "Я тоже восхваляю",
+    ["塔罗会护盾"] = "Щит Клуба Таро",
+    ["宽阔的石阶层层铺展，足以容下盛装列队的唱诗班。"] = "Широкие каменные ступени раскинулись ярус за ярусом — на них поместится хор в праздничных облачениях.",
     ["Converse with NPC  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Разговор с NPC Объект воспроизводит указанный контент диалога NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

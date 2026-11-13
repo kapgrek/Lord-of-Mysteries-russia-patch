@@ -319,6 +319,7 @@ return {
     ["共聆凯歌"] = "Вместе слушать гимн победы",
     ["1元京东卡"] = "Карта JD на 1 юань",
     ["穿刺+72"] = "Пронзание +72",
+    ["在众神之巅巅峰挑战赛中达成1胜，即可获得以下奖励。"] = "Одержите 1 победу в пиковом испытании «Вершина Богов», чтобы получить следующие награды.",
     ["鳗鱼浓汤、香煎嫩羔羊肉、柠檬蛋糕"] = "Чаудер с угрем, жареная нежная баранина, лимонный пирог",
     ["With a wave of Golden Wolf's hand, thousands of people in the audience stood up simultaneously.\nThe strings had already tightened around their throats.\nThose who stood up were no longer human.\n\"If you want safety, hand your consciousness over to me.\nThis is a win-win deal.\""] = "Цзинь Лан махнул рукой, и тысячи людей в зале одновременно встали. \nНить в горле уже перерезана. \nЭти люди, которые встали, уже не люди. \n\"Если хочешь быть в безопасности, просто отдай мне своё сознание. \nЭто беспроигрышная сделка.\"",
 }

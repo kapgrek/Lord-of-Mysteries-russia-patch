@@ -300,5 +300,6 @@ return {
     ["阿爾弗雷德"] = "Альфред",
     ["终末猎杀-草丛07合并隐匿03（含2块原范围）"] = "Final Hunt-Bush 07 Merged Concealment 03 (Includes 2 original areas)",
     ["终末猎杀-草丛14合并隐匿05（含2块原范围）"] = "Final Hunt - Bush 14 Merged Concealment 05 (Includes 2 original range blocks)",
+    ["罗塞尔Boss终局-自清洁程序-密码台3-三阶段"] = "Финал босса Розеля - Программа самоочистки - Шифровальный пульт 3 - Третья стадия",
     ["Corey"] = "Кори",
 }

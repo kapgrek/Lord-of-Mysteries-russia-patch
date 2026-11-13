@@ -292,5 +292,7 @@ return {
     ["歌颂者-勇气之歌2阶"] = "Bard - Song of Courage Tier 2",
     ["窥秘人命运时刻推荐方案"] = "Тайновидец — Час судьбы: рекомендуемая сборка",
     ["园林·木栅栏"] = "Сад · Деревянная ограда",
+    ["一段震地伤害提升85%。"] = "Урон первого удара по земле повышается на 85%.",
+    ["使用后获得<Highlight>蝠影与猫步下装</>"] = "После использования вы получите <Highlight>низ «Тень летучей мыши и кошачья поступь»</>",
     ["Gentlemen! Please do not let the children seeking knowledge be covered in dust!\nWe cordially invite noble gentlemen and ladies to pave the way for education with gold pounds.\n\nAll donors can be entered into the \"Evernight Candlelight\" directory,\nand your kindness will be blessed by the Goddess.\n\nDonation location: <Highlight>Local Evernight Church</>\n\nNote: Our association's accountant is certified by Backlund University,\nand the income and expenditure accounts are published in the third edition of the \"Tingen Daily\" every month."] = "Всем! Не позволяйте детям, которые учатся, покрыты пылью! \n Мы искренне призываем уважаемых господ и дам проложить путь к образованию золотыми фунтами. \n\nЛюбой донор может войти в каталог «Свечи в темноте», \nваша доброта будет благословлена ​​богиней. \n\n Офис пожертвований: <Highlight> Местная ночная церковь </>\n\n Примечание: Наш бухгалтер сертифицирован Беклундским университетом, \n Счета доходов и расходов публикуются ежемесячно на третьей странице «Tingen Daily».",
 }

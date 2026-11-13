@@ -303,5 +303,6 @@ return {
     ["This is living corpse oil, isn't it? Why would it be on him?"] = "Это же масло живого трупа? Почему оно оказалось у него?",
     ["非凡战况"] = "Потусторонние сводки",
     ["终末猎杀-草丛01逐簇隐匿02"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 02",
+    ["使用后获得环身特效:<Highlight>蝠影与猫步・手部</>"] = "После использования вы получите эффект вокруг тела: <Highlight>Тень летучей мыши и шаг кошки · Руки</>",
     ["Sabrina"] = "Сабрина",
 }

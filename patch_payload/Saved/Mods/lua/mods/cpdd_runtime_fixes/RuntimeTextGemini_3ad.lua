@@ -265,6 +265,8 @@ return {
     ["Rare Blood-Colored Ring"] = "Редкое·Кровавое кольцо",
     ["Roselle Boss Hard - Stages 1 & 2 - Number Assignment - Stealth Monster Mark buff"] = "Босс Розель (сложный) - 1 и 2 фазы - Распределение чисел - Бафф метки невидимого монстра",
     ["罗塞尔Boss困难-1&2阶段-重力法则-引力场"] = "Roselle Boss Hard - Stages 1 & 2 - Law of Gravity - Gravitational Field",
+    ["会客厅中，泰德向子爵夫人阐释治疗方案。他高举着一个苹果，苹果的艳红透着诡异的非凡气息。\n子爵夫人的强硬拒绝，反而让泰德下定了某种决心。"] = "В гостиной Тед излагает виконтессе план лечения. Он поднимает яблоко, чьё алое сияние таит жутковатое потустороннее дыхание.\nРезкий отказ виконтессы лишь укрепил решимость Теда.",
+    ["当前队伍成员数超过三人，无法开启斗邪恶匹配"] = "В команде больше трёх человек, запустить подбор для «Борьбы со злом» нельзя",
     ["Milo"] = "Майло",
     ["贝尔曼"] = "Беллман",
     ["Leonard unbuttoned his shirt collar, chuckled, and nodded: \n      \"I'm glad we've reached a consensus.\" \n      \"In those adventure novels, this is called the meeting of two protagonists, and the wheels of history begin to roll forward.\" \n      Shameless! Klein smiled perfunctorily."] = "Леонард расстегнул пуговицу на воротнике рубашки, усмехнулся и кивнул:\n      «Я рад, что мы пришли к согласию».\n      «В этих авантюрных романах это называется встречей двух главных героев, и колесо истории начинает катиться вперёд».\n      Ну и бесстыдник! Клейн натянуто улыбнулся.",

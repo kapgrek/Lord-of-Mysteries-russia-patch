@@ -281,5 +281,7 @@ return {
     ["Beyonders targeted by <Highlight>【Hunt】</> must continuously use <Highlight>【Pull Yourself Together】</> to break free from the control. Beyonders should quickly <Highlight>switch fire to the Aberrant Manservant</>. The holder of the 【Bell】 must approach the Crimson Hound Soul and use the skill <Highlight>【Ring Bell】</> (the ability will be lost after a successful channel) to redirect its pounce target to the Alienated Hound. Once 3 Crimson Hound Souls have successfully pounced on the Alienated Hound, the Alienated Hound will be <Highlight>paralyzed for 10 seconds</>."] = "Потусторонние, отмеченные <Highlight>【Погоня】</>, должны непрерывно использовать <Highlight>【Взять себя в руки】</>, чтобы вырваться из-под контроля. Потусторонние быстро <Highlight>переключают огонь на мутировавшего слугу</>. Обладатель 【Колокольчика】 должен подойти к алой душе пса и использовать навык <Highlight>【Звон колокольчика】</> (после успешного поддержания способность будет потеряна), чтобы перенаправить цель её броска на изменённого гончего пса. Когда 3 алые души псов успешно набросятся на изменённого гончего пса, он будет <Highlight>парализован на 10 сек.</>.",
     ["误入画境"] = "Заблудившийся в картине",
     ["回复目标*d生命值"] = "Восстанавливает цели *d ОЗ",
+    ["累计500个非凡者组队通关大帝重临·终局之战"] = "500 Потусторонних суммарно прошли «Возвращение Императора · Финальная битва» в команде",
+    ["没想到没过多久，小少爷也……"] = "Кто бы мог подумать, что вскоре и юный господин…",
     ["Zanna"] = "Занна",
 }

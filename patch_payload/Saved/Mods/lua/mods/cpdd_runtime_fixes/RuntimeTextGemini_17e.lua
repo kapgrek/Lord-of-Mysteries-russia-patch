@@ -285,5 +285,9 @@ return {
     ["Tab轮选测试配置-距离优先（退化2）-仅玩家"] = "Tab Selection Test Config - Distance Priority (Degradation 2) - Players Only",
     ["终末猎杀-草丛02逐簇隐匿12"] = "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 12",
     ["11月16日解锁"] = "Откроется 16 ноября",
+    ["<HyperLink stylename=\"M_Link\" u=\"86031030\" color=\"#f4a067\">空气子弹</>的伤害提高40%。"] = "Урон <HyperLink stylename=\"M_Link\" u=\"86031030\" color=\"#f4a067\">Воздушной пули</> повышается на 40%.",
+    ["罗塞尔Boss终局-灼热目光-点名标记"] = "Босс Розель, финал: жгучий взгляд, метка вызова",
+    ["女神在上，说不定他真能治好小少爷的病呢……"] = "Во имя Богини, может, он и правда сумеет вылечить юного господина…",
+    ["哼，永远盯着自己的脚尖，什么都不要看，什么都不要听。"] = "Хм. Всегда смотри на носки своих ботинок, ничего не разглядывай и ничего не слушай.",
     ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

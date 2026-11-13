@@ -296,6 +296,8 @@ return {
     ["Why is Amon's main body here? And he has even restored his status as a True God of two Pathways?!"] = "Почему здесь истинное тело Амона? Да ещё и с восстановленным положением истинного бога двух Путей?!",
     ["鲁恩商道"] = "Торговый путь Лоена",
     ["终末猎杀-草丛08逐簇隐匿04"] = "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 04",
+    ["基础属性：暴击率+25%、攻击+40%"] = "Базовые характеристики: шанс крита +25%, атака +40%",
+    ["黑夜女神8标记buff"] = "Бафф метки Богини Вечной Ночи 8",
     ["Water Lily Fairy Trilogy! Classic Reprint!\n\"The Birth of the Water Lily Fairy\"\nShe was born in the night, the lake water wove her robes, and the legend of the small town began here.\n\"The Dedication of the Water Lily Fairy\"\nFor the sake of joy and happiness, she traded everything for eternal daylight.\n\"The Slumber of the Water Lily Fairy\"\nShe sank into the heart of the lake, waiting in deep sleep for the next story to begin..."] = "Трилогия «Фея кувшинок»! Переиздание классики!\n«Рождение феи кувшинок»\nОна родилась в ночной тиши, озерная гладь соткала ее платье, и с этого началась легенда городка.\n«Самопожертвование феи кувшинок»\nРади радости и счастья она отдала все в обмен на вечный день.\n«Сон феи кувшинок»\nОна погрузилась на дно озера, ожидая в глубоком сне начала новой истории...",
     ["我\n很\n期\n待"] = "Я\n\nочень\n\nжду",
     ["这件礼服的颜色好！就像我心中燃烧的火焰——啊，我是说，我对亡夫深切的怀念之情。"] = "Цвет этого платья хорош! Это похоже на огонь, горящий в моем сердце – я имею в виду мою глубокую тоску по моему покойному мужу.",

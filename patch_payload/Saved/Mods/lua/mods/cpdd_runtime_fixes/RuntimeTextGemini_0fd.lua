@@ -285,6 +285,7 @@ return {
     ["【自走棋】克莱恩·莫雷蒂-三星专属技能"] = "[Auto Chess] Klein Moretti - 3-Star Exclusive Skill",
     ["【自走棋】-老尼尔-最低生命友军治疗"] = "[Auto Chess] Old Neil - Heal ally with lowest Health",
     ["终末猎杀-草丛14逐簇隐匿03"] = "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 03",
+    ["塔罗·阿尔杰·威尔逊·塔罗8"] = "Таро: Элджер Уилсон, Таро 8",
     ["Trenton"] = "Трентон",
     ["Kaize"] = "Кайзе",
     ["来，我给你演示演示。"] = "Пойдем, позволь мне продемонстрировать это тебе.",

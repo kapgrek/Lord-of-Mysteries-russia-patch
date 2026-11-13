@@ -298,5 +298,6 @@ return {
     ["The pure one who drives away Darkness, the priest whose every action is Justice, the Bard who chases the Light, the priest of the King of Space-Time, the warm Sun that forever carries Hope and ideals."] = "Чистый, изгоняющий Тьму, жрец, чьи деяния всегда справедливы, Бард, стремящийся к свету, служитель Короля пространства-времени, тёплое Солнце, несущее надежду и идеалы.",
     ["终末猎杀草丛;草丛组01"] = "Final Hunt Thicket; Thicket Group 01",
     ["斗邪恶-胜负与资产结算"] = "Битва со злом: победа, поражение и расчёт активов",
+    ["伤害提升40%。"] = "Урон повышается на 40%.",
     ["Ruola"] = "Руола",
 }

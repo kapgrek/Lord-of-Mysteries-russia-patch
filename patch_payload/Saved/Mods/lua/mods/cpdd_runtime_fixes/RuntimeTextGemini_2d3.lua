@@ -321,6 +321,7 @@ return {
     ["Wealthy Patron %s Rank %s"] = "Богатый покровитель %s: место %s",
     ["输出天赋序列7gvg专用"] = "Талант атаки, Последовательность 7, только для GVG",
     ["敌方优先（30米）"] = "Враги в приоритете (30 м)",
+    ["盒盖掀起的瞬间，一份意料之外的惊喜悄然落入掌心。"] = "В миг, когда крышка поднимается, неожиданный сюрприз тихо ложится в ладонь.",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

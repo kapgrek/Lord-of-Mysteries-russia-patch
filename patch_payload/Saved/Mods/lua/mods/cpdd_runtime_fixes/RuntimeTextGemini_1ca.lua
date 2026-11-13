@@ -286,5 +286,8 @@ return {
     ["Participate in the Dungeon <Highlight>May Manor · Castle (Hard)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Замок (Сложно)</>. После победы над <Highlight>Стражем потомства</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["终有归途"] = "Путь домой",
     ["Holy Spirit who pursues knowledge, lighthouse of the mysterious world, eye that peers into fate, king above the seas, the holy Bernadette Gustav."] = "Святой дух, ищущий знания, маяк мира тайн, глаз, вглядывающийся в судьбу, король над морем, священная Бернадетт Густав.",
+    ["<DecH>工艺：</>皮草领饰・金边绶带・披风王权礼装\n亲手铸就蒸汽的神冕，亲手推动因蒂斯历史的更迭。黑皇帝的律令，连生死也不能动摇。"] = "<DecH>Ремесло: </>Меховой воротник・Лента с золотой каймой・Королевский наряд с плащом\nСобственными руками выковал божественный венец пара, собственными руками двигал смену эпох Интиса. Закон Чёрного Императора не поколеблют ни жизнь, ни смерть.",
+    ["血刃6人流血"] = "Кровотечение «Кровавого клинка» (6 чел.)",
+    ["咒术6专属装备属性"] = "Атрибуты уникальной экипировки: Колдовство 6",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

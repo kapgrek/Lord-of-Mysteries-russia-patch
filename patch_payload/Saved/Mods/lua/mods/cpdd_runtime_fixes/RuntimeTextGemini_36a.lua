@@ -250,6 +250,7 @@ return {
     ["Gain <HighLight>2 random one-star 1-cost Beyonder World units</> and <HighLight>1 random one-star 3-cost Beyonder World unit</>. The player gains <HighLight>10 Health</>."] = "Вы получаете <HighLight>2 случайные 1-звёздные фигуры мира необыкновенных стоимостью 1</> и <HighLight>1 1-звёздную фигуру мира необыкновенных стоимостью 3</>. Игрок получает <HighLight>10 ОЗ</>.",
     ["终末猎杀-草丛02逐簇隐匿07"] = "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 07",
     ["山茶调"] = "Мотив камелии",
+    ["【血刃】装备时，每隔<HighLight>10</>秒，对距离最远的敌方造成相当于<HighLight>200%</>攻击的伤害。\n【血刃】（<HighLight>6</>）：间隔缩短为<HighLight>4</>秒。"] = "[Кровавый клинок]: при экипировке каждые <HighLight>10</> сек. наносит самому дальнему врагу урон, равный <HighLight>200%</> атаки.\n[Кровавый клинок] (<HighLight>6</>): интервал сокращается до <HighLight>4</> сек.",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

@@ -294,6 +294,7 @@ return {
     ["奥黛丽-筛一个最远的玩家"] = "Audrey - Filter the farthest player",
     ["<HighLight>释放技能削减目标法力</>"] = "<HighLight>Умение уменьшает ману цели</>",
     ["好友同玩"] = "Играть с друзьями",
+    ["斗邪恶邪恶为什么输赢是两份"] = "Почему в «Бей Зло» выигрыш и проигрыш считаются в двойном размере",
     ["Thirteenth one, so satisfying! So satisfying! \n    The effect of this gold bullet is too good; with it, why would I still be a hired killer! \n    But that gentleman's conditions are strange enough; no matter who the target is, as long as it's at a specific location, at a specific time, kill... \n    Whatever, anyway, the police won't really catch me; they agreed to it! \n    According to the agreement, tomorrow night, everything will be over."] = "　　Уже тринадцатый! Как же чертовски хорошо! Просто потрясающе!\n　　Действие этой золотой пули превзошло все ожидания... С такой штукой зачем мне вообще горбатиться наёмным убийцей!\n　　Правда, условия того господина более чем странные: плевать, кто жертва, главное — прикончить в строго определённом месте и в назначенное время...\n　　Да какая разница! Полиция всё равно меня не тронет — мы же договорились!\n　　По условиям договора завтра вечером всё будет кончено.",
     ["监听关闭阅读界面  对象播放指定对白内容  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Прослушивание закрытия интерфейса чтения, объект воспроизводит указанное содержимое диалога, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанное содержимое диалога",
 }

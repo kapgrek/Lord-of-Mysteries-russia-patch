@@ -290,5 +290,8 @@ return {
     ["Mirror Server Local Server"] = "Зеркальный сервер, основной сервер",
     ["斗邪恶输赢"] = "Выигрыш и проигрыш в «Битве со злом»",
     ["隐藏选将棋子详情"] = "Скрыть сведения о фигурах выбора",
+    ["空气子弹攻击目标时，会在目标处产生6米范围爆炸，洗牌伤害半径增加到8米，洗牌伤害人数增加2人，至多可以对6人造成伤害。"] = "При попадании Воздушной пули по цели в её позиции происходит взрыв в радиусе 6 м. Радиус урона Перетасовки увеличивается до 8 м, число целей Перетасовки увеличивается на 2, урон может получить до 6 целей.",
+    ["谁要验牌？"] = "Кто проверит карты?",
+    ["После выделения текста используйте <Highlight> «Захватить» </>."] = "После выделения текста используйте <Highlight> «Захватить» </>.",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
 }

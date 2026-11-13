@@ -299,6 +299,7 @@ return {
     ["Massane"] = "Масане",
     ["罗塞尔Boss困难-1&2阶段-自清洁程序-范围伤害"] = "Roselle Boss Hard - Stages 1 & 2 - Self-Cleaning Program - Area Damage",
     ["斗邪恶玩法暂未解锁"] = "Режим «Битва со злом» ещё не открыт",
+    ["<Highlight>工艺：</>织闻灰呢・山茶芳香・都市轻装\n行于都市，将山茶芬芳佩戴于领侧，将雅致时尚收拢在袖边。"] = "<Highlight>Ремесло: </>Серое сукно · Аромат камелии · Лёгкий городской наряд\nИдя по городу, приколите аромат камелии к воротнику и спрячьте изящный стиль в рукавах.",
     ["与Npc进行对话  延迟执行  对象播放指定对白内容"] = "Разговор с NPC, отложенное выполнение, объект воспроизводит указанное содержимое диалога",
     ["The historical play \"Emperor Solomon,\" directed by Professor William Hamer, will premiere next Wednesday at 20:00 in the campus theater. Given the <Highlight> excessive number of reservations </>, the normal application channel is now closed, and a <Highlight> public access, first-come-first-served </> distribution method will be implemented. We hope students will inform each other."] = "　　Премьера исторической драмы «Император Соломон» под руководством профессора Уильяма Хеймера состоится в следующую среду в 20:00 в университетском театре. Ввиду <Highlight>чрезмерного числа заявок</> стандартный прием предварительных записей закрыт; распределение мест будет проводиться в порядке <Highlight>живой очереди для всех желающих</>. Просим студентов оповестить друг друга.\n　　",
     ["完成并关闭2D玩法  玩家播放仅自己可见的说话文本"] = "Полный и подробный 2D-геймплей. Плеер воспроизводит речевой текст, видимый только ему.",

@@ -324,6 +324,7 @@ return {
     ["【自走棋】亡者的助兴-半径2200内全体"] = "[Auto Chess] Dead Man's Entertainment - All units within 2200 radius",
     ["见闻礼盒"] = "Подарочный набор «Знания»",
     ["常备军需处"] = "Интендантство регулярной армии",
+    ["金光乍现，幸运垂青！{{player.name}}开启<Chat_Highlight>储蓄惊喜礼盒</>，获得<Chat_Highlight>500绑定金镑</>。耐心的守候，终于迎来命运的回响。"] = "Золотой свет вспыхнул, удача улыбнулась! {{player.name}} открывает <Chat_Highlight>сберегательную шкатулку-сюрприз</> и получает <Chat_Highlight>500 привязанных золотых фунтов</>. Терпеливое ожидание наконец отозвалось эхом судьбы.",
     ["Brantley"] = "Брантли",
     ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["与Npc进行对话  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет.",

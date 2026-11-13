@@ -332,4 +332,6 @@ return {
     ["终末猎杀-草丛01合并隐匿01（含3块原范围）"] = "End-of-Days Hunt - Bush 01 Combined Concealment 01 (includes 3 original areas)",
     ["终末猎杀-草丛18合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 18 Merged Concealment 03 (Includes 2 Original Ranges)",
     ["终末猎杀-草丛23逐簇隐匿04"] = "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 04",
+    ["礼物排名第%s：%s，礼物积分：%s"] = "Место в рейтинге подарков: %s: %s, очки подарков: %s",
+    ["塔罗·伦纳德·米切尔·塔罗10"] = "Таро: Леонард Митчелл, Таро 10",
 }

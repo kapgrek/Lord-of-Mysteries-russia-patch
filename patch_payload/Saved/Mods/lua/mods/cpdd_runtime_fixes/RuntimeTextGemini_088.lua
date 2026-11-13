@@ -299,6 +299,7 @@ return {
     ["Even that lazy and carefree temperament is perfectly restored. Placed beside the desk, perhaps Inspiration will be sparked, or perhaps it will make one feel inexplicably weary."] = "Даже эта ленивая, беззаботная манера передана как нельзя лучше. Если поставить рядом с письменным столом, возможно, она подарит вдохновение, а возможно, навеет необъяснимую усталость.",
     ["After dealing damage, reduces the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds."] = "После нанесения урона снижает защиту цели на <HighLight>45%</> на <HighLight>3</> сек.",
     ["【自走棋】-弓箭骑士-蓄力射击-脱手代理"] = "[Auto Chess] - Archer Knight - Charged Shot - Off-hand Proxy",
+    ["<Highlight>%d月%d日%d:%02d</>登录可领"] = "Получить при входе: <Highlight>%d.%d %d:%02d</>",
     ["看来您已经开始用自己的节奏感受这座城市了。廷根的每个角落都值得花时间品味，尤其是在不同的光线之下……总会发现新的细节。"] = "Кажется, вы начали чувствовать этот город в своем собственном темпе. Каждый уголок Тингена стоит того, чтобы насладиться им, особенно при разном освещении... вы всегда откроете для себя новые детали.",
     ["Amalia"] = "Амалия",
     ["前往指定场景  玩家播放仅自己可见的说话文本"] = "Идите к назначенному месту. Игрок воспроизводит текст диалога, видимый только ему самому.",

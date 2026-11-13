@@ -281,6 +281,8 @@ return {
     ["I'll be able to eat hometown food right away!"] = "Вот-вот отведаю блюда родных краёв!",
     ["终末猎杀-草丛03逐簇隐匿07"] = "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 07",
     ["最低价格：<img id=\"%s\" width=\"40\" height=\"40\"/>%s "] = "Самая низкая цена: <img id=\"%s\" width=\"40\" height=\"40\"/>%s",
+    ["使用后获得<Highlight>头像・罗塞尔</>"] = "После использования вы получите <Highlight>Портрет «Розель»</>",
+    ["1354年8月15日，上午5时47分"] = "15 августа 1354 г., 5:47",
     ["与Npc进行闲话  NPC停止正在播放的Gossip文本"] = "Сплетня с NPC. NPC останавливает воспроизведение текста сплетни.",
     ["与Npc进行对话  玩家传送到位面"] = "Поговорите с NPC, игрок телепортируется в самолет.",
     ["Bonaparte Restaurant\nSignature Specialties\nIntis Red Wine Beef Stew\nIntis Champagne\nBlack Truffle and Porcini Mushrooms"] = "Ресторан «Бонапарте»\nФирменные особенности\nИнтис, тушеная говядина в красном вине\nШампанское «Интис»\nЧерный трюфель и белые грибы",

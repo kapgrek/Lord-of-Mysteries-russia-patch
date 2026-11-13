@@ -288,4 +288,5 @@ return {
     ["Timed Shoot_Normal Chest Unlocked_C"] = "Стрельба на время_Обычный сундук открыт_C",
     ["齿轮发射器距离过近，将持续对附近造成伤害！"] = "Шестерёночная пушка слишком близко и будет непрерывно наносить урон окружающим!",
     ["{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>圣光的真知</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
+    ["迷茫的灵，将归往何方？"] = "Заблудшая душа, куда ты вернёшься?",
 }

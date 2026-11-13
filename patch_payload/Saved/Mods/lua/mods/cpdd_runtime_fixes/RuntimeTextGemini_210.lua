@@ -291,6 +291,7 @@ return {
     ["击杀"] = "Убийства",
     ["普通-魔法大锅-一锅端-持续吸引"] = "Normal - Magic Cauldron - One Pot Sweep - Continuous Attraction",
     ["终末猎杀-草丛15逐簇隐匿07"] = "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 07",
+    ["使用后获得称号:<Highlight>伟大新生的谢幕</>"] = "После использования вы получите титул: <Highlight>Занавес великого возрождения</>",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

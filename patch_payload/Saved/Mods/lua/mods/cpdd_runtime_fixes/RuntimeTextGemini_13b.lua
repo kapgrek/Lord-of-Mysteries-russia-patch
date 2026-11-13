@@ -303,6 +303,7 @@ return {
     ["终末猎杀-草丛17逐簇隐匿02"] = "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 02",
     ["罗塞尔Boss困难-3阶段-磁电回收点名"] = "Roselle Boss Hard - Phase 3 - Electromagnetic Recovery Target Selection",
     ["振刀碎屏"] = "Парирование: разбитый экран",
+    ["正在匹配中，暂时无法进行此操作"] = "Идёт подбор, это действие пока недоступно",
     ["Odin"] = "Один",
     ["<Highlight> Craft: </> Friendly Spirit World Creature, the Meow Thief enlightened by the \"Orange Light\" \n (Actively wiggling) (Crawling brightly and moderately) (Advancing generously) \n (Floating with the wind) (Light-footed) (Bathing in sunlight)"] = "<Highlight>Качество изготовления: </>Дружелюбное существо из Мира Духов, кошачий воришка, озаренный «Оранжевым светом»\n(Активно извивается) (Светло и умеренно ползет) (Гордо шагает вперед)\n(Развевается по ветру) (Легкая поступь) (Купается в солнечных лучах)",
     ["Stormy"] = "бурный",

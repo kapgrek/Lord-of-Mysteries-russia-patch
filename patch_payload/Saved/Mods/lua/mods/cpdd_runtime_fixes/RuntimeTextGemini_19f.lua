@@ -263,6 +263,7 @@ return {
     ["斗邪恶-出牌与牌型"] = "Битва со злом: ход и комбинации карт",
     ["[初级场] 20底分"] = "[Начальный стол] Ставка 20",
     ["秘偶置换道具"] = "Предмет обмена марионеток",
+    ["秘法8人全体法力恢复"] = "«Тайное искусство» (8 чел.): восстановление маны всем",
     ["等他毕业，找到份体面工作，我们一家人就能在廷根真正站住脚了！"] = "Как только он закончит обучение и найдет достойную работу, наша семья сможет по-настоящему твердо стоять в Тингене!",
     ["那当然。至少现在，我是您唯一的“演奏家”。"] = "Конечно. По крайней мере, на данный момент я ваш единственный «исполнитель».",
     ["He so-um, the plants have a chance to continue, the investigation continues, great! \n \n He has come, don't try to deceive my eyes. That twisted, wriggling thing emits red and blue light, like flowers in a dream, and also like a full moon. \n \n That day I was chewing on a mirror, a cat holding a mushroom pushed me down in the forest, I crawled out of the sea and spat out one diamond after another, and the necklace was worn around my neck. \n Watch out behind you! \n (Messy lines with no meaning)"] = "Он сказал: «Что ж, есть шанс, что растениеводство и животноводство продолжатся, и корректировка продолжится, это здорово!» \n\nОн идёт, не пытайся обмануть мои глаза. Извращенное и извивающееся существо излучало красный и синий свет, как цветы во сне и как полная луна. \n\n В тот день я жевал зеркало, а кот поднял гриб и толкнул меня в лес. Я вылезла из моря, выблевала бриллианты один за другим и надела ожерелье себе на шею. \nСмотри, что позади тебя! \n　(беспорядочные строки с неизвестным значением)",

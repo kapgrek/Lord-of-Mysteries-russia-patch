@@ -277,6 +277,9 @@ return {
     ["Runic Steel Sword"] = "Рунический стальной меч",
     ["佛尔思-玩家集合获得传送门显示"] = "Fors - Player collection obtains Portal display",
     ["蠕动的饥饿：粉碎灵魂退化目标"] = "Creeping Hunger: Soul Crush degradation target",
+    ["<DecH>工艺：</>织闻灰呢・都市轻装\n行于都市，将山茶芬芳佩戴于领侧，将雅致时尚收拢在袖边。"] = "<DecH>Ремесло: </>Серое сукно・Лёгкий городской наряд\nПо городу идёшь, аромат камелии носишь у воротника, а изящную моду прячешь в обшлагах.",
+    ["斗邪恶？"] = "Сразиться со злом?",
+    ["散发出柔光的落地灯，正好照亮晚归者摊开的书页。"] = "Торшер с мягким светом как раз освещает раскрытую книгу того, кто поздно вернулся домой.",
     ["<InvHighlight> </> Dream Catcher Net <Mark id=\"#159\">—a fishing net that has become spiritualized through contact with Beyonder material, is an effective way to </> hunt Dream Catchers. \n ... \n The first discoverer was a sailor who woke up from a nightmare to find that his fishing net had caught the <Hide stylename=\"Transparent\" id=\"#161\"> heart </> of a Dream Catcher..."] = "　　<InvHighlight>Ловушка снов</> — рыболовная сеть, пропитанная духовностью от контакта с Потусторонними материалами; действенный способ <Mark id=\"#159\">охоты на ловцов сновидений</>.\n　　……\n　　Первым ее открыл моряк: очнувшись от кошмара, он обнаружил, что сеть поймала <Hide stylename=\"Transparent\" id=\"#161\">сердце</> ловца сновидений...",
     ["我将为您奉上独特的变奏，您永远不知道下一个音符是什么。"] = "Я предложу вам уникальную вариацию; вы никогда не узнаете, какой будет следующая нота.",
 }

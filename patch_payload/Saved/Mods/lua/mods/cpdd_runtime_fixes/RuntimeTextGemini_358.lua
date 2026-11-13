@@ -279,5 +279,6 @@ return {
     ["Destroying the avatars at will will expose our actions, making it harder for us to locate the Sequence 3 corruption avatar."] = "Неразборчивое уничтожение клонов выдаст наши действия и затруднит поиск клона Последовательности 3, источника скверны.",
     ["Collect 15 to obtain the marionette Alienated Selena; they can also be used to upgrade the marionette Alienated Selena."] = "Соберите 15 шт., чтобы получить тайную марионетку «Обращённая Селена». Также используется для её развития.",
     ["蜘蛛眼睛"] = "Паучьи глаза",
+    ["В каждом состязании задаётся особая <Highlight>тематика стиля</>. Образы, соответствующие теме, позволяют набрать больше очков."] = "В каждом состязании задаётся особая <Highlight>тематика стиля</>. Образы, соответствующие теме, позволяют набрать больше очков.",
     ["Mustafa"] = "Мустафа",
 }
