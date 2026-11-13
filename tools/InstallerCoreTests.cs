@@ -35,7 +35,7 @@ public static class InstallerCoreTests
             var files = InstallerCore.GetPayloadFiles(payload);
             bool okOwned = InstallerCore.VerifyOwnedFiles(payload, files, out why);
             var game = SupportedGame.Load(payload);
-            bool okBridge = InstallerCore.FileSha256(Path.Combine(payload, InstallerCore.BridgeBlockPayloadRel)) == game.InstalledBlockSha256;
+            bool okBridge = InstallerCore.FileSha256(Path.Combine(payload, game.BasePayload.Replace('/', '\\'))) == game.InstalledBlockSha256;
             bool okRoot = PayloadSource.FindPayloadRoot(payload) == payload;
             string cacheFile = game.Cache == null ? null : Path.Combine(payload, game.Cache.Payload.Replace('/', '\\'));
             bool okCache = game.Cache != null && File.Exists(cacheFile) && InstallerCore.FileSha256(cacheFile) == game.Cache.InstalledSha256;
@@ -104,6 +104,9 @@ public static class InstallerCoreTests
         Run("entry_id: record found, foreign bytes -> NotFound, nothing written", CacheEntryForeignBytes);
         Run("entry_id: two records with the prefix -> Ambiguous", CacheEntryTwoRecords);
         Run("other manifest, live clean block in the AssetsVersion folder -> Clean", CacheManifestChangedBlockClean);
+        Run("build 2307645: cache pak without the launch block and its record -> base pak only", CacheNoLaunchBlock);
+        Run("build 2307645: no record, but a block head in the cache -> still refused", CacheNoRecordForeignHead);
+        Run("base_launch_block.payload: other bridge file, default omitted in ToJson", BasePayloadField);
         Run("supported_game.json: old backup with launch_block still works", OldBackupFormat);
         Run("supported_game.json: format 2, min_installer_version", Format2AndMinInstaller);
         Run("options: cpdd_patcher_settings.lua defaults, CPDD format, round trip", OptionsSettingsRoundTrip);
@@ -237,10 +240,13 @@ public static class InstallerCoreTests
     {
         string repo = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ".."));
         var g = SupportedGame.Parse(File.ReadAllText(Path.Combine(repo, @"installer\supported_game.json")));
-        Assert(g.GameBuild == "1.2018737.2044036", "game_build");
-        Assert(g.Offset == 427225161 && g.BlockSize == 4660, "launch block offset/size");
-        Assert(g.InstalledBlockSha256 == InstallerCore.FileSha256(Path.Combine(repo, @"patch_payload\bridge\LaunchInstance.native-bridge.padded.oodle")), "bridge in patch_payload = installed_sha256");
-        Assert(g.BasePaks.Count == 1 && g.BasePaks[0].Size == 446910011, "supported base pak");
+        Assert(g.GameBuild == "1.2018737.2307645", "game_build");
+        Assert(g.Offset == 422563913 && g.BlockSize == 5258, "launch block offset/size (TASK-045)");
+        Assert(g.BasePayload == "bridge/cache-startup.oodle", "base_launch_block.payload = the former kscache bridge");
+        Assert(g.InstalledBlockSha256 == InstallerCore.FileSha256(Path.Combine(repo, @"patch_payload\" + g.BasePayload.Replace('/', '\\'))), "base bridge in patch_payload = installed_sha256");
+        Assert(g.CleanBlockSha256 == g.Cache.CleanSha256 && g.InstalledBlockSha256 == g.Cache.InstalledSha256, "base block = the 2218968 kscache block");
+        Assert(g.BasePaks.Count == 1 && g.BasePaks[0].Size == 443251659 && g.BasePaks[0].Sha256 == "7791a5fb558ac0757e3c0aa6becd81318a2d453fb477b5eeba0045cc64ccb369", "supported base pak 2307645");
+        Assert(g.InstalledPakSha256 == "21bc7187494faaba8888f5858f62eba94606e125311620736950f1556c0f04bc" && g.InstalledPakSize == 443251659, "installed pak sha/size");
         Assert(g.Cache != null && g.Cache.Size == 5258 && g.Cache.PakName == "pakchunk0-Windows.pak", "cache_launch size / pak name");
         string cacheBridge = Path.Combine(repo, @"patch_payload\" + g.Cache.Payload.Replace('/', '\\'));
         Assert(File.Exists(cacheBridge) && InstallerCore.FileSha256(cacheBridge) == g.Cache.InstalledSha256, "cache-startup.oodle in patch_payload = cache_launch.installed_sha256");
@@ -252,7 +258,7 @@ public static class InstallerCoreTests
         Assert(SupportedGame.Parse(g.ToJson()).Cache.OriginalHeadHex == g.Cache.OriginalHeadHex, "cache_launch survives the round trip");
         string raw = File.ReadAllText(Path.Combine(repo, @"installer\supported_game.json"));
         Assert(g.Format == 2 && raw.Contains("\"base_launch_block\"") && !raw.Contains("\"launch_block\""), "format 2: base_launch_block, no launch_block (installers before 3.1.1 refuse)");
-        Assert(g.MinInstallerVersion == "3.1.1-RU" && PatcherBackend.InstallerTooOld(g) == null, "min_installer_version 3.1.1-RU, this installer passes");
+        Assert(g.MinInstallerVersion == "3.1.6-RU" && PatcherBackend.InstallerTooOld(g) == null, "min_installer_version 3.1.6-RU (base payload), this installer passes");
     }
 
     static void InstalledPakNotWritten()
@@ -666,6 +672,95 @@ public static class InstallerCoreTests
         Assert(File.GetLastWriteTimeUtc(c.PakPath) == mtime, "cache pak not written");
         Assert(core.InspectStatus() == GamePatchStatus.InstalledActive, "status InstalledActive");
         Assert(!File.Exists(Path.Combine(core.BackupDir, "cache-launch-" + CacheVersion + ".block")), "no backup of a block we did not write");
+    }
+
+    // Build 2307645 (TASK-045/046): the launch block moved into the base pak; kscache/<ver>/pakchunk0 is a delta
+    // without it, and local.cache has no record with the entry_id key.
+    static CacheFixture AddDeltaWithoutBlock(Fixture f, out byte[] delta)
+    {
+        var c = AddCache(f, 1);
+        f.Game.Cache.EntryId = Hex(RandomBytes(12), 12);
+        delta = RandomBytes(22227 + 1024 * 1024);
+        WriteBytes(c.PakPath, delta);
+        WriteLocalCache(f, 0, delta.Length, 4096);
+        return c;
+    }
+
+    static void CacheNoLaunchBlock()
+    {
+        var f = NewFixture("cache-no-block");
+        byte[] delta;
+        var c = AddDeltaWithoutBlock(f, out delta);
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.NoLaunchBlock && info.Detail.Contains("базового pakchunk0"), "NoLaunchBlock: " + info.State + " " + info.Detail);
+        Assert(core.InspectStatus() == GamePatchStatus.NotInstalled, "status before: NotInstalled");
+        string reason;
+        Assert(core.Install(f.PayloadDir, out reason), "install: " + reason);
+        Assert(InstallerCore.FileSha256(f.PakPath) == f.Game.InstalledPakSha256, "base pak installed");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(delta), "cache pak not written");
+        Assert(Directory.GetFiles(core.BackupDir, "cache-launch-*").Length == 0, "no cache record or backup");
+        Assert(f.Log.Exists(s => s.Contains("нет блока запуска: мост нужен только в базовом pakchunk0")), "log line [2/6]");
+        Assert(core.InspectStatus() == GamePatchStatus.InstalledActive, "status by the base pak");
+        Assert(core.VerifyInstallation(), "VerifyInstallation");
+        DateTime mtime = new DateTime(2020, 1, 1);
+        File.SetLastWriteTimeUtc(f.PakPath, mtime);
+        Assert(f.Core().Install(f.PayloadDir, out reason) && File.GetLastWriteTimeUtc(f.PakPath) == mtime, "reinstall: base pak not written: " + reason);
+        Assert(core.Uninstall(f.PayloadDir), "uninstall");
+        Assert(InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak), "base pak clean");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(delta), "cache pak untouched");
+
+        // Without local.cache the absence of the record is unknown: the old refusal stays.
+        File.Delete(Path.Combine(f.G(InstallerCore.KsCacheRel), KsLocalCache.FileName));
+        // (the fixture manifest is the supported one, so the refusal is NotFound, not UnsupportedBuild)
+        CacheState s1 = f.Core().InspectCache().State;
+        Assert(s1 == CacheState.NotFound, "no local.cache -> NotFound: " + s1);
+        // A release without entry_id cannot tell either.
+        WriteLocalCache(f, 0, delta.Length, 4096);
+        f.Game.Cache.EntryId = "";
+        CacheState s2 = f.Core().InspectCache().State;
+        Assert(s2 == CacheState.NotFound, "no entry_id -> NotFound: " + s2);
+    }
+
+    static void CacheNoRecordForeignHead()
+    {
+        var f = NewFixture("cache-no-record-head");
+        byte[] delta;
+        var c = AddDeltaWithoutBlock(f, out delta);
+        byte[] pak = (byte[])delta.Clone();
+        byte[] foreign = RandomBytes(CacheBlockSize);
+        Array.Copy(c.Original, 0, foreign, 0, 64);   // same head, other bytes: some launch block is in the cache
+        Array.Copy(foreign, 0, pak, 70000, CacheBlockSize);
+        WriteBytes(c.PakPath, pak);
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State != CacheState.NoLaunchBlock && !InstallerCore.BaseBlockCounts(info.State), "not NoLaunchBlock: " + info.State + " " + info.Detail);
+        string reason;
+        Assert(!core.Install(f.PayloadDir, out reason), "install refused: " + reason);
+        Assert(InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak) && InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(pak), "nothing written");
+    }
+
+    static void BasePayloadField()
+    {
+        var f = NewFixture("base-payload");
+        f.Game.BasePayload = "bridge/cache-startup.oodle";
+        WriteBytes(Path.Combine(f.PayloadDir, @"bridge\cache-startup.oodle"), f.Bridge);
+        File.Delete(Path.Combine(f.PayloadDir, InstallerCore.BridgeBlockPayloadRel));
+        string json = f.Game.ToJson();
+        Assert(json.Contains("\"payload\": \"bridge/cache-startup.oodle\""), "ToJson writes base payload");
+        Assert(SupportedGame.Parse(json).BasePayload == f.Game.BasePayload && SupportedGame.Parse(json).ToJson() == json, "round trip");
+        string reason;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "install from the other bridge file: " + reason);
+        Assert(InstallerCore.FileSha256(f.PakPath) == f.Game.InstalledPakSha256, "base pak installed");
+        Assert(SupportedGame.Load(f.Core().BackupDir).BasePayload == f.Game.BasePayload, "backup copy keeps payload");
+
+        var d = NewFixture("base-payload-default");
+        Assert(d.Game.BasePayload == SupportedGame.DefaultBasePayload && !d.Game.ToJson().Contains("\"payload\": \"bridge/LaunchInstance"), "default payload is not written");
+        Assert(SupportedGame.Parse(d.Game.ToJson()).BasePayload == SupportedGame.DefaultBasePayload, "no payload key -> default");
+        string bad = f.Game.ToJson().Replace("bridge/cache-startup.oodle\"\n  }", "../evil.bin\"\n  }");
+        bool threw = false;
+        try { SupportedGame.Parse(bad); } catch (InvalidDataException) { threw = true; }
+        Assert(threw, "payload with .. refused");
     }
 
     static void CacheNoPak()

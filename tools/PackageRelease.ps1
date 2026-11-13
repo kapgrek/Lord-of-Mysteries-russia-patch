@@ -1,5 +1,5 @@
 param (
-    [string]$Version = "v3.1.5-RU",
+    [string]$Version = "v3.1.6-RU",
     [switch]$Publish,          # Upload build artifacts as GitHub Release assets (gh CLI)
     [switch]$WhatIfPublish,    # Only look the release up and print the gh commands -Publish would run (no build, no upload)
     [string]$NotesFile = '',   # Release notes for a newly created release
@@ -113,7 +113,9 @@ $supported = [System.IO.File]::ReadAllText($supportedPath) | ConvertFrom-Json
 if ($supported.format -ne 2 -or -not $supported.base_launch_block -or $supported.launch_block -or -not $supported.min_installer_version) {
     throw "installer/supported_game.json must be format 2: base_launch_block (no launch_block) and min_installer_version"
 }
-$bridgeSha = (Get-FileHash "$payloadDir\bridge\LaunchInstance.native-bridge.padded.oodle" -Algorithm SHA256).Hash.ToLower()
+# TASK-046: base_launch_block.payload (default = the CPDD base-pak bridge of older data).
+$basePayload = if ($supported.base_launch_block.payload) { $supported.base_launch_block.payload } else { 'bridge/LaunchInstance.native-bridge.padded.oodle' }
+$bridgeSha = (Get-FileHash (Join-Path $payloadDir ($basePayload -replace '/', '\')) -Algorithm SHA256).Hash.ToLower()
 if ($bridgeSha -ne $supported.base_launch_block.installed_sha256) {
     throw "Bridge block sha256 $bridgeSha does not match installer/supported_game.json installed_sha256"
 }

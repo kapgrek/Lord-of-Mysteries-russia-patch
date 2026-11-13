@@ -10,14 +10,17 @@ Write-Host "=== Валидатор целостности патча Lord of the
 $payload = Join-Path $Root "patch_payload"
 $errors = 0
 
-# 1. Проверка моста pakchunk0
-$bridge = Join-Path $payload "bridge\LaunchInstance.native-bridge.padded.oodle"
+# 1. Проверка моста pakchunk0 по installer/supported_game.json → base_launch_block (payload, size, installed_sha256)
+$supported = [System.IO.File]::ReadAllText((Join-Path $Root "installer\supported_game.json")) | ConvertFrom-Json
+$lb = $supported.base_launch_block
+$basePayload = if ($lb.payload) { $lb.payload } else { 'bridge/LaunchInstance.native-bridge.padded.oodle' }
+$bridge = Join-Path $payload ($basePayload -replace '/', '\')
 if (Test-Path $bridge) {
     $sha = [System.Security.Cryptography.SHA256]::Create()
     $bytes = [System.IO.File]::ReadAllBytes($bridge)
     $hash = [System.BitConverter]::ToString($sha.ComputeHash($bytes)).Replace('-', '').ToLower()
-    if ($bytes.Length -eq 4660 -and $hash -eq 'c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9') {
-        Write-Host "[OK] Мост pakchunk0 (4 660 байт Oodle) - OK." -ForegroundColor Green
+    if ($bytes.Length -eq $lb.size -and $hash -eq $lb.installed_sha256) {
+        Write-Host "[OK] Мост pakchunk0 ($basePayload, $($lb.size) байт Oodle) - OK." -ForegroundColor Green
     } else {
         Write-Error "[ERROR] Поврежден нативный блок моста: $bridge (размер: $($bytes.Length), хеш: $hash)"
         $errors++
@@ -28,7 +31,6 @@ if (Test-Path $bridge) {
 }
 
 # 1b. Мост для кеша обновления (Saved/kscache/<ver>/pakchunk0) по installer/supported_game.json
-$supported = [System.IO.File]::ReadAllText((Join-Path $Root "installer\supported_game.json")) | ConvertFrom-Json
 if ($supported.cache_launch) {
     $cacheBridge = Join-Path $payload ($supported.cache_launch.payload -replace '/', '\')
     $cacheHash = if (Test-Path $cacheBridge) { (Get-FileHash $cacheBridge -Algorithm SHA256).Hash.ToLower() } else { '' }

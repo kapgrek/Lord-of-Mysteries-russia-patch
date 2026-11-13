@@ -57,7 +57,9 @@ namespace LotmRussianPatcher
         Clean,            // exactly one clean launch block found
         Installed,        // exactly one bridge block found
         NotFound,         // supported manifest (or the entry_id record found), but no block
-        Ambiguous         // more than one candidate block
+        Ambiguous,        // more than one candidate block
+        NoLaunchBlock     // the cache pak exists, but local.cache has no entry_id record and no block head is in it:
+                          // the cache does not override the launch block, the base pak counts (TASK-046, build 2307645)
     }
 
     // A position in the cache pak where a launch block head was found (TASK-037).
@@ -111,6 +113,10 @@ namespace LotmRussianPatcher
         public string GameBuild;
         public List<BasePak> BasePaks = new List<BasePak>();
         public string PakRelativePath = "Content/Paks/pakchunk0-Windows.pak";
+        // Bridge for the base launch block (TASK-046): build 2307645 carries the former kscache block in the base pak,
+        // so its bridge is bridge/cache-startup.oodle. Older data has no "payload" key.
+        public const string DefaultBasePayload = "bridge/LaunchInstance.native-bridge.padded.oodle";
+        public string BasePayload = DefaultBasePayload;
         public long Offset;
         public int BlockSize;
         public string CleanBlockSha256;
@@ -155,10 +161,13 @@ namespace LotmRussianPatcher
             game.InstalledBlockSha256 = GetString(lb, "installed_sha256").ToLowerInvariant();
             game.InstalledPakSha256 = GetString(lb, "installed_pak_sha256").ToLowerInvariant();
             game.InstalledPakSize = GetLong(lb, "installed_pak_size");
+            string basePayload = GetString(lb, "payload");
+            if (!string.IsNullOrEmpty(basePayload)) game.BasePayload = basePayload;
 
             if (game.BasePaks.Count == 0 || game.Offset <= 0 || game.BlockSize <= 0
                 || game.CleanBlockSha256.Length != 64 || game.InstalledBlockSha256.Length != 64
-                || game.InstalledPakSha256.Length != 64 || game.InstalledPakSize <= 0)
+                || game.InstalledPakSha256.Length != 64 || game.InstalledPakSize <= 0
+                || game.BasePayload.Contains("..") || game.BasePayload.IndexOf(':') >= 0)
             {
                 throw new InvalidDataException("supported_game.json: incomplete supported_base_paks / launch_block");
             }
@@ -225,7 +234,9 @@ namespace LotmRussianPatcher
             sb.Append("    \"clean_sha256\": \"").Append(CleanBlockSha256).Append("\",\n");
             sb.Append("    \"installed_sha256\": \"").Append(InstalledBlockSha256).Append("\",\n");
             sb.Append("    \"installed_pak_sha256\": \"").Append(InstalledPakSha256).Append("\",\n");
-            sb.Append("    \"installed_pak_size\": ").Append(InstalledPakSize).Append("\n  }");
+            sb.Append("    \"installed_pak_size\": ").Append(InstalledPakSize);
+            if (BasePayload != DefaultBasePayload) sb.Append(",\n    \"payload\": \"").Append(Escape(BasePayload)).Append("\"");
+            sb.Append("\n  }");
             if (Cache != null)
             {
                 sb.Append(",\n  \"cache_launch\": {\n");
@@ -347,9 +358,12 @@ namespace LotmRussianPatcher
 
             // 1. By the local.cache record key (TASK-039): an incremental hotpatch puts a small delta pak into
             // kscache/<new ver>/ and leaves the launch block in the older folder, where the game still reads it.
+            // No record at all (TASK-046): the cache holds no launch block, provided the head scan below agrees.
+            bool entryAbsent = false;
             if (c != null && c.EntryId.Length > 0 && index != null)
             {
                 List<KsLocalCache.Entry> found = KsLocalCache.FindByKeyPrefix(index, FromHex(c.EntryId));
+                entryAbsent = found.Count == 0;
                 if (found.Count > 1)
                 {
                     var records = new List<string>();
@@ -413,7 +427,14 @@ namespace LotmRussianPatcher
             string where = KsCacheRel + "\\" + version + "\\" + c.PakName;
             string why = starts == null ? "; local.cache не прочитан" : starts.Count == 0 ? "; в local.cache нет записей для " + relPak : "";
             int total = clean.Count + installed.Count;
-            if (total == 0 && manifestOther)
+            if (total == 0 && info.Hits.Count == 0 && entryAbsent)
+            {
+                // Build 2307645: the former kscache launch block moved into the base pak, the cache is a small delta.
+                info.State = CacheState.NoLaunchBlock;
+                info.Detail = "в local.cache нет записи блока запуска (entry_id " + c.EntryId + "), в " + where
+                    + " его тоже нет: игра читает блок запуска из базового pakchunk0";
+            }
+            else if (total == 0 && manifestOther)
             {
                 info.State = CacheState.UnsupportedBuild;
                 info.Detail = "манифест package_" + manifestId + ".manifest не совпадает с поддерживаемым, блок запуска не найден в " + where + why + " " + HitsDetail(info);
@@ -716,6 +737,12 @@ namespace LotmRussianPatcher
             }
         }
 
+        // The cache does not override the launch block: only the base pak counts.
+        public static bool BaseBlockCounts(CacheState s)
+        {
+            return s == CacheState.NoCachePak || s == CacheState.NoLaunchBlock;
+        }
+
         private static bool IsDigits(string s)
         {
             if (string.IsNullOrEmpty(s)) return false;
@@ -774,7 +801,7 @@ namespace LotmRussianPatcher
             try
             {
                 CacheInfo cache = InspectCache();
-                bridgeInPak = cache.State == CacheState.NoCachePak
+                bridgeInPak = BaseBlockCounts(cache.State)
                     ? ReadLaunchBlockSha256() == game.InstalledBlockSha256
                     : cache.State == CacheState.Installed;
             }
@@ -802,7 +829,7 @@ namespace LotmRussianPatcher
             payloadDir = Path.GetFullPath(payloadDir);
 
             // 1. Payload: the bridge block must be exactly the one supported_game.json expects.
-            string bridgeFile = Path.Combine(payloadDir, BridgeBlockPayloadRel);
+            string bridgeFile = Path.Combine(payloadDir, game.BasePayload.Replace('/', '\\'));
             if (!File.Exists(bridgeFile)) { failReason = "В пакете нет блока моста: " + bridgeFile; return false; }
             byte[] bridge = File.ReadAllBytes(bridgeFile);
             if (bridge.Length != game.BlockSize || Sha256(bridge) != game.InstalledBlockSha256)
@@ -848,6 +875,9 @@ namespace LotmRussianPatcher
             {
                 case CacheState.NoCachePak:
                     log("  -> В кеше обновления нет pakchunk0: мост нужен только в базовом pakchunk0.");
+                    break;
+                case CacheState.NoLaunchBlock:
+                    log("  -> В кеше обновления " + cache.Version + " нет блока запуска: мост нужен только в базовом pakchunk0.");
                     break;
                 case CacheState.UnsupportedBuild:
                     failReason = "Игра обновилась, нужна новая версия русификатора (" + cache.Detail + "). Файлы игры не изменены.";
@@ -1019,7 +1049,7 @@ namespace LotmRussianPatcher
         {
             if (ReadLaunchBlockSha256() != game.InstalledBlockSha256) { log("Проверка: в pakchunk0 нет блока моста."); return false; }
             CacheInfo cache = InspectCache();
-            if (cache.State != CacheState.NoCachePak && cache.State != CacheState.Installed)
+            if (!BaseBlockCounts(cache.State) && cache.State != CacheState.Installed)
             {
                 log("Проверка: в кеше обновления " + KsCacheRel + "\\" + cache.Version + " нет блока моста (" + cache.State + ").");
                 return false;

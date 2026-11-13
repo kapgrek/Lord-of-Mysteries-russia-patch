@@ -28,3 +28,12 @@ TASK-044: после обновления 2307645 перевод не загру
 
 ## Промпт для чата исполнения
 > Выполни `docs/tasks/TASK-046-base-pak-2307645-cache-bridge.md`: поле `payload` в `base_launch_block` (InstallerCore, ToJson, PackageRelease, VerifyPatch, тесты), новый `supported_game.json` под пак `7791a5fb…` (смещение 422563913, мост `bridge/cache-startup.oodle`, `installed_pak_sha256 21bc7187…`), мягкое поведение без блока в кеше, тесты на поддельной папке в `temp/`, BuildTools, тесты, VerifyPatch, v3.1.6-RU, `min_installer_version 3.1.6-RU`, PackageRelease, коммит. Публикацию — после моего подтверждения. Папку игры не трогать, игру и установщик не запускать.
+
+## Результат (2026-11-13, v3.1.6-RU, не опубликован)
+- `InstallerCore`: `SupportedGame.BasePayload` читает поле `base_launch_block.payload`, по умолчанию `bridge/LaunchInstance.native-bridge.padded.oodle`. `ToJson` пишет его, только если оно отличается от значения по умолчанию. Значения с `..` и `:` отвергаются. `Install` берёт мост базового пака из этого поля.
+- Новое состояние кеша `CacheState.NoLaunchBlock`. Условия: `local.cache` прочитан, записи с ключом `entry_id` нет, а в паке папки `AssetsVersion` нет ни одной головы блока, даже «заголовок совпал». Тогда считается только базовый пак (`InstallerCore.BaseBlockCounts`): так работают `InspectStatus`, `Install` (шаг [2/6]) и `VerifyInstallation`. Без `local.cache` или без `entry_id` установщик, как и раньше, отказывает. На копии реального кеша (`temp/real-kscache`, `--probe-cache`) получилось `NoLaunchBlock`, а до правки было `UnsupportedBuild`, то есть именно этот отказ увидел бы пользователь.
+- `installer/supported_game.json` заточен под 2307645. `cache_launch` оставлен: по `entry_id` установщик отличает «в кеше нет блока» от «в кеше чужой блок».
+- `PackageRelease.ps1` и `VerifyPatch.ps1` берут мост из `base_launch_block.payload`.
+- Тесты: 528/528. Новые сценарии: `NoLaunchBlock` (установка, повтор, удаление, отказ без `local.cache` или `entry_id`), «нет записи, но в кеше есть голова блока → отказ», поле `payload`. `VerifyPatch` чистый, кроме ожидаемого WARN «ключи StringDB сняты на 2295021». `--check-payload` по собранному zip: всё OK.
+- Не сделано: публикация (ждёт подтверждения), выгрузка новых строк обновления 2307645 (StringDB) и проверка в игре.
+- Внимание: `SyncCpdd.ps1` при генерации `supported_game.json` из CPDD поле `payload` не знает и `min_installer_version` ставит `3.1.1-RU` (`tools/SyncCpdd.ps1:363`). Перед следующим `-Apply` с `supported_game.json` это нужно учесть.
