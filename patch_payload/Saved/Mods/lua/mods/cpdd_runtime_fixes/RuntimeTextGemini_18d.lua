@@ -299,6 +299,7 @@ return {
     ["Timed Shoot_Normal Chest Locked_C"] = "Стрельба на время_Обычный сундук закрыт_C",
     ["随时会有守卫闯进来，我得打起精神，保护好她。"] = "Стражи могут ворваться в любой момент. Надо собраться и защитить её.",
     ["终末猎杀-草丛24逐簇隐匿05"] = "Final Hunt-Bush 24 Cluster Invisibility 05",
+    ["{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>君临·火焰</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Владычество · Огонь</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Перейти в указанную позицию Trigger: игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Yareli"] = "Ярели",
 }

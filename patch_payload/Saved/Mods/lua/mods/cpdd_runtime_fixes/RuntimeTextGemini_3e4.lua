@@ -309,6 +309,7 @@ return {
     ["装扮站打开中"] = "Открытие ателье",
     ["隐秘空间-留下标记"] = "Hidden Space - Leave Mark",
     ["聚合因子×200"] = "Фактор слияния ×200",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>神降仪式</>，祈祷愚者先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往协助]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости господина Шута. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Его благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>",
     ["我来拉大家入梦"] = "Я погружу всех в сон",
     ["Third-person camera information:"] = "Информация о камере от третьего лица:",
     ["听着，卢娜。我是罗塞尔·古斯塔夫，我征服过王国，改变过历史。"] = "Послушай, Луна. Я Розель Густав, я покоряла королевства и меняла историю.",

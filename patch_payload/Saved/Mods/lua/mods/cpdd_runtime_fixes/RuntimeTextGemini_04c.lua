@@ -280,6 +280,7 @@ return {
     ["这就是答案"] = "Вот и ответ",
     ["I'll be able to eat hometown food right away!"] = "Вот-вот отведаю блюда родных краёв!",
     ["终末猎杀-草丛03逐簇隐匿07"] = "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 07",
+    ["最低价格：<img id=\"%s\" width=\"40\" height=\"40\"/>%s "] = "Самая низкая цена: <img id=\"%s\" width=\"40\" height=\"40\"/>%s",
     ["与Npc进行闲话  NPC停止正在播放的Gossip文本"] = "Сплетня с NPC. NPC останавливает воспроизведение текста сплетни.",
     ["与Npc进行对话  玩家传送到位面"] = "Поговорите с NPC, игрок телепортируется в самолет.",
     ["Bonaparte Restaurant\nSignature Specialties\nIntis Red Wine Beef Stew\nIntis Champagne\nBlack Truffle and Porcini Mushrooms"] = "Ресторан «Бонапарте»\nФирменные особенности\nИнтис, тушеная говядина в красном вине\nШампанское «Интис»\nЧерный трюфель и белые грибы",

@@ -267,6 +267,7 @@ return {
     ["Reach level 47\nComplete [Act IV · Homicide]\nComplete [Act V · Rat Hole]"] = "Достигните 47 уровня\nЗавершите «Акт IV · Убийство»\nЗавершите «Акт V · Крысиная нора»",
     ["Evernight Goddess Church Badge Pursuit"] = "Преследование знака Церкви Богини Вечной Ночи",
     ["终末猎杀-草丛05逐簇隐匿05"] = "Final Hunt - Bush 05 Cluster Concealment 05",
+    ["<Quality_6>赞美愚者！</>{{player.name}}<Quality_6>在非凡聚合中，从</>{{item.name}}<Quality_6>里唤醒了沉眠于历史的</><Chat_Highlight>{{relic_word.name}}</><Quality_6>词条。这是不属于这个时代的馈赠，亦是命运长河中偶然翻涌的奇迹！</>"] = "",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

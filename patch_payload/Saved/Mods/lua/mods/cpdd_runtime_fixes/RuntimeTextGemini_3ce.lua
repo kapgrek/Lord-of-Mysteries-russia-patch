@@ -284,6 +284,7 @@ return {
     ["联合作战6"] = "Совместная операция 6",
     ["这些钱给你。对了，你见过一个邮差吗？"] = "Вот деньги для тебя. Кстати, ты не видел почтальона?",
     ["The bell toll scared away the group of Amon Avatars, and Will used \"Restart\" at the critical moment, turning time back to before you became an Amon Avatar."] = "Звон колокола прогнал стаю аватаров Амона, а Уилл в критический момент применил «Перезапуск», вернув время к моменту до того, как ты стал аватаром Амона.",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>神降仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往协助]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости Богини Ночи. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Её благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>",
     ["Isrul"] = "Исрул",
     ["Tatum"] = "Татум",
     ["啊，理解理解！活动持续整月，欢迎随时来试！黄色结实，蓝色迅捷，棕色安静！"] = "Ах, понял, понял! Акция продлится весь месяц, присоединяйтесь в любое время! Желтый – крепкий, синий – быстрый, коричневый – тихий!",

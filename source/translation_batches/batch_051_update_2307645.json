@@ -1,0 +1,86 @@
+[
+  {
+    "id": "149857",
+    "source_cn": "<Quality_6>赞美愚者！</>{{player.name}}<Quality_6>在非凡聚合中，从</>{{item.name}}<Quality_6>里唤醒了沉眠于历史的</><Chat_Highlight>{{relic_word.name}}</><Quality_6>词条。这是不属于这个时代的馈赠，亦是命运长河中偶然翻涌的奇迹！</>",
+    "ref_en": "",
+    "target_ru": ""
+  },
+  {
+    "id": "149858",
+    "source_cn": "{{player.name}}<Special_XMat>在非凡聚合中，凝聚出携有</><Special_XMat>{{relic_word.name}}</><Special_XMat>词条的</>{{item.name}}<Special_XMat>，得到了执掌好运的黄黑之王的眷顾！</>",
+    "ref_en": "",
+    "target_ru": ""
+  },
+  {
+    "id": "149859",
+    "source_cn": "{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>神降仪式</>，祈祷愚者先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往协助]</>",
+    "ref_en": "",
+    "target_ru": "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости господина Шута. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Его благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>"
+  },
+  {
+    "id": "149860",
+    "source_cn": "{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>君临·火焰</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>",
+    "ref_en": "",
+    "target_ru": "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Владычество · Огонь</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>"
+  },
+  {
+    "id": "149861",
+    "source_cn": "{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>神降仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往协助]</>",
+    "ref_en": "",
+    "target_ru": "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости Богини Ночи. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Её благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>"
+  },
+  {
+    "id": "149862",
+    "source_cn": "{{player.name}}的神降仪式获得黑夜女神的恩赐——<Chat_Highlight>隐秘之拥</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往赞美]</>",
+    "ref_en": "",
+    "target_ru": "Ритуал божественного нисхождения {{player.name}} получил милость Богини Ночи — <Chat_Highlight>Объятие Скрытности</>! Славьте Её! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>"
+  },
+  {
+    "id": "149863",
+    "source_cn": "{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>圣光的真知</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>",
+    "ref_en": "",
+    "target_ru": "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>"
+  },
+  {
+    "id": "149864",
+    "source_cn": "最低价格：<img id=\"%s\" width=\"40\" height=\"40\"/>%s ",
+    "ref_en": "",
+    "target_ru": "Самая низкая цена: <img id=\"%s\" width=\"40\" height=\"40\"/>%s"
+  },
+  {
+    "id": "149865",
+    "source_cn": "%s 最低<img id=\"%s\" width=\"40\" height=\"40\"/> %s",
+    "ref_en": "",
+    "target_ru": "%s Минимум <img id=\"%s\" width=\"40\" height=\"40\"/> %s"
+  },
+  {
+    "id": "149866",
+    "source_cn": "凑近人群",
+    "ref_en": "",
+    "target_ru": "Подойти ближе к толпе"
+  },
+  {
+    "id": "149867",
+    "source_cn": "过去看看情况",
+    "ref_en": "",
+    "target_ru": "Подойти и разведать обстановку"
+  },
+  {
+    "id": "149868",
+    "source_cn": "检查下<h>脚踏车</>",
+    "ref_en": "",
+    "target_ru": "Осмотреть <h>велосипед</>"
+  },
+  {
+    "id": "149869",
+    "source_cn": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>等级奖励</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    "ref_en": "",
+    "target_ru": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды за уровень</><img id=\"Tips\" width=\"46\" height=\"46\"/>"
+  },
+  {
+    "id": "149870",
+    "source_cn": "向锁定目标发射光束造成*d点魔法伤害，光束会向其周围的敌方目标折射最多<HighLight>3</>次，每次折射都会使光束对下一名目标的伤害降低<HighLight>5%</>。光束有<HighLight>60%</>的基础概率对命中的目标施加<HighLight>0.7</>秒的<HyperLink stylename=\"M_Link\" u=\"9\">滞涩</>，只命中一个目标时，伤害提升至*d点。施法后获得20点<HighLight>神秘知识</>。自身拥有<HighLight>知识灌注</>时，本技能获得<HighLight>强化</>。\n\n<FaintYellow>强化</>：伤害基础值提高至*d点，折射次数增加1次且折射时伤害不再衰减，只命中一个目标时伤害提升至*d点。使所有命中目标的buffdisc(*id)点，持续<HighLight>3.5</>秒；有<HighLight>70%</>基础概率使选中目标移速降低<HighLight>50%</>，持续<HighLight>2.5</>秒。施法后额外获得5点<HighLight>神秘知识</>。释放非强化的<HighLight>光之折射</>时返还<HighLight>2</>秒冷却时间。\n<FaintYellow>神秘知识</>：最多拥有100点。达到100点时解锁<HighLight>终结技能信息洪流</>。",
+    "ref_en": "",
+    "target_ru": "Выпускает в выбранную цель луч, нанося *d ед. магического урона. Луч преломляется на окружающие вражеские цели до <HighLight>3</> раз, и каждое преломление снижает урон луча по следующей цели на <HighLight>5%</>. С базовым шансом <HighLight>60%</> луч накладывает на пораженную цель <HyperLink stylename=\"M_Link\" u=\"9\">Заторможенность</> на <HighLight>0.7</> сек.; если поражена только одна цель, урон повышается до *d ед. После применения даёт 20 ед. <HighLight>Тайного знания</>. Если у героя есть <HighLight>Наполнение знанием</>, этот навык получает <HighLight>усиление</>.\n\n<FaintYellow>Усиление</>: базовый урон повышается до *d ед., число преломлений увеличивается на 1, а урон при преломлении больше не уменьшается; если поражена только одна цель, урон повышается до *d ед. Все пораженные цели получают buffdisc(*id) ед. на <HighLight>3.5</> сек.; с базовым шансом <HighLight>70%</> скорость передвижения выбранной цели снижается на <HighLight>50%</> на <HighLight>2.5</> сек. После применения дополнительно даёт 5 ед. <HighLight>Тайного знания</>. При использовании неусиленного <HighLight>Преломления света</> возвращает <HighLight>2</> сек. отката навыка.\n<FaintYellow>Тайное знание</>: максимум 100 ед. При достижении 100 ед. открывается <HighLight>завершающий навык Поток информации</>."
+  }
+]

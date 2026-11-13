@@ -292,6 +292,7 @@ return {
     ["终末猎杀-草丛10逐簇隐匿05"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 05",
     ["星辰指引，命运垂青！{{player.name}}开启<Chat_Highlight>双十一幸运礼盒</>，竟获{{item.name}}！狂欢不打烊，幸运正当时。"] = "Звёзды указывают путь, судьба благосклонна! {{player.name}} открывает <Chat_Highlight>счастливый подарочный ларец Двойной Одиннадцатки</> и получает {{item.name}}! Праздник без выходных, самое время для удачи.",
     ["终末猎杀草丛;草丛组16"] = "End-of-Days Hunt Thicket; Thicket Group 16",
+    ["{{player.name}}的神降仪式获得黑夜女神的恩赐——<Chat_Highlight>隐秘之拥</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость Богини Ночи — <Chat_Highlight>Объятие Скрытности</>! Славьте Её! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigationWithAward={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["Denver"] = "Денвер",
     ["Lindsay"] = "Линдси",
     ["队伍成员%s未确认，已取消匹配。"] = "Член группы %s не подтвердил, подбор игроков отменён.",
