@@ -307,4 +307,6 @@ return {
     ["阿蒙本体"] = "Истинное тело Амона",
     ["Swindler, thank you for the seasickness medicine. But... there are still many things I can't remember."] = "Мошенник, спасибо за таблетки от морской болезни. Но... я всё ещё многого не помню.",
     ["终末猎杀-草丛22逐簇隐匿10"] = "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 10",
+    ["场景受疗增幅"] = "Усиление получаемого лечения в сцене",
+    ["斗邪恶掉线了怎么办"] = "Что делать, если в «Битве со злом» пропало соединение?",
 }

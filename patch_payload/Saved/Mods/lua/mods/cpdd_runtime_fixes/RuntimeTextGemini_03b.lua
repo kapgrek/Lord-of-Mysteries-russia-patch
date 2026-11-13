@@ -269,5 +269,7 @@ return {
     ["Accumulate 10 kills of enemy players in the Frost-Fall Lord Battle"] = "Убейте в битве за лорда Морозного падения 10 вражеских игроков (суммарно)",
     ["飞艇阵列"] = "Массив дирижаблей",
     ["【普通】童话故事-丢蛋糕-预警器预瞄准"] = "[Normal] Fairy Tale-Throw Cake-pre-warning device pre-aiming",
+    ["每日登录可领"] = "Награда за ежедневный вход",
+    ["时虫宝藏-霍纳奇斯花海"] = "Клад хроножука — Цветочное море Хорнакис",
     ["Camila"] = "Камила",
 }

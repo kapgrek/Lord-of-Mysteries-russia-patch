@@ -309,6 +309,8 @@ return {
     ["This is the battlefield of the Frost-Fall Lord. As a participant, you can come here during your free time to familiarize yourself with the battlefield environment and practice capturing objectives."] = "Здесь поле битвы Повелителя Падения Инея. Как участник игры, ты можешь приходить сюда в свободное время, чтобы заранее изучить обстановку на поле боя и потренироваться в захвате точек.",
     ["Iron and Blood Badge Area Damage"] = "Урон по области от Значка железа и крови",
     ["终末猎杀-草丛24逐簇隐匿07"] = "Final Hunt-Bush 24 Cluster Invisibility 07",
+    ["众神之巅巅峰挑战赛·4胜奖励"] = "Пиковый турнир Вершины богов · награда за 4 победы",
+    ["星灵秘库购买"] = "Покупка в Тайнике звёздных духов",
     ["哎哟，自己摔的还怪地不平？"] = "Ой, ты упал сам и винишь в этом неровную землю?",
     ["精致黄铜打造，轻巧古典，绝佳的阅读伴侣。"] = "Изготовлен из изысканной латуни, легкий и классический, отличный компаньон для чтения.",
     ["　　What exactly caused the <Mark id=\"#159\">suburban plant</> assault incident? I haven't found a single clue. When I asked the people involved, they were practically suffering from amnesia. No one remembers what happened that day!\n\n\n　　How ridiculous. Do they really think I, Lorin, would give up the investigation because of a little difficulty like this?"] = "　　Что же на самом деле послужило причиной нападения <Mark id=\"#159\">пригородных растений</>? Мне не удалось найти ни единой зацепки. Опрос свидетелей тоже ничего не дал — у них будто отшибло память. Никто не помнит, что стряслось в тот день!\r\n\r\n\r\n　　Какая нелепость. Неужели они думают, что я, Лорин, брошу расследование из-за таких пустяков?",

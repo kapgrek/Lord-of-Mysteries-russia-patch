@@ -323,6 +323,7 @@ return {
     ["Trade station Error, please proceed to the designated trade station to submit your commission"] = "Ошибка торговой станции, отправьте поручение на указанной торговой станции",
     ["Hidden Space - Reenactment of Past Shadows - Portal Interaction Complete"] = "Скрытое пространство - Возвращение теней прошлого - Взаимодействие с порталом завершено",
     ["Loen Trade Route Event Compensation Reward"] = "Компенсационная награда за событие «Торговый путь Лоена»",
+    ["排行榜点击头像"] = "Нажмите на аватар в рейтинге",
     ["Hazely"] = "туманный",
     ["【岩石】"] = "【Скала】",
 }

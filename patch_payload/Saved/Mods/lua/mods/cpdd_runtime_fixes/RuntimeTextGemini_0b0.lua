@@ -274,6 +274,7 @@ return {
     ["You can view the supplies sold at the current station here."] = "Здесь можно посмотреть припасы, которые продаются на текущей станции.",
     ["Explosion Order: Trading Firm expired. The next stop is not a [Trading Firm]; product selling price -40%."] = "Взрыв заказов · Торговый дом недействителен: следующая станция не [Торговый дом], цена продажи товаров -40%",
     ["破晓疗愈"] = "Восстановление рассвета",
+    ["法典之刻印"] = "Печать Кодекса",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
     ["铁路大亨挑战线路难度获得%d/10次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/10 раз в маршрутах испытаний «Железнодорожный магнат».",
     ["场景ID:"] = "Идентификатор сцены:",

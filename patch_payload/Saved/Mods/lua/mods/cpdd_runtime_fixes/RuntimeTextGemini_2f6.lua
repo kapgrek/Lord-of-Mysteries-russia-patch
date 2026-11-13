@@ -292,6 +292,7 @@ return {
     ["蒸汽时代徽章攻击层"] = "Слой атаки значка Паровой эры",
     ["车队等级达到29级"] = "Уровень каравана достигает 29",
     ["金玫瑰\r\n<LeonSubTitle size=\"38\">Golden Rose</>"] = "Золотая роза\n<LeonSubTitle size=\"38\">Golden Rose</>",
+    ["不要亵渎神明"] = "Не кощунствуй",
     ["Sediment at the bottom of the cup is normal. Wishing you a peaceful night."] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
     ["Milana"] = "Милана·",
     ["Zahir"] = "Захир",

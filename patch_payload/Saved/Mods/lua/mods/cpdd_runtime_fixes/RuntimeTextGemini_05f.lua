@@ -305,6 +305,7 @@ return {
     ["Gluttony Growth Size Stage 6"] = "Рост Обжоры: стадия 6",
     ["新手"] = "Новичок",
     ["【普通】童话故事-青蛙王子-牵肠挂肚\n分buff、召法术场的位置"] = "[Normal] Fairy Tale - Frog Prince - Deep Attachment\nDistribute buffs, summon Spell Field locations",
+    ["欢乐模式"] = "Весёлый режим",
     ["我请“魔术师”小姐，找到了最初的手稿，上面还残留着凶手的灵性痕迹。"] = "Я попросил госпожу Волшебницу найти оригинал рукописи, но на ней все еще остались духовные следы убийцы.",
     ["Camille"] = "Камилла",
 }

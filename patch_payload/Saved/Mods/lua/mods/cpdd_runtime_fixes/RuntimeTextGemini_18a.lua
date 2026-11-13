@@ -258,6 +258,7 @@ return {
     ["There is a familiar figure over there."] = "Там знакомая фигура",
     ["终末猎杀-草丛13逐簇隐匿09"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 09",
     ["终末猎杀-草丛21合并隐匿04（含2块原范围）"] = "Final Hunt - Bush 21 Merged Concealment 04 (Includes 2 original areas)",
+    ["特朗普"] = "Трамп",
     ["Perhaps before that, I—Roselle Gustav, the Emperor of Intis, will eventually return."] = "Возможно, раньше этого я, Розель Густав, Император Интиса, в конце концов вернусь.",
     ["玩家移除任务道具（全部删除）  玩家移除任务道具（全部删除）"] = "Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все)",
     ["监听关闭阅读界面  对象播放指定对白内容"] = "Слушайте закрытие интерфейса чтения, объект воспроизводит указанное содержимое диалога",

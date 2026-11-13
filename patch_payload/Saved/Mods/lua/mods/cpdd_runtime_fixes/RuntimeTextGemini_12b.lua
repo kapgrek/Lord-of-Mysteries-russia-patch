@@ -280,6 +280,8 @@ return {
     ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛3远程"] = "[May Manor-Hard] Summon Butler Phantom, summon chasing puppy-filter 3 Ranged",
     ["【自走棋英雄强化】- 吞咬护佑，单体333%攻击伤害并为己方全体提供15%最大生命护盾5秒"] = "[Auto Chess Hero Strengthening] - Devouring Protection, deals 333% Attack damage to a Single Target and provides a Shield equal to 15% of Max Health to all allies for 5 seconds",
     ["终末猎杀-草丛17逐簇隐匿06"] = "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 06",
+    ["点击这里可进入跨服表演"] = "Нажмите, чтобы перейти к межсерверному представлению",
+    ["壁灯·灵界·二"] = "Бра · Мир Духов · 2",
     ["Perhaps you are looking for:"] = "Возможно, вы ищете:",
     ["与Npc进行对话  对象播放指定对白内容  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог с NPC, воспроизведение определенных линий, NPC уничтожает себя (невозможно уничтожить игрока или публичных NPC в открытом мире)",
     ["消失的幸运星-水晶球占卜"] = "Исчезающая счастливая звезда – гадание на хрустальном шаре",

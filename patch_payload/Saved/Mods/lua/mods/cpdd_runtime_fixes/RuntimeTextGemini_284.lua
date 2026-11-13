@@ -302,5 +302,6 @@ return {
     ["Blacklist Skill ID List"] = "Список ID навыков в чёрном списке",
     ["弗莱"] = "Фрай",
     ["双生余烬镭射判定区域-585"] = "Twin Embers Laser Hitbox-585",
+    ["虹彩定义者"] = "Определяющий радугу",
     ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

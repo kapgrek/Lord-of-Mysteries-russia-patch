@@ -300,6 +300,7 @@ return {
     ["Ranged Strike Badge"] = "Значок дальнего удара",
     ["The man outside the Door"] = "Мужчина за дверью",
     ["终末猎杀-草丛17逐簇隐匿08"] = "Final Hunt - Bush 17 Cluster-by-Cluster Concealment 08",
+    ["· 席位属性×<HighLight>100%</>"] = "· Атрибуты места ×<HighLight>100%</>",
     ["采集指定TemplateID的采集物  玩家播放单句黑屏字幕  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Сбор предмета с указанным TemplateID  Воспроизведение для игрока субтитра на черном экране  Создание общих объектов по списку InstanceID (не действует в открытом мире)",
     ["Imani"] = "Имани ·",
     ["\"My Favorite Thing\"\nMy favorite thing, uh, I can't say that!\nWalking on the road of growth, I am destined to carry many secrets...\nTeacher Ruff, don't blame me.\nWhen you collect the papers, I will do my favorite thing."] = "《Моё самое любимое занятие》\nМоё самое любимое дело... э-э, об этом нельзя говорить вслух!\nНа пути взросления каждому суждено нести бремя тайн...\nУчитель Ральф, не вините меня.\nКак только вы соберёте тетради, я тут же займусь своим любимым делом.",

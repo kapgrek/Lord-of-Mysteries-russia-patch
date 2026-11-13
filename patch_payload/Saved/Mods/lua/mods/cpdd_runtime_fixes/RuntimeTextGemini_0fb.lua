@@ -291,4 +291,5 @@ return {
     ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Увеселительные сады Бэкланда\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>",
     ["This shows that a single thought is fate. But having the thought to resist is not enough; not everyone has the ability to resist fate."] = "Это значит, что одна мысль есть судьба. Но желания сопротивляться мало: не у каждого хватает сил противостоять судьбе.",
     ["The selected marionette does not exist and cannot be used"] = "Выбранной марионетки не существует, использовать её нельзя",
+    ["罗塞尔-迷你人偶"] = "Розель — мини-фигурка",
 }

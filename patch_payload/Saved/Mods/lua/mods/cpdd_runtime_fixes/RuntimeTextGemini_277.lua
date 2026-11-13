@@ -314,4 +314,9 @@ return {
     ["Upon death, deal damage equal to <HighLight>20%</> of own max Health to enemies within <HighLight>2</> tiles."] = "При гибели наносит врагам в радиусе <HighLight>2</> кл. урон, равный <HighLight>20%</> собственных максимальных Очков Здоровья (ОЗ).",
     ["【自走棋英雄强化】- 狂暴冲击；按冲刺攻击与地面冲击包装，待实机验收"] = "[Auto Chess Hero Strengthening] - Berserk Impact; packaged as dash attack and ground Impact, pending in-game verification",
     ["终末猎杀-草丛17合并隐匿03（含2块原范围）"] = "Final Hunt-Bush 17 Merged Concealment 03 (Includes 2 Original Ranges)",
+    ["逃跑结算"] = "Расчёт за побег",
+    ["斗邪恶为什么不能开始匹配"] = "Почему в «Битве со злом» нельзя начать подбор игроков?",
+    ["获得翅膀圣光的真知解锁"] = "Открыто истинное знание: обретение крыльев священного света",
+    ["取得侍女的信任"] = "Завоевать доверие горничной",
+    ["狗想要，狗得到"] = "Пёс захотел — пёс получил",
 }

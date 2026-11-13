@@ -289,6 +289,8 @@ return {
     ["邓恩伦纳德谈话"] = "Разговор Дана и Леонарда",
     ["【自走棋英雄强化】- 蘑菇农场；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Mushroom Farm; export enabled, pending in-game verification",
     ["窥秘人-岁月的棋局-击飞"] = "Mystery Pryer - Gambit of the Ages - Knockup",
+    ["外侧"] = "Внешняя сторона",
+    ["断线重连"] = "Переподключение после обрыва",
     ["前往指定Trigger位置  玩家变身开始"] = "Перейдите в указанное место триггера; начинается трансформация игрока.",
     ["Maurice"] = "Морис",
 }

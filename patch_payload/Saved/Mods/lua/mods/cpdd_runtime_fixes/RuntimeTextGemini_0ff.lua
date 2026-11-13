@@ -274,5 +274,6 @@ return {
     ["Rare Giant's Heart Core"] = "Редкое · Сердцевина сердца великана",
     ["Please select a marionette of the same quality as Alienated Selena"] = "Выберите марионетку того же качества, что и Отчуждённая Селена",
     ["When in the enemy camp, damage taken is increased"] = "В стане врага получаемый урон увеличивается",
+    ["以战养战获取"] = "Получено через «Война кормит войну»",
     ["Back then, I had two choices: become a Beyonder of the Savant pathway, or a Beyonder of the Mystery Pryer pathway. My choice was simple—Savant, a Savant with a complete sequence! To make myself strong and rely on my own power to return to my hometown, rather than pinning my hopes on dangerous external forces. But my choice back then was still too rash. Whether it was Apprentice, Seer, or Marauder, all would have been better. Unfortunately, there is no turning back..."] = "Тогда у меня было два выбора: стать Потусторонним путем Саванта или Потусторонним путем Тайного Прайера. Мой выбор был прост — Савант, Савант с полной последовательностью! Чтобы стать сильным и полагаться на свои силы, чтобы вернуться в свой родной город, а не возлагать надежды на опасные внешние силы. Но мой выбор тогда был еще слишком опрометчивым. Будь то Ученик, Провидец или Мародер, все было бы лучше. К сожалению, пути назад нет...",
 }

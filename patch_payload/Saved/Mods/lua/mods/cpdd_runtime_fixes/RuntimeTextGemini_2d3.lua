@@ -320,6 +320,7 @@ return {
     ["Obtain 5000 Castle assets, which can be used to upgrade the Castle and purchase furniture."] = "Получите 5000 активов замка, которые можно потратить на улучшение замка и покупку мебели.",
     ["Wealthy Patron %s Rank %s"] = "Богатый покровитель %s: место %s",
     ["输出天赋序列7gvg专用"] = "Талант атаки, Последовательность 7, только для GVG",
+    ["敌方优先（30米）"] = "Враги в приоритете (30 м)",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

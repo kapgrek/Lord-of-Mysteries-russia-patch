@@ -281,6 +281,7 @@ return {
     ["Glittering Fragments"] = "Блёстки",
     ["Hidden Space - Dawn Defense Line - EXP Buff"] = "Тайное пространство — Рубеж рассвета — бафф опыта",
     ["装备-痛饮之铠神话-2格"] = "Equipment - Armor of Gluttony Mythical - 2 Slots",
+    ["同一局中，上阵五名五费棋子触发十个共鸣。"] = "В одной партии выставите пять фигур стоимостью 5 и активируйте десять резонансов.",
     ["Mosh"] = "Мош",
     ["Zamir"] = "Замир",
 }

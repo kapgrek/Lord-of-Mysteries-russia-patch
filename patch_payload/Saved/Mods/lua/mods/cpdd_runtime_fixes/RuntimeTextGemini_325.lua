@@ -296,5 +296,6 @@ return {
     ["过去问问<h>迪伦</>"] = "Подойти и спросить <h>Дилана</>",
     ["隐秘空间-昔影重现-初始化"] = "Скрытое пространство - Возвращение теней прошлого - Инициализация",
     ["终末猎杀-草丛04合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 04 Merged Concealment 03 (Includes 2 original areas)",
+    ["蝙蝠装饰"] = "Украшение-летучая мышь",
     ["<Chat_AT>Sanjiu:</> Zai zai zai zai zai zai zai zai zai zai zai zai zai zai zai <Chat_PosNeed>Tingen</> to <Chat_NPC>Daly</><Chat_PlayerName>Miss Audrey Hall</><Chat_Default>：Placeholder text</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

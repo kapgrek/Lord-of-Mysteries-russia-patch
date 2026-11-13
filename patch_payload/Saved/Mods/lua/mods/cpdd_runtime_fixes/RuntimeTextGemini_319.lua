@@ -298,5 +298,6 @@ return {
     ["那您撞上大好运了！刚好有个傻瓜，五分钟前退了张包厢票。"] = "Вам крупно повезло! Какой-то дурак как раз пять минут назад вернул билет в ложу.",
     ["Stomp forward, dealing <HighLight>3000%</> Attack damage and knocking back enemies. Gain <HighLight>70%</> Damage Reduction for <HighLight>6</> seconds."] = "Тяжело топает вперёд, нанося <HighLight>3000%</> урона от атаки и отбрасывая врагов. Даёт себе <HighLight>70%</> снижения урона на <HighLight>6</> сек.",
     ["Gluttony Growth Stage 3"] = "Рост Обжоры: стадия 3",
+    ["· 额外造成<HighLight>25%</>攻击伤害。\n· <HighLight>商会将出现【特选·噬血】棋子。</>"] = "· Наносит на <HighLight>25%</> больше урона атаками.\n· <HighLight>В Торговой палате появится фигура【Избранный·Кровожадность】.</>",
     ["Cullen"] = "Каллен",
 }

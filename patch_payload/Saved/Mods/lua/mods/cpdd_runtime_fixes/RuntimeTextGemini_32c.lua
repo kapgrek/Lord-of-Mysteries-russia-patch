@@ -295,4 +295,6 @@ return {
     ["Roselle Boss Hard - Phase 3 - Sharp Knowledge - Gear Device Passive Buff"] = "Босс Розель (сложный) - 3 фаза - Острое знание - Постоянный бафф механизма-шестерни",
     ["Swing 5 times in succession, dealing damage to the current target."] = "Наносит 5 ударов подряд, нанося урон текущей цели.",
     ["Golden Rose\r\n<LeonSubTitle size=\"38\">Golden Rose</>"] = "Золотая роза\n<LeonSubTitle size=\"38\">Golden Rose</>",
+    ["自动拾取已关闭"] = "Автоподбор предметов выключен",
+    ["当前已拥有该物品"] = "Этот предмет у вас уже есть",
 }

@@ -295,6 +295,7 @@ return {
     ["观看表演"] = "Смотреть представление",
     ["Collar and Cuffs"] = "Воротник и манжеты",
     ["Church of the Evernight Goddess, Saint Selena Cathedral, underground Chanis Gate, transferred to Containment Chamber No. 2."] = "Церковь Богини Вечной Ночи, Собор Святой Селены, подземные Врата Чаниса, перенесено в камеру заключения №2.",
+    ["%s达到%d级"] = "%s достигает %d ур.",
     ["Monlisa"] = "Монлиза",
     ["播放Dialogue  玩家变身开始"] = "Играть в диалог; начинается трансформация игрока.",
 }

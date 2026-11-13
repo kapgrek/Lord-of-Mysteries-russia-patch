@@ -308,4 +308,5 @@ return {
     ["This bastard must be trying to hog the 20 gold pounds all to himself!"] = "Этот мерзавец наверняка хочет присвоить все двадцать золотых фунтов себе!",
     ["<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>30</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,（烙印已失效）}</>Усиление навыка повышается на <Mark>30</>.\nНе действует при активации комплекта <Mark>Эхо духа и знания</>.",
     ["【自走棋装备】全场最大生命最高的其他友军"] = "[Auto Chess Equipment] Other ally with the highest Max Health on the field",
+    ["记忆回溯-夫人泰德对峙"] = "Возврат памяти — противостояние с леди Тед",
 }

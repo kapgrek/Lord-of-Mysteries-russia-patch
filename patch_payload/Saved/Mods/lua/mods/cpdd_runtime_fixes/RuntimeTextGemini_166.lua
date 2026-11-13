@@ -269,4 +269,5 @@ return {
     ["Vic says we were drinking together all night, yet no one has ever mentioned him. Those who saw me all say that I was still accompanying the police officer to investigate the case until late at night."] = "Вик говорит, что мы всю ночь пили вместе, но о нём никто никогда не упоминал. Все, кто меня видел, говорят, что до глубокой ночи я сопровождал полицейского в расследовании дела.",
     ["Steam Era: Overload Core Skill End"] = "Паровая эра: Конец умения ядра перегрузки",
     ["迷幻风铃树？"] = "Галлюциногенное дерево с ветряными колокольчиками?",
+    ["牌桌招募"] = "Набор за стол",
 }

@@ -313,6 +313,7 @@ return {
     ["So you're a chivalrous thief, after all..."] = "Так ты ещё и благородный разбойник...",
     ["Then how should I apply, Captain?"] = "И как мне подать заявку, капитан?",
     ["Hidden Space-Exchange Persona-Level 4-Steal Error-Timing 1 Counterattack Object 1"] = "Скрытое пространство - Личность обмена - Уровень 4 - Кража: ошибка - Момент 1, контратака, предмет 1",
+    ["战略躺赢商店"] = "Магазин «Победа лёжа»",
     ["Jelu"] = "Джелу",
     ["Warren"] = "Уоррен",
 }

@@ -299,6 +299,7 @@ return {
     ["Adonis's voice came from behind the Door..."] = "Из-за двери донёсся голос Адониса...",
     ["Frog Prince - Cross-Skill Hidden Model Buff"] = "Принц-лягушка: скрытая модель для всех навыков (бафф)",
     ["终末猎杀-草丛23合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 23 Merged Concealment 03 (Includes 2 original areas)",
+    ["第四轮野怪6"] = "Монстры 4-го раунда 6",
     ["Pine needle oil side 😡 Wow, it smells so good 😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["Nolan"] = "Нолан",
 }

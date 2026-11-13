@@ -253,4 +253,5 @@ return {
     ["Ring of Blood"] = "Кольцо крови",
     ["歌颂者：勇气之歌4筛选"] = "Bard: Song of Courage 4 Filter",
     ["终末猎杀-草丛13逐簇隐匿01"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 01",
+    ["更换场次"] = "Сменить зал",
 }

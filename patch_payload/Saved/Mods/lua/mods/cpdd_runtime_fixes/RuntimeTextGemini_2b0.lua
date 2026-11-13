@@ -283,4 +283,5 @@ return {
     ["结合已经知道的信息……"] = "Сопоставив уже известную информацию...",
     ["The sewers are where you belong; aren't there enough sewers in Backlund already?"] = "Сточная канава — вот твоё место. Разве в Бэкланде мало канав?",
     ["Ice Cream Cone"] = "Вафельный рожок",
+    ["第二轮野怪3"] = "Дикие монстры, раунд 2 · 3",
 }

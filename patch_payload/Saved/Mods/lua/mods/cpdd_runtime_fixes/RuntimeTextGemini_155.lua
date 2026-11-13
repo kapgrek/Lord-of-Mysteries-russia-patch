@@ -327,6 +327,8 @@ return {
     ["Following the <P_Yellow>{{CustomText}}</> favored by the Goddess of Beauty is our glory. The path ahead is clear; please proceed."] = "Следовать за <P_Yellow>{{CustomText}}</>, удостоенным милости Богини Красоты, — наша честь. Путь впереди свободен, прошу.",
     ["【自走棋】-痛苦魔女-怨念诅咒"] = "[Auto Chess] - Pain Witch - Resentment Curse",
     ["终末猎杀-草丛12合并隐匿02（含3块原范围）"] = "End Hunt - Bush 12 Merged Concealment 02 (Includes 3 Original Areas)",
+    ["斗邪恶掉线"] = "Обрыв связи в «Битве со злом»",
+    ["庄园魔狼"] = "Демонический волк поместья",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　　Что такое <Hide stylename=\"InvDefault_HW\" id=\"#157\">марионетка</>…",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

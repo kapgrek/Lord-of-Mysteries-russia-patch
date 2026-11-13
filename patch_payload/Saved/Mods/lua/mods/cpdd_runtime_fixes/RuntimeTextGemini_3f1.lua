@@ -274,6 +274,9 @@ return {
     ["【普通】童话故事-苹果骑士-冲锋目标玩家1"] = "[Normal] Fairy Tale - Apple Knight - Charge target player 1",
     ["终末猎杀-草丛10合并隐匿02（含2块原范围）"] = "Final Hunt - Bush 10 Merged Concealment 02 (Includes 2 original areas)",
     ["通用-神降龙-范围加增益"] = "General-Divine Descent Dragon-Area Buff",
+    ["克里斯汀•斯图尔特"] = "Кристен Стюарт",
+    ["斗邪恶托管"] = "Автоигра в «Битве со злом»",
+    ["当前队伍"] = "Текущая команда",
     ["I\n\nLook\n\nForward\n\nTo It"] = "Я\n\nочень\n\nжду",
     ["Converse with NPC  Player plays single-line black screen subtitle"] = "Converse с NPC Player воспроизводит однострочные субтитры на черном экране",
 }

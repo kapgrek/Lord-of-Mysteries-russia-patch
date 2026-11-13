@@ -285,6 +285,7 @@ return {
     ["皮耶罗"] = "Пьеро",
     ["Participate in the Dungeon <Highlight>Tree of Abundance (Normal)</> in party mode. After defeating the <Highlight>Misfortune Water Giant Turtle</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment."] = "В групповом режиме пройдите подземелье <Highlight>Древо изобилия (Обычно)</>. После победы над <Highlight>Гигантской черепахой злых вод</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить обмениваемое снаряжение.",
     ["随机获得<HighLight>1件基础装备</>，并获得<HighLight>1个精良装备宝匣</>、<HighLight>1个装备重铸器</>和<HighLight>3金币</>。"] = "Вы получаете <HighLight>1 случайный предмет базового снаряжения</>, <HighLight>1 ларец отличного снаряжения</>, <HighLight>1 переплавщик снаряжения</> и <HighLight>3 монеты</>.",
+    ["运镜预览"] = "Просмотр движения камеры",
     ["Graceline"] = "Грейслин",
     ["Samara"] = "Самара",
     ["任务自定义事件  玩家播放情绪音乐（仅自己可听）"] = "Пользовательское событие квеста: игрок играет эмоциональную музыку (слышна только самому себе).",

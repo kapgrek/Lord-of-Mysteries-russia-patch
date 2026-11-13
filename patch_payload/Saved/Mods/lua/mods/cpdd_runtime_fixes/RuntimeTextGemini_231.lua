@@ -290,6 +290,7 @@ return {
     ["罗塞尔Boss困难-密码阶段判断身上是否有84015316"] = "Босс Розель (сложн.) - Фаза пароля - Проверка наличия 84015316 на цели",
     ["获得【噬血】共鸣。生命值首次低于<HighLight>40%</>时，本回合攻速提高<HighLight>15%</>。"] = "Получен резонанс «Жажда крови». Когда ОЗ впервые опускаются ниже <HighLight>40%</>, скорость атаки в этом раунде повышается на <HighLight>15%</>.",
     ["终末猎杀-草丛18逐簇隐匿02"] = "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 02",
+    ["斗邪恶胜利%d/3场"] = "Побед в «Битве со злом»: %d/3",
     ["The Baroness stated that she had entered the study before <InvHighlight> three o'clock </> in the afternoon. \n Baron Hawkes has been increasingly abnormal mentally recently, insisting on studying that suspicious antique. \n The couple had a fierce argument over the antique, and the Baroness left in anger. \n When she left, Baron Hawkes was still sitting at the desk drinking tea, likely waiting for Dr. Evan to come for a follow-up visit."] = "Баронесса утверждает, что заходила в кабинет <InvHighlight>до трех часов</> пополудни.\nВ последнее время рассудок барона Хоукса все больше помрачался, и он упорно исследовал тот подозрительный антиквариат.\nСупруги яростно поссорились из-за этой вещицы, после чего баронесса в гневе удалилась.\nКогда она уходила, барон Хоукс все еще сидел за письменным столом и пил чай — вероятно, дожидаясь повторного визита доктора Эвана.",
     ["Maeve"] = "Мейв",
 }

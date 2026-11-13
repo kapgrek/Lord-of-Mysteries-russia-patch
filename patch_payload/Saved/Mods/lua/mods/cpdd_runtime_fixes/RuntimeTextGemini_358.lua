@@ -278,5 +278,6 @@ return {
     ["造成伤害后，使目标的防御降低<HighLight>30%</>，持续<HighLight>3</>秒。"] = "После нанесения урона снижает защиту цели на <HighLight>30%</> на <HighLight>3</> сек.",
     ["Destroying the avatars at will will expose our actions, making it harder for us to locate the Sequence 3 corruption avatar."] = "Неразборчивое уничтожение клонов выдаст наши действия и затруднит поиск клона Последовательности 3, источника скверны.",
     ["Collect 15 to obtain the marionette Alienated Selena; they can also be used to upgrade the marionette Alienated Selena."] = "Соберите 15 шт., чтобы получить тайную марионетку «Обращённая Селена». Также используется для её развития.",
+    ["蜘蛛眼睛"] = "Паучьи глаза",
     ["Mustafa"] = "Мустафа",
 }

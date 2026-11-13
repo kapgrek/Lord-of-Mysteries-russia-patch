@@ -316,6 +316,7 @@ return {
     ["评论卡片消息提醒"] = "Уведомления о комментариях",
     ["镜像服二服本服二区"] = "Зеркальный сервер 2, основной сервер, зона 2",
     ["Hidden Space - Memory Thief - Ending"] = "Тайное пространство — Похититель воспоминаний — финал",
+    ["解锁战略技能"] = "Открыть стратегический навык",
     ["天使的双杯在手中流转，趋于平衡。保持这份平静，答案将在调和中显现。"] = "Две чаши Ангела перетекают в руках, стремясь к равновесию. Сохраняйте это спокойствие: ответ проявится в гармонии.",
     ["Adelina"] = "Аделина",
     ["The thirteenth one, so satisfying! So satisfying!\n	The effect of this golden Bullet is too good. With it, why would I still be a hired killer!\n	But that gentleman's conditions are strange enough; no matter who the target is, as long as it's at a specific location, at a specific time, kill...\n	Whatever, the police won't really catch me anyway; they promised!\n	According to the agreement, tomorrow night, everything will be finished."] = "Уже тринадцатый! Как же чертовски хорошо! Просто потрясающе!\n	Действие этой золотой пули превзошло все ожидания... С такой штукой зачем мне вообще горбатиться наёмным убийцей!\n	Правда, условия того господина более чем странные: плевать, кто жертва, главное — прикончить в строго определённом месте и в назначенное время...\n	Да какая разница! Полиция всё равно меня не тронет — они же обещали!\n	По условиям договора завтра вечером всё будет кончено.",

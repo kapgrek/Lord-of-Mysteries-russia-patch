@@ -288,6 +288,7 @@ return {
     ["扭动<h>冰淇淋</>"] = "Повернуть <h>мороженое</>",
     ["Use ice cream to observe their fate; you might be able to see anomalies in their fate!"] = "Понаблюдайте за их судьбой с помощью мороженого, возможно, удастся увидеть аномалии судьбы!",
     ["盟约之证绑定"] = "Привязка знака договора",
+    ["反对"] = "Против",
     ["Gemini is very smart, and, perhaps it's a bit early to say this, I think it is very loyal. Today's feed was supplemented with vanilla, and looking at its happy appearance while eating, I dare say, Gemini is about to love me to death. Haha, perhaps we can leave our names in history together..."] = "Джемини очень умен, и, хотя, возможно, пока рано об этом судить, мне кажется, он весьма предан. Сегодня в корм добавили ваниль, и, глядя на то, с каким удовольствием он ест, смею утверждать, что Джемини просто без ума от меня. Ха-ха, возможно, наши имена вместе останутся в истории...",
     ["每个法术场对应要创建的数量"] = "Количество, которое будет создано для каждого поля заклинания.",
     ["击败指定TemplateID的怪物  延迟执行  对象同场景传送到指定Trigger"] = "Победить монстра с указанным TemplateID; отложенное исполнение; объект телепортируется к указанному триггеру в той же сцене.",

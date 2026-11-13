@@ -308,6 +308,7 @@ return {
     ["醒了？感觉还好吗？"] = "Очнулись? Как самочувствие?",
     ["释放恐惧回声，一、二星时对周围敌人造成<Yellow>217</>点攻击伤害。三星时：伤害提高至<Yellow>586</>点。"] = "Высвобождает эхо ужаса: на 1–2 звёздах наносит окружающим врагам <Yellow>217</> ед. урона от атаки. На 3 звёздах урон повышается до <Yellow>586</> ед.",
     ["難看"] = "Уродливо",
+    ["污染意志碎片"] = "Осколок осквернённой воли",
     ["Juliana"] = "Джулиана",
     ["向好友出售%d/50个最高收益率物产。"] = "Продавайте друзьям продукцию %d/50 с максимальной доходностью.",
     ["At 3:00 PM <InvHighlight>, the servant went to prepare afternoon tea. </>\nAround 3:10 PM <InvHighlight>, when the servant brought the tea to the bedroom door, he found that </>the door was locked. <InvHighlight>	</>After the servant knocked, he did not receive an immediate response. After some time, the Baron's voice came from inside the bedroom: \n“Don't come in.” <InvHighlight></>The servant did not enter the bedroom, but instead placed the tray \nat the door <InvHighlight>and left. </>"] = "В <InvHighlight>три часа дня</> слуга пошёл готовить послеобеденный чай.\nОколо <InvHighlight>трёх часов десяти минут</>, когда слуга принёс чай к двери спальни, он обнаружил, что <InvHighlight>дверь заперта.</>	\nПостучав в дверь, слуга не сразу получил ответ. Спустя некоторое время из спальни донёсся голос барона: <InvHighlight>«Не входи».</>\nСлуга не стал входить в спальню, а оставил поднос <InvHighlight>у двери</> и ушёл.",

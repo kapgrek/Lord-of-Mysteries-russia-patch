@@ -308,5 +308,8 @@ return {
     ["这位是我的哥哥班森，你应该也听说过他。"] = "Это мой брат Бенсон, ты наверняка о нём слышал.",
     ["【普通】童话故事-丢蛋糕机制超时清除所有相关buff"] = "[Normal] Fairy Tale-Throw Cake mechanism timeout clears all related buffs",
     ["终末猎杀-草丛04合并隐匿04（含2块原范围）"] = "Final Hunt - Bush 04 Merged Concealment 04 (Includes 2 original areas)",
+    ["暖霜晴绮"] = "Тёплый иней ясного шёлка",
+    ["斗邪恶获取"] = "Получение: Битва со злом",
+    ["我也赞美"] = "Я тоже восхваляю",
     ["Converse with NPC  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Разговор с NPC Объект воспроизводит указанный контент диалога NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

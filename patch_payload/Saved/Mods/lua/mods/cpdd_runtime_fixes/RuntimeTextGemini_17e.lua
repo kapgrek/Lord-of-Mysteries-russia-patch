@@ -284,5 +284,6 @@ return {
     ["Beyonder Companions"] = "Потусторонние спутники",
     ["Tab轮选测试配置-距离优先（退化2）-仅玩家"] = "Tab Selection Test Config - Distance Priority (Degradation 2) - Players Only",
     ["终末猎杀-草丛02逐簇隐匿12"] = "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 12",
+    ["11月16日解锁"] = "Откроется 16 ноября",
     ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

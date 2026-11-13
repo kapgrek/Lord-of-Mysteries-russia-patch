@@ -271,6 +271,7 @@ return {
     ["警官{{先生|女士}}，你昨天说要继续调查，后来怎么样了？"] = "Офицер {{господин|госпожа}}, вчера вы сказали, что продолжите расследование. Что получилось?",
     ["Hidden Space Before Dawn - Death Knell Weapon God Might Buff - Level 2 - Burn"] = "Тайное пространство «Перед рассветом» — бафф «Божественная мощь» оружия «Похоронный звон» — ур. 2 — ожог",
     ["饕餮成长体型3档"] = "Рост Обжоры: стадия 3",
+    ["<Assistant_Title1>【禁区执法者】</>\n<Assistant_Title2>描述：</>商城直售时装\n<Assistant_Title2>使用：</>商城购买后获得禁区执法者套装，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>商城</>获取"] = "<Assistant_Title1>【Юрист запретной зоны】</>\n<Assistant_Title2>Описание:</> наряд из прямой продажи магазина\n<Assistant_Title2>Использование:</> после покупки в магазине вы получите комплект «Юрист запретной зоны»; его можно посмотреть и надеть в <Assistant_System>Внешний вид — Переодевание</>.\n<Assistant_Title2>Получение:</> приобретается в <Assistant_System>Магазине</>",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Ievette"] = "Иветт",
 }

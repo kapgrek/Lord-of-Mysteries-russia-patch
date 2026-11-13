@@ -282,6 +282,7 @@ return {
     ["Storm Convergence"] = "Схлопывание бури",
     ["饕餮成长体型4档"] = "Рост Обжоры: стадия 4",
     ["终末猎杀-草丛19逐簇隐匿01"] = "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 01",
+    ["战士输出四方联赛推荐方案"] = "Воин (урон) — Лига четырёх сторон: рекомендуемая сборка",
     ["Although its power is less than a tenth of its peak, it was, after all, my proudest design. It must be suppressed and sealed as soon as possible... Little ones, I leave it to you. Do not let the crimson descend upon the earth again."] = "Хотя его мощность составляет менее одной десятой от максимальной, в конце концов, это была моя самая большая гордость. Его необходимо как можно скорее подавить и запечатать... Малыши, я оставляю это вам. Не позволяйте багровому цвету снова опуститься на землю.",
     ["以及 “渎神者”阿蒙"] = "и «Богохульник» Амон",
 }

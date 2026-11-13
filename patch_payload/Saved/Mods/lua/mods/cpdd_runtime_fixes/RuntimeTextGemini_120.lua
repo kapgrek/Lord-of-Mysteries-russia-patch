@@ -263,4 +263,5 @@ return {
     ["Martin Gray"] = "Мартин Грей",
     ["马具"] = "Конская упряжь",
     ["终末猎杀-草丛07逐簇隐匿04"] = "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 04",
+    ["加成详情"] = "Детали бонусов",
 }

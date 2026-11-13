@@ -267,4 +267,6 @@ return {
     ["Explosion Order: Food Shop"] = "Взрыв заказов · Лавка еды",
     ["Whispers of the Curse - Thugs threaten Linda"] = "Шёпот проклятия: бандиты угрожают Линде",
     ["That makes things difficult. You lead the way; we're going to the place where the ritual is being set up!"] = "Это усложняет дело. Веди, пойдём к месту, где готовят ритуал!",
+    ["首通时间 %s"] = "Первое прохождение %s",
+    ["%s已加入牌桌"] = "%s садится за стол",
 }

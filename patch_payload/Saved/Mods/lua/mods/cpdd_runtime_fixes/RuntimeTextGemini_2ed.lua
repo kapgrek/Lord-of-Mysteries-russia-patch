@@ -282,5 +282,6 @@ return {
     ["Participate in the Dungeon <Highlight>The Emperor's Return (Hard)</> in party mode. You can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Возвращение императора (Сложно)</>, чтобы участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Number Monster Buff"] = "Босс Розель (сложный) - 2 фаза - Программа самоочистки - Бафф числового монстра",
     ["这个点……如果是今天的话，应该要到了吧？"] = "В это время... если это сегодня, они уже должны прибыть?",
+    ["触发春天胜利1次"] = "Одержать «весеннюю победу» 1 раз",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

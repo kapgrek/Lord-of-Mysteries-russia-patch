@@ -282,5 +282,6 @@ return {
     ["Give it a try; he is a story character, I am not sure if this feature is available."] = "Попробуй, он сюжетный персонаж, не знаю, есть ли у него такая функция.",
     ["Dragon's Legacy Attack Speed 30_Effect"] = "Наследие дракона: скорость атаки 30, эффект",
     ["终末猎杀-草丛09逐簇隐匿08"] = "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 08",
+    ["只有桌主可以进行此操作"] = "Это действие доступно только хозяину стола",
     ["任务自定义事件  玩家设置灵视状态"] = "Пользовательское событие квеста; игрок устанавливает состояние духовного видения.",
 }

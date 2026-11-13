@@ -297,4 +297,7 @@ return {
     ["鳴潮"] = "Wuthering Waves",
     ["终末猎杀-草丛10合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 10 Merged Concealment 01 (Includes 2 original areas)",
     ["终末猎杀-草丛14逐簇隐匿01"] = "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 01",
+    ["斗邪恶局外"] = "Вне партии «Битвы со злом»",
+    ["斗邪恶累计胜利100局"] = "Выиграть 100 партий в «Битву со злом»",
+    ["路灯·都市"] = "Фонарь · Городской",
 }

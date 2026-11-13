@@ -275,5 +275,8 @@ return {
     ["Such a daily life is quite remarkable too!"] = "Такие будни тоже по-своему замечательны!",
     ["The Torrent of Error will sweep everything away!"] = "Поток Ошибки сметёт всё!",
     ["【自走棋内部效果技能】- 治疗法球2-敌方全体阵亡监听"] = "[Auto Chess Internal Effect Skill] - Healing Orb 2 - All enemies death monitor",
+    ["恭喜您在本次众神之巅巅峰挑战赛中累计获得15胜场，以下是您的奖励，请查收。"] = "Поздравляем! В этом Пиковом турнире «Вершина богов» вы одержали 15 побед. Ваша награда ниже, пожалуйста, заберите её.",
+    ["攻击+150"] = "Атака +150",
+    ["巨龙分线"] = "Линия Дракона",
     ["\"For example—Ted, disguised as a tutor, called a professor, I don't know him, but I remember him... He is in my mind like a circling ghost... He was originally just a Primordial Moon believer being hunted, someone who was resurrected because of a strange gray fog, someone who was corrupted by the crimson and surrendered to the crimson... He walked among the nobles, using the lies of a benevolent mother and the truth of the world to bewitch those who had fallen into despair...\""] = "«Например, Тед, выдававший себя за домашнего учителя, которого называли профессором. Я его не знаю, но помню... Он в моей голове, как кружащий призрак... Сначала он был лишь верующим в Изначальную Луну, за которым охотились, человеком, воскресшим из-за странного серого тумана, человеком, заражённым алой скверной и покорившимся алому... Он бродил среди дворян и ложью о милосердной матери и истине мира соблазнял тех, кто впал в отчаяние...»",
 }

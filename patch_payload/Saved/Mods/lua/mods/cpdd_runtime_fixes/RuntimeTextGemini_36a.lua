@@ -249,6 +249,7 @@ return {
     ["除了卡尔和托尼，还有安迪、鲍伯、凯尔、<P_Yellow>迪伦</>。"] = "Кроме Карла и Тони, есть ещё Энди, Боб, Кайл и <P_Yellow>Дилан</>.",
     ["Gain <HighLight>2 random one-star 1-cost Beyonder World units</> and <HighLight>1 random one-star 3-cost Beyonder World unit</>. The player gains <HighLight>10 Health</>."] = "Вы получаете <HighLight>2 случайные 1-звёздные фигуры мира необыкновенных стоимостью 1</> и <HighLight>1 1-звёздную фигуру мира необыкновенных стоимостью 3</>. Игрок получает <HighLight>10 ОЗ</>.",
     ["终末猎杀-草丛02逐簇隐匿07"] = "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 07",
+    ["山茶调"] = "Мотив камелии",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

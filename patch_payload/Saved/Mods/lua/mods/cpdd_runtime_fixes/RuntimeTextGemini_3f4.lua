@@ -326,4 +326,7 @@ return {
     ["生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>12%</>的护盾，持续<HighLight>5</>秒。"] = "Когда Очки Здоровья впервые опускаются ниже <HighLight>40%</>, вы получаете щит, равный <HighLight>12%</> максимальных Очков Здоровья, на <HighLight>5</> сек.",
     ["Immediately gain <HighLight>7 XP</>. For <HighLight>3 rounds</>, including this round, gain another <HighLight>7 XP</> at the end of each round."] = "Немедленно получите <HighLight>7 ед. опыта</>. В течение <HighLight>3 раундов</>, начиная с текущего, в конце каждого раунда получайте еще <HighLight>7 ед. опыта</>.",
     ["Thank you, Miss Justice! I'll go take a look right away."] = "Спасибо, мисс «Правосудие»! Я сейчас же схожу посмотрю.",
+    ["今日已领返利"] = "Возврат за сегодня получен",
+    ["11月30日解锁"] = "Откроется 30 ноября",
+    ["安妮海瑟薇"] = "Энн Хэтэуэй",
 }

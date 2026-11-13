@@ -287,6 +287,8 @@ return {
     ["Sage, cinnamon, and pepper... even the spices are fully prepared."] = "Шалфей, корица, ещё и перец... Даже специи подготовлены основательно.",
     ["战士-黄昏领域-战略技能"] = "Warrior - Twilight Domain - Strategic Skill",
     ["普通-狼外婆-扔进锅里冲击波"] = "Normal - Grandma Wolf - Throw Into the Pot Shockwave",
+    ["<Assistant_Title1>【烈阳之炽】</>\n<Assistant_Title2>描述：</>战略服饰品\n<Assistant_Title2>使用：</>使用后获得烈阳之炽，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>GVG战略服</>获得"] = "<Assistant_Title1>【Жар палящего солнца】</>\n<Assistant_Title2>Описание:</> аксессуар стратегического сервера\n<Assistant_Title2>Использование:</> после использования вы получите «Жар палящего солнца»; его можно посмотреть и надеть в <Assistant_System>Внешний вид — Переодевание</>.\n<Assistant_Title2>Получение:</> выдаётся в <Assistant_System>GVG стратегического сервера</>",
+    ["齐聚牌友会活动"] = "Событие «Встреча картёжников»",
     ["采集指定TemplateID的采集物  玩家播放剧情对话"] = "Сбор ресурса с заданным TemplateID. Игрок воспроизводит сюжетный диалог.",
     ["受到贵族喜爱的顶级红茶，口感醇厚，略带回甘。"] = "Первоклассный черный чай, любимый аристократами, с мягким вкусом и легкой сладостью.",
     ["<Highlight>Craft: </>Embroidered Brocade/Flower Cluster Ornament\nNo one can assert how long the wait for blooming will take, but the beauty of a half-bloom is enough to be cherished."] = "<Highlight>Мастерство: </><Highlight>Вышитая парча · Цветочное соцветие</>\nНикто не знает, сколько придётся ждать полного цветения, но и полураскрывшийся бутон уже достоин восхищения.",

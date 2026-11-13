@@ -322,6 +322,8 @@ return {
     ["那个烛台，我明明看着{{他|她}}拿走的！"] = "Тот подсвечник — я же своими глазами видел, как {{он|она}} его взял!",
     ["Collect 15 to obtain the marionette Mr. Barney; they can also be used to upgrade the marionette Mr. Barney."] = "Соберите 15 шт., чтобы получить тайную марионетку «Мистер Барни». Также используется для её развития.",
     ["【自走棋】亡者的助兴-半径2200内全体"] = "[Auto Chess] Dead Man's Entertainment - All units within 2200 radius",
+    ["见闻礼盒"] = "Подарочный набор «Знания»",
+    ["常备军需处"] = "Интендантство регулярной армии",
     ["Brantley"] = "Брантли",
     ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["与Npc进行对话  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет.",

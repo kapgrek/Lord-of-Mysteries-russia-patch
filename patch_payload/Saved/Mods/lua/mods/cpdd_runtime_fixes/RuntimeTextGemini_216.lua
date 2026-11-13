@@ -292,5 +292,6 @@ return {
     ["防护值"] = "Значение защиты",
     ["Snowy Mountain Southern Station Master"] = "Начальник станции Южных снежных гор",
     ["【自走棋天赋】1格内其他友军"] = "[Auto Chess Talent] Other allies within 1 grid",
+    ["斗邪恶结算"] = "Расчёт «Битвы со злом»",
     ["已完成："] = "Завершено:",
 }

@@ -274,6 +274,8 @@ return {
     ["Participate in the Dungeon <Highlight>Tree of Abundance (Hard)</> in party mode. After defeating the <Highlight>Misfortune Water Giant Turtle</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Древо изобилия (Сложно)</>. После победы над <Highlight>Гигантской черепахой злых вод</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["Montale"] = "Монтале",
     ["边缘光B值"] = "Значение B контурного света",
+    ["时虫宝藏-大学城"] = "Клад хроножука — Университетский городок",
+    ["%s存在不可使用颜色"] = "%s содержит недоступные цвета",
     ["前往指定坐标交互并进入位面  玩家发送任务道具"] = "Перейдите к указанной координате, чтобы взаимодействовать и войти в самолет; игрок отправляет квестовый предмет.",
     ["Amitie"] = "дружба",
     ["多么诚实的\r\n贪婪……"] = "Как честно\nЖадность...",

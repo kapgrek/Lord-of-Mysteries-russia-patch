@@ -266,6 +266,7 @@ return {
     ["Read letter"] = "Прочитать письмо",
     ["Miss Milly, have you stopped fertilizing?"] = "Госпожа Милли, вы уже прекратили вносить удобрения?",
     ["Flannery"] = "Фланнери",
+    ["窥秘人主宰争锋推荐方案"] = "Тайновидец — Битва Мастеров: рекомендуемая сборка",
     ["...So that's how it is. Steam Palace, you should be sleeping in history just like me, but why have you suddenly reappeared in the world? Who... wants to use my power, my aura..."] = "...Так вот как оно есть. Steam Palace, ты, как и я, должен был бы спать в истории, но почему ты вдруг снова появился в мире? Кто... хочет использовать мою силу, мою ауру...",
     ["Complete all sub-goals of current step  Player plays speech text visible only to self"] = "Выполните все подцели текущего шага. Игрок воспроизводит речевой текст, видимый только ему самому.",
     ["这……不太好说出口。"] = "Это... нелегко сказать вслух.",

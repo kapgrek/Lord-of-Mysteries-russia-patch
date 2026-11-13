@@ -263,5 +263,6 @@ return {
     ["【普通】童话故事-苹果骑士-筛所有玩家"] = "[Normal] Fairy Tale - Apple Knight - Select all players",
     ["【自走棋英雄强化】- 怒意侍奉；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Service of Wrath; export enabled, pending in-game verification",
     ["终末猎杀-草丛02合并隐匿02（含6块原范围）"] = "Final Hunt - Bush 02 Merged Concealment 02 (Includes 6 original areas)",
+    ["WASD移动已关闭"] = "Движение на WASD выключено",
     ["<P_Yellow>（洗牌递到你面前）</>你想探索哪个秘密？"] = "<P_Yellow> (перетасовывает карты и протягивает их вам) </> Какой секрет вы хотите раскрыть?",
 }

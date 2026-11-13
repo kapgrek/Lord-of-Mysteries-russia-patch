@@ -293,5 +293,6 @@ return {
     ["Wrong, I value them very much. Ants trying to carry food heavier than themselves is more spectacular than any drama."] = "Неверно, я очень ценю их. Муравьи, пытающиеся утащить еду тяжелее себя, зрелищнее любой драмы.",
     ["The carriage has arrived at %s"] = "Карета прибыла в %s",
     ["【自走棋】-\"律令师\"休·迪尔查-囚禁"] = "[Auto Chess] - \"Lawyer\" Xio Derecha - Imprisonment",
+    ["柱子·教堂"] = "Колонна · Церковь",
     ["Dawson"] = "Доусон",
 }

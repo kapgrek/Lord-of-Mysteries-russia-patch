@@ -276,6 +276,7 @@ return {
     ["A gloomy cold wave is coming; do not let your heart lose its warmth."] = "Приближается мрачная волна холода, не давайте сердцу терять тепло.",
     ["Hidden Space-Clown 3-2 of Spades"] = "Скрытое пространство - Клоун 3 - Двойка пик",
     ["开启后获得<Highlight>聚合因子×200</>。"] = "После открытия вы получите <Highlight>Агрегирующий фактор ×200</>.",
+    ["斗邪恶说明"] = "Описание «Битвы со злом»",
     ["Luciano"] = "Лучано",
     ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Play Dialogue Player создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
     ["Jania"] = "Яния",

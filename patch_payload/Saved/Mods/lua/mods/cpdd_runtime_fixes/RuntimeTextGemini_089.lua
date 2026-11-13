@@ -268,6 +268,7 @@ return {
     ["Rhode Garrett <Hide stylename=\"Transparent\" id=\"#161\">Smear</> Character Manager\nAddress: <Hide stylename=\"Transparent\" id=\"#161\">Address</>"] = "Роде Гарретт <Hide stylename=\"Transparent\" id=\"#161\">Смазать</> Менеджер персонажей\nАдрес: <Hide stylename=\"Transparent\" id=\"#161\">Адрес</>",
     ["背水一战的决心，每一滴血都为胜利而流。"] = "Решимость стоять насмерть: каждая капля крови пролита ради победы.",
     ["Hidden Space-Clown 3-6 of Hearts"] = "Скрытое пространство - Клоун 3 - Шестёрка червей",
+    ["经历一次三人都不叫的流局"] = "Пережить сброс партии, когда никто из троих не объявил ставку",
     ["Justin"] = "Джастин",
     ["与Npc进行对话  对象看向其他对象"] = "Поговорить с NPC; объект смотрит на другие объекты.",
 }

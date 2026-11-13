@@ -265,6 +265,7 @@ return {
     ["Ostentatious Molten Gold"] = "Мнимый расплавленный металл",
     ["【自走棋装备】海之言击杀1格爆发"] = "[Auto Chess Equipment] Sea God's Scepter kill 1-grid Burst",
     ["终末猎杀-草丛22合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 22 Merged Concealment 03 (Includes 2 original areas)",
+    ["幕后之人（一）"] = "Стоящий за кулисами (I)",
     ["Alowen"] = "Алоуэн",
     ["Miguel"] = "Мигель",
 }

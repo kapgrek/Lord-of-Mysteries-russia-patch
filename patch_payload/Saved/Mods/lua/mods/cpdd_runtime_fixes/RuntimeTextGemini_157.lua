@@ -287,6 +287,7 @@ return {
     ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛任意3人"] = "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter any 3 people",
     ["终末猎杀-草丛08合并隐匿01（含2块原范围）"] = "Final Hunt-Bush 08 Merged Concealment 01 (Includes 2 original areas)",
     ["%s（%s/%s%s）"] = "%s (%s/%s%s)",
+    ["斗邪恶-发牌与叫抢邪恶"] = "Битва со злом: раздача карт и ставки на Зло",
     ["任务自定义事件  玩家传送到位面"] = "Пользовательское событие задания: Телепортация игрока на план.",
     ["Rilin"] = "Рилин",
     ["Tabitha"] = "Табита",

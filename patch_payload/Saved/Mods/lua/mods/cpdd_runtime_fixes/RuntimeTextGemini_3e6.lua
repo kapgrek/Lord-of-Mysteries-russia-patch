@@ -275,4 +275,5 @@ return {
     ["【普通】童话故事-青蛙王子-牵肠挂肚反向点名一次"] = "[Normal] Fairy Tale - Frog Prince - Deep Attachment reverse mark once",
     ["终末猎杀-草丛10逐簇隐匿03"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 03",
     ["终末猎杀草丛;草丛组14"] = "End-of-Days Hunt Thicket; Thicket Group 14",
+    ["<Assistant_Title1>【海月盈】</>\n<Assistant_Title2>描述：</>商城礼包饰品\n<Assistant_Title2>使用：</>使用后获得海月盈，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>商城</>购买礼包开启获取"] = "<Assistant_Title1>【Полнолуние над морем】</>\n<Assistant_Title2>Описание:</> аксессуар из подарочного набора магазина\n<Assistant_Title2>Использование:</> после использования вы получите «Полнолуние над морем»; его можно посмотреть и надеть в <Assistant_System>Внешний вид — Переодевание</>.\n<Assistant_Title2>Получение:</> выпадает при открытии подарочного набора, купленного в <Assistant_System>Магазине</>",
 }

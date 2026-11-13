@@ -267,6 +267,8 @@ return {
     ["Passing the Flame"] = "Передача огня",
     ["Shadow of Wandering Fate"] = "Тень блуждающей судьбы",
     ["通用-神降衣服-变天"] = "General-Divine Descent Clothing-Weather Change",
+    ["· 额外造成<HighLight>30%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。\n· <HighLight>商会将出现【特选·远击】棋子。</>"] = "· Дополнительно наносит <HighLight>30%</> урона от атаки, этот урон растёт на <HighLight>10%</> за каждую <HighLight>1</> клетку расстояния.\n· <HighLight>В торговой палате появятся фигуры 【Избранный·Дальнобойный удар】.</>",
+    ["终末猎杀全天开放。仅在每周四、周六20:00—21:00的高倍时间内，击杀或助攻敌方势力的非凡者可获得战功。参与巨龙讨伐，还可争夺势力奖励。"] = "«Финальная охота» открыта круглые сутки. Только в период повышенных множителей по четвергам и субботам с 20:00 до 21:00 убийство или помощь в убийстве Потусторонних вражеской фракции приносит боевые заслуги. Участвуя в походе на дракона, можно также побороться за награды фракции.",
     ["Brielle"] = "Бриэль",
     ["My god, what is wrong with everyone!\n\nThey only ever say those few sentences. Philine has been standing on the bridge fishing for a lifetime without stopping for a second!\n\nDoesn't anyone find it strange?\n\n...No, why didn't I find it strange before?"] = "На Пути 【Колеса Фортуны】 можно не только ощущать неудачу, но и силой собственной воли обращать вспять предначертанную причинно-следственную связь.",
     ["Russell"] = "Рассел",

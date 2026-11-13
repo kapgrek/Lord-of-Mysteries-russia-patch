@@ -316,6 +316,9 @@ return {
     ["隐秘空间-换物人格-关3-窃取正确B1"] = "Скрытое пространство - Личность обмена - Уровень 3 - Кража: верно B1",
     ["Loen rarely has such extreme weather; it makes one feel as if they are out at sea."] = "В Лоене редко бывает такая экстремальная погода, словно находишься в море.",
     ["奥黛丽-心锚"] = "Audrey - Mental Anchor",
+    ["共聆凯歌"] = "Вместе слушать гимн победы",
+    ["1元京东卡"] = "Карта JD на 1 юань",
+    ["穿刺+72"] = "Пронзание +72",
     ["鳗鱼浓汤、香煎嫩羔羊肉、柠檬蛋糕"] = "Чаудер с угрем, жареная нежная баранина, лимонный пирог",
     ["With a wave of Golden Wolf's hand, thousands of people in the audience stood up simultaneously.\nThe strings had already tightened around their throats.\nThose who stood up were no longer human.\n\"If you want safety, hand your consciousness over to me.\nThis is a win-win deal.\""] = "Цзинь Лан махнул рукой, и тысячи людей в зале одновременно встали. \nНить в горле уже перерезана. \nЭти люди, которые встали, уже не люди. \n\"Если хочешь быть в безопасности, просто отдай мне своё сознание. \nЭто беспроигрышная сделка.\"",
 }

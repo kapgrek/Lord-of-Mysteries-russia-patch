@@ -255,6 +255,7 @@ return {
     ["Pearlescent Lotus I"] = "Перламутровый лотос I",
     ["表现_大石头"] = "Показ_Большой камень",
     ["贝克兰德，你赢了！"] = "Бэкланд, ты победил!",
+    ["关于发明"] = "Об изобретениях",
     ["战争的艺术，在精准打击！"] = "Искусство войны заключается в точечных ударах!",
     ["Fine wine, energetic dancing, endless pleasure!\n\nThis tavern only does three things upon opening: passion, passion, and <Hide id=\"#157_R\">***</> passion!\n\nEvery <Highlight>Thursday</> there is <Highlight>passionate half-price</> on all fine wines!\n\nWine lovers, don't miss this opportunity!\n\n◆Gambling, fighting, and defrauding guests and waiters are prohibited in the tavern.\nAnyone with such impulses, please step outside the shop to resolve it."] = "Отличное вино, зажигательные танцы и бесконечное веселье!\n\nС момента открытия у нашей таверны лишь три правила: страсть, страсть и еще раз <Hide id=\"#157_R\">***</> страсть!\n\nКаждый <Highlight>четверг</> на всю выпивку действует <Highlight>страстная скидка 50%</>!\n\nЦенители доброго вина, не упустите свой шанс!\n\n◆ В таверне строго запрещены азартные игры, драки и обман гостей или официантов.\nВсех обуреваемых подобными порывами просим выйти и разобраться за дверями заведения.",
     ["Malcolm"] = "Малькольм",

@@ -323,6 +323,7 @@ return {
     ["随机获得<HighLight>三件</>【蒸汽时代】装备。"] = "Вы получаете <HighLight>3 случайных предмета</> снаряжения «Века пара».",
     ["封印物-蠕动的饥饿检测技能-对玩家"] = "Sealed Artifact - Creeping Hunger Detection Skill - for Player",
     ["隐秘空间-午夜诊所-占位"] = "Hidden Space - Midnight Clinic - Placeholder",
+    ["支离破碎"] = "Разбитое вдребезги",
     ["I was once the master of this land, holding cannons and traversing the five seas. In the era that belonged to me, stepping on the heads of all countries, how refreshing it was!"] = "Когда-то я был владыкой этих земель, сжимая пушки и бороздя Пять Морей. В мою эпоху попирать все государства мира — какое же это было упоение!",
     ["以水银之蛇的名义，标记你的宿命。"] = "Именем Меркурия-Змеи отметьте свою судьбу.",
     ["你用双手堵住了通往救赎的大门，拒绝接受改变的可能。执念让你成为了自己的囚徒。"] = "Вы собственными руками заблокировали дверь к искуплению, отказываясь принять возможность перемен. Одержимость сделала вас пленником самого себя.",

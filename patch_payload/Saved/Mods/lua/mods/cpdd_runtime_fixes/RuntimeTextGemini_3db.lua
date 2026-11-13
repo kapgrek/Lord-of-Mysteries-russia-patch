@@ -284,6 +284,7 @@ return {
     ["Offensive Stance Talent Sequence 7 GVG Exclusive"] = "Талант атаки, Последовательность 7, только для GVG",
     ["Bonnie: Every bit of pain you inflict on me is borne by it instead; only you will suffer from Exhaustion."] = "Бонни: Каждая рана, что ты мне наносишь, достаётся ему, а истощение испытываешь только ты.",
     ["【自走棋英雄强化】- 血月追猎；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Blood Moon Hunt; export enabled, pending in-game verification",
+    ["烈阳之炽"] = "Жар палящего солнца",
     ["Dahlia"] = "Далия",
     ["如同死者聆听天使的号角，你终于准备好面对真实的自己。这是审判的时刻，也是重生的开始。"] = "Словно мертвец, внимающий трубе ангела, вы наконец готовы предстать перед своим истинным «я». Это час суда и начало перерождения.",
     ["Darwin"] = "Дарвин",

@@ -291,5 +291,6 @@ return {
     ["莉莉：再见了，守护者……"] = "Лили: Прощай, Хранитель...",
     ["Release Soul-Calming Resonance, dealing {*d,F1690001,atkMin,9.65} Attack damage to enemies in the target area and putting them into a Slumber for <HighLight>1</> second."] = "Высвобождает умиротворяющий резонанс душ: наносит врагам в целевой области {*d,F1690001,atkMin,9.65} ед. урона от атаки и усыпляет их на <HighLight>1</> сек.",
     ["终末猎杀-草丛07逐簇隐匿06"] = "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 06",
+    ["前往斗邪恶"] = "Перейти к «Битве со злом»",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>60 to open"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }

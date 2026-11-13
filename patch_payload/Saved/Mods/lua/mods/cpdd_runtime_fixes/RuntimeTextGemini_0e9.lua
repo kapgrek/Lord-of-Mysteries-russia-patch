@@ -303,6 +303,7 @@ return {
     ["采集行李箱"] = "Сбор: чемодан",
     ["Hide Boss health bar on HUD"] = "Скрыть полосу здоровья босса на HUD",
     ["终末猎杀-草丛14逐簇隐匿04"] = "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 04",
+    ["· 席位属性×<HighLight>180%</>"] = "· Атрибуты места ×<HighLight>180%</>",
     ["Today the apple blossoms bloomed, and I picked a few to place by your bedside. You said you liked this scent, so I pick them every year.\n\nNo matter what happens, the flowers here will bloom again, and Mother will still be here.\n\nYou just need to sleep well. When you wake up, everything will be fine."] = "Сегодня зацвели яблони, и я сорвала несколько цветков и положила у твоей постели. Ты говорил, что тебе нравится этот запах, поэтому я срываю их каждый год.\n\nЧто бы ни стряслось, цветы здесь будут цвести снова, и мама всегда будет рядом.\n\nСпи крепко, родной. Когда ты проснёшься, всё обязательно наладится.",
     ["Naomi"] = "Наоми",
     ["错误的选择带来诅咒，破碎的誓言化作枷锁。警惕甜蜜的谎言，真相往往苦涩。"] = "Неправильный выбор приносит проклятия, а нарушенные клятвы превращаются в кандалы. Остерегайтесь сладкой лжи; правда часто горька.",

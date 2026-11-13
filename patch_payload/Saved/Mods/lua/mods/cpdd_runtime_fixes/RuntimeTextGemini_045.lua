@@ -288,5 +288,7 @@ return {
     ["Sword of the Royal Court"] = "Меч королевского двора",
     ["触碰<h>万都之都</>"] = "Прикоснуться к <h>Городу городов</>",
     ["Mirror Server Local Server"] = "Зеркальный сервер, основной сервер",
+    ["斗邪恶输赢"] = "Выигрыш и проигрыш в «Битве со злом»",
+    ["隐藏选将棋子详情"] = "Скрыть сведения о фигурах выбора",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
 }

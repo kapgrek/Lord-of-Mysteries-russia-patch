@@ -270,6 +270,7 @@ return {
     ["Is the Goddess's honorific name in the singing? Is she a believer of the Goddess?"] = "В песне звучит почётное имя Богини? Она последовательница Богини?",
     ["Suit"] = "Костюм",
     ["Then what do you suggest we do?"] = "И что ты предлагаешь?",
+    ["<Assistant_Title1>【暗之蜕】</>\n<Assistant_Title2>描述：</>签到奖励饰品\n<Assistant_Title2>使用：</>使用后获得暗之蜕，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>签到获取"] = "<Assistant_Title1>【Линька тьмы】</>\n<Assistant_Title2>Описание:</> аксессуар за ежедневный вход\n<Assistant_Title2>Использование:</> после использования вы получите «Линьку тьмы»; её можно посмотреть и надеть в <Assistant_System>Внешний вид — Переодевание</>.\n<Assistant_Title2>Получение:</> награда за ежедневный вход",
     ["Orientation: Pitch:"] = "Ориентация: Шаг:",
     ["Galilaia"] = "Галилайя",
     ["采集指定TemplateID的采集物  对象播放指定对白内容  玩家跨场景传送到指定Trigger"] = "Соберите указанный элемент TemplateID. Объект воспроизводит указанное содержимое диалога. Игрок телепортируется между сценами к указанному триггеру.",

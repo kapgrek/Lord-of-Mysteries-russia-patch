@@ -278,5 +278,8 @@ return {
     ["This appearance cannot be purchased directly; please obtain it first before dyeing."] = "Этот облик нельзя купить напрямую. Сначала получите его, затем окрасьте.",
     ["Bonnie: This is the only promise I can make to the dead."] = "Бонни: Это единственное обещание, которое я могу дать мёртвым.",
     ["终末猎杀-草丛01逐簇隐匿03"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 03",
+    ["第五轮野怪1"] = "Монстры 5-го раунда 1",
+    ["普通·大帝重临"] = "Обычный · Возвращение Императора",
+    ["城堡大厅"] = "Зал замка",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

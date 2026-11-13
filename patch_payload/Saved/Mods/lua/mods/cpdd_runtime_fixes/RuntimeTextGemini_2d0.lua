@@ -275,5 +275,6 @@ return {
     ["Gain Attack Boost."] = "Получено усиление атаки.",
     ["Hidden Space-Exchange Persona-Level 2-Steal Error 2"] = "Скрытое пространство - Личность обмена - Уровень 2 - Кража: ошибка 2",
     ["玩家秘偶-奇迹牌雨 改 测试验证用"] = "Player marionette - Miracle Card Rain (Modified for test verification)",
+    ["窥秘人神座之争推荐方案"] = "Тайновидец — Борьба за престол: рекомендуемая сборка",
     ["<Highlight>Craft: </>Flowing Light Silk/Scale Powder Pointing\nAlthough the butterfly has already left at dusk, the phantom of its wings still lingers on the cloak."] = "<Highlight>Мастерство: </>Струящийся шелк · Роспись чешуйчатой пыльцой\nХотя бабочка уже улетела в сумерках, фантом её крыльев всё ещё задерживается на плаще.",
 }

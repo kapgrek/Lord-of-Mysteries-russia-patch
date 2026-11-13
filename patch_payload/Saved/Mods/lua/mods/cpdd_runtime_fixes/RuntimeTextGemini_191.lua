@@ -287,5 +287,7 @@ return {
     ["Top-tier Illustrated Handbook"] = "Высший атлас",
     ["Estimated Site Allocation"] = "Ожидаемая доля станций",
     ["终末猎杀-草丛24逐簇隐匿06"] = "Final Hunt-Bush 24 Cluster Invisibility 06",
+    ["芳寒流光"] = "Холодный блеск цветов",
+    ["运镜保存数量达到上限"] = "Достигнут лимит сохранённых ракурсов камеры",
     ["Adler"] = "Адлер",
 }

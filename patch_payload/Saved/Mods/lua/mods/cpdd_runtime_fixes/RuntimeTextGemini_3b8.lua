@@ -279,6 +279,7 @@ return {
     ["Shoe Sole"] = "Подошва",
     ["【自走棋】-陪伴的彼此-巴尼先生死亡时寻找安西娅"] = "[Auto Chess] Companions - Search for Anthea when Mr. Barney is Dead",
     ["终末猎杀-草丛09逐簇隐匿01"] = "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 01",
+    ["斗邪恶模式"] = "Режим «Битвы со злом»",
     ["与人脉完成%d/30次邀约玩法。"] = "Завершите %d/30 встреч со знакомыми.",
     ["两张？和我一样…"] = "Два? Точно так же, как я...",
 }

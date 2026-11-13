@@ -285,5 +285,6 @@ return {
     ["神弃之地徽章"] = "Значок Земли, покинутой богами",
     ["Nearby site acquisition news"] = "Новости о выкупе ближайших станций",
     ["食材准备好了吗？"] = "Ингредиенты готовы?",
+    ["污染意志碎片12个"] = "Осколки Оскверненной воли, 12 шт.",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

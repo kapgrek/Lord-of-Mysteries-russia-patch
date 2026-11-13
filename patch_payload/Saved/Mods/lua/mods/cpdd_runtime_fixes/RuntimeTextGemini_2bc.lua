@@ -290,6 +290,8 @@ return {
     ["Still investigating the memory loss? Oh, right, you were asking about that clockmaker, Mr. William, yesterday. He used to come by every day to buy a newspaper to take back to <P_Yellow>his mother</>. His mother is senile, and he has always been the one taking care of her."] = "Всё ещё расследуете потерю памяти? Кстати, вчера вы расспрашивали о часовщике, господине Уильяме. Раньше он каждый день покупал газету и относил <P_Yellow>матери</>. Мать у него совсем выжила из ума, и он всегда сам за ней ухаживал.",
     ["This is the most magnificent parade float I have ever seen!"] = "Это самая роскошная праздничная платформа из всех, что я видел!",
     ["Pathway Damage Reduction"] = "Снижение урона Пути",
+    ["第二轮野怪4"] = "Дикие монстры, раунд 2 · 4",
+    ["服务器互通投票"] = "Голосование за объединение серверов",
     ["草坪上，一群年轻学生围成一圈激烈地讨论着什么。"] = "На газоне кружком расположились молодые студенты и о чем-то горячо спорили.",
     ["Colleson"] = "Коллисон·",
     ["或许你在找："] = "Возможно, вы ищете:",

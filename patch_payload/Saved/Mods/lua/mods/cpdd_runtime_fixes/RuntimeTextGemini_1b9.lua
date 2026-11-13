@@ -295,5 +295,6 @@ return {
     ["这鬼天气，船也停了，吃完药缓缓，就不晕了。"] = "Проклятая погода, и корабли встали. Приму лекарство, немного отлежусь, и головокружение пройдёт.",
     ["Hidden Space - Jump Test - White Platform Default State"] = "Скрытое пространство — Тест прыжка — белая платформа по умолчанию",
     ["终末猎杀-草丛24逐簇隐匿08"] = "Final Hunt-Bush 24 Cluster Invisibility 08",
+    ["斗邪恶解锁"] = "Открытие «Битвы со злом»",
     ["……\n\nCurrently, the remaining ten people are still missing. After tracking and investigation, relevant clues were found:\n1. The age range of missing children is from eight to fifteen years old.\n2. The last sighting locations of missing children are mainly in the <Mark id=\"#159\"> West District </> and <Mark id=\"#159\"> Factory District </>.\n3. Near the crime scene, someone heard the sound of a suspected <Mark id=\"#159\">flute </>.\n4. ……"] = "......\n\nОставшиеся десять человек по-прежнему пропали без вести. После последующего расследования были обнаружены соответствующие улики: \n1. Возрастной диапазон пропавших детей колеблется от восьми до пятнадцати лет \n2. Последние места появления пропавших детей находятся в основном в <Mark id=\"#159\"> Западном округе </> и <Mark id=\"#159\"> Заводской зоне </>. \n3. Рядом с местом преступления кто-то услышал звук предполагаемой <Mark id=\"#159\"> флейты </>. \n4.……",
 }
