@@ -4994,6 +4994,119 @@ do
         end
         return true
     end
+
+    -- AutoChess fetter (bond) tip (TASK-048, stage A): DiagnosticsMode only.
+    -- After a tick, log the layout tree of WBP_AutoChess_Tips_FetterTips from
+    -- WidgetTree.RootWidget, one line per widget, to find the parent of
+    -- RichText_Detailed, the ScrollBox and the 900 px height cap. Up to
+    -- FetterTreeMax snapshots per session, each for a different description.
+    TF.FetterTreeMax = 3
+    TF.FetterTreeLines = 200
+    TF.FetterTreeDone = 0
+    TF.FetterTreeTexts = {}
+
+    function TF.FetterTreeLine(widget, depth)
+        local function cls(obj)
+            local name = nil
+            pcall(function() name = tostring(obj:GetClass():GetName()) end)
+            return name or "?"
+        end
+        local function size(v)
+            if v == nil then return "?" end
+            local x, y = tonumber(v.X), tonumber(v.Y)
+            if x == nil or y == nil then return "?" end
+            return string.format("%.1fx%.1f", x, y)
+        end
+        local name, slot, desired, localSize = "?", nil, nil, nil
+        pcall(function() name = tostring(widget:GetName()) end)
+        pcall(function() slot = widget.Slot end)
+        pcall(function() desired = widget:GetDesiredSize() end)
+        pcall(function() localSize = slate().GetLocalSize(widget:GetCachedGeometry()) end)
+        local className = cls(widget)
+        local slotClass = slot ~= nil and cls(slot) or "none"
+        local extra = {}
+        pcall(function() extra[#extra + 1] = "vis=" .. tostring(widget:GetVisibility()) end)
+        if className:find("SizeBox", 1, true) then
+            for _, field in ipairs({ "MaxDesiredHeight", "HeightOverride", "MinDesiredHeight",
+                "bOverride_MaxDesiredHeight", "bOverride_HeightOverride", "bOverride_MinDesiredHeight" }) do
+                pcall(function() extra[#extra + 1] = field .. "=" .. tostring(widget[field]) end)
+            end
+        end
+        if className:find("ScrollBox", 1, true) then
+            pcall(function() extra[#extra + 1] = "children=" .. tostring(widget:GetChildrenCount()) end)
+        end
+        if slotClass:find("VerticalBoxSlot", 1, true) or slotClass:find("HorizontalBoxSlot", 1, true) then
+            pcall(function() extra[#extra + 1] = "sizeRule=" .. tostring(slot.Size.SizeRule) end)
+            pcall(function() extra[#extra + 1] = "sizeValue=" .. tostring(slot.Size.Value) end)
+        end
+        if slotClass:find("CanvasPanelSlot", 1, true) then
+            pcall(function() extra[#extra + 1] = "autoSize=" .. tostring(slot:GetAutoSize()) end)
+            pcall(function() extra[#extra + 1] = "slotSize=" .. size(slot:GetSize()) end)
+        end
+        return string.format("autochess fetter tree depth=%d name=%s class=%s slot=%s desired=%s local=%s extra=%s",
+            depth, name, className, slotClass, size(desired), size(localSize), table.concat(extra, ","))
+    end
+
+    function TF.DumpFetterTree(root)
+        local lines, seen = 0, {}
+        local function walk(widget, depth)
+            if widget == nil or lines >= TF.FetterTreeLines or depth > 14 or seen[widget] then return end
+            seen[widget] = true
+            lines = lines + 1
+            local ok, line = pcall(TF.FetterTreeLine, widget, depth)
+            reportVerbose(ok and line or ("autochess fetter tree depth=" .. depth .. " error=" .. tostring(line)))
+            local count = 0
+            pcall(function() count = tonumber(widget:GetChildrenCount()) or 0 end)
+            for index = 0, count - 1 do
+                local child = nil
+                pcall(function() child = widget:GetChildAt(index) end)
+                walk(child, depth + 1)
+            end
+            -- Nested UserWidgets (level items) own their own WidgetTree.
+            local nested = nil
+            pcall(function() nested = widget.WidgetTree and widget.WidgetTree.RootWidget end)
+            if nested ~= nil then walk(nested, depth + 1) end
+        end
+        walk(root, 0)
+        reportVerbose("autochess fetter tree end lines=" .. lines)
+    end
+
+    function runtimeFixes.fitAutoChessFetterTip(comp)
+        if not (type(Loader.Features) == "table" and Loader.Features.DiagnosticsMode == true) then return end
+        if type(comp) ~= "table" or comp.isDestroyed then return end
+        if TF.FetterTreeDone >= TF.FetterTreeMax or TF.FetterTreePending then return end
+        local owner = comp.userWidget or comp.widget
+        if owner == nil then return end
+        local text = nil
+        pcall(function()
+            local detail = getNamedWidget(comp.view, "RichText_Detailed") or getNamedWidget(owner, "RichText_Detailed")
+            text = detail and tostring(detail:GetText())
+        end)
+        local key = text or "?"
+        if TF.FetterTreeTexts[key] then return end
+        local manager, addTimer = nil, nil
+        pcall(function() manager = Game and Game.NewUIManager end)
+        pcall(function() addTimer = manager and manager.AddTimerWithFunction end)
+        if type(addTimer) ~= "function" then return end
+        TF.FetterTreePending = true
+        if not pcall(addTimer, manager, DEFER_SECONDS, 1, function()
+            TF.FetterTreePending = false
+            if comp.isDestroyed or TF.FetterTreeDone >= TF.FetterTreeMax then return end
+            local root = nil
+            pcall(function() root = owner.WidgetTree.RootWidget end)
+            if root == nil then
+                reportVerbose("autochess fetter tree skip reason=no-root")
+                return
+            end
+            TF.FetterTreeDone = TF.FetterTreeDone + 1
+            TF.FetterTreeTexts[key] = true
+            reportVerbose(string.format("autochess fetter tree begin snapshot=%d textLen=%d",
+                TF.FetterTreeDone, text and #text or -1))
+            pcall(TF.DumpFetterTree, root)
+        end) then
+            TF.FetterTreePending = false
+        end
+    end
 end
 
 -- Exact translation for RTB_TalkContent of P_NPCTalk (TASK-024 R1): the whole
@@ -12050,6 +12163,9 @@ do
             local afterTranslate = nil
             if className == "AutoChess_Tips_PieceTips" and (name == "Refresh" or name == "OnRefresh") then
                 afterTranslate = runtimeFixes.fitAutoChessPieceSkill
+            elseif className == "AutoChess_Tips_FetterTips" and (name == "Refresh" or name == "OnRefresh") then
+                -- Fetter tip layout snapshot, DiagnosticsMode only (TASK-048 stage A).
+                afterTranslate = runtimeFixes.fitAutoChessFetterTip
             end
             local wrapper = runtimeFixes.diagWrap("ac-class:" .. className .. "." .. name, "ac-class", function(self, ...)
                 return callAutoChessGuarded(self, original, name, walkChildren, afterTranslate, ...)
