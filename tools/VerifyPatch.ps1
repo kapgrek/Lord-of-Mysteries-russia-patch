@@ -158,7 +158,9 @@ if (-not (Test-Path $packIndex)) {
         Write-Host "[OK] Пакеты StringDB: $($indexed.Count) модулей, game_build=$keysBuild." -ForegroundColor Green
     }
     $errors += $packErrors
-    if ($keysBuild -ne [string]$supported.game_build) {
+    # supported_game.json хранит полную версию (1.2018737.2307645), ключи — номер билда (2307645)
+    $supportedBuild = ([string]$supported.game_build -split '\.')[-1]
+    if ($keysBuild -ne $supportedBuild) {
         Write-Warning "[WARN] Ключи StringDB сняты на билде $keysBuild, а supported_game.json game_build = $($supported.game_build). Если игра обновилась, нужна новая выгрузка (docs/DIAGNOSTICS.md)."
     }
 }
