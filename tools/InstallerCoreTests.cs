@@ -129,6 +129,8 @@ public static class InstallerCoreTests
         Run("supported_game.json: format 2, min_installer_version", Format2AndMinInstaller);
         Run("options: cpdd_patcher_settings.lua defaults, CPDD format, round trip", OptionsSettingsRoundTrip);
         Run("options: foreign cpdd_patcher_settings.lua is not overwritten", OptionsForeignSettings);
+        Run("options: Dlss5Unlock written only when on, old installers' format kept (TASK-049)", OptionsDlss5);
+        Run("install: payload Dlss5.lua listed in installed_files.json and removed on uninstall", InstallDlss5Module);
         Run("options: Visual Clarity block in Engine.ini", OptionsVisualClarity);
         Run("options: uninstall keeps settings, removes Visual Clarity", OptionsUninstall);
         Run("payload: nothing is guessed next to the exe", PayloadNoGuessing);
@@ -1252,6 +1254,77 @@ public static class InstallerCoreTests
             opt.Read(out error);
             Assert(error != null, "Read reports the foreign file");
         }
+    }
+
+    static void OptionsDlss5()
+    {
+        string game = OptionsGame("options-dlss5");
+        var opt = new GameOptions(game, null);
+        string error;
+        DpsMeterMode m; bool c, d;
+
+        // Off: byte for byte the format of installers 3.1.6-3.1.8 (they reject unknown keys).
+        string oldFormat = "return {\n    DpsMeterMode = \"advanced\",\n    DesktopChatUI = false,\n}\n";
+        Assert(GameOptions.FormatSettings(DpsMeterMode.Advanced, false, false) == oldFormat, "dlss5 off = old format byte for byte");
+        Assert(GameOptions.FormatSettings(DpsMeterMode.Advanced, false) == oldFormat, "two-argument FormatSettings unchanged");
+
+        // A file written by an old installer reads as dlss5 off.
+        WriteText(opt.SettingsPath, oldFormat);
+        Assert(opt.TryReadSettings(out m, out c, out d, out error) && m == DpsMeterMode.Advanced && !c && !d, "old file -> dlss5 off");
+        var state = opt.Read(out error);
+        Assert(error == null && !state.Dlss5, "Read: old file -> Dlss5 false");
+
+        // On: key present and read back.
+        string onFormat = "return {\n    DpsMeterMode = \"external\",\n    DesktopChatUI = false,\n    Dlss5Unlock = true,\n}\n";
+        Assert(GameOptions.FormatSettings(DpsMeterMode.External, false, true) == onFormat, "dlss5 on format");
+        Assert(opt.WriteSettings(DpsMeterMode.External, false, true, out error), "write dlss5 on: " + error);
+        Assert(File.ReadAllText(opt.SettingsPath) == onFormat, "file has Dlss5Unlock = true");
+        Assert(opt.TryReadSettings(out m, out c, out d, out error) && m == DpsMeterMode.External && d, "read back dlss5 on");
+        state = opt.Read(out error);
+        Assert(error == null && state.Dlss5 && state.DpsMode == DpsMeterMode.External, "Read: Dlss5 true");
+
+        // Apply with dlss5 off restores the old format.
+        Assert(opt.Apply(new GameOptionsState { DpsMode = DpsMeterMode.Advanced, Dlss5 = false }, new List<string>()), "apply dlss5 off");
+        Assert(File.ReadAllText(opt.SettingsPath) == oldFormat, "apply off -> old format again");
+        Assert(opt.Apply(new GameOptionsState { DpsMode = DpsMeterMode.Advanced, Dlss5 = true }, new List<string>()) && opt.Read(out error).Dlss5, "apply on -> read back");
+
+        // CPDD files: any key order, explicit false.
+        foreach (string cpdd in new[] {
+            "return {\n    Dlss5Unlock = true,\n    DpsMeterMode = \"native\",\n    DesktopChatUI = true,\n}\n",
+            "return { DesktopChatUI = true; Dlss5Unlock = true; DpsMeterMode = \"native\" }\n" })
+        {
+            Assert(GameOptions.ParseSettings(cpdd, out m, out c, out d) && m == DpsMeterMode.Native && c && d, "CPDD order: " + cpdd.Replace("\n", " "));
+        }
+        Assert(GameOptions.ParseSettings("return {\n    DpsMeterMode = \"off\",\n    Dlss5Unlock = false,\n}\n", out m, out c, out d) && m == DpsMeterMode.Off && !d, "explicit Dlss5Unlock = false");
+
+        // Still rejected: repeats, bad values, foreign keys.
+        foreach (string bad in new[] {
+            "return {\n    Dlss5Unlock = true,\n    Dlss5Unlock = false,\n}\n",
+            "return {\n    Dlss5Unlock = 1,\n}\n",
+            "return {\n    DpsMeterMode = \"advanced\",\n    Dlss5Unlock = true,\n    MyKey = 1,\n}\n" })
+        {
+            Assert(!GameOptions.ParseSettings(bad, out m, out c, out d), "rejected: " + bad.Replace("\n", " "));
+            WriteText(opt.SettingsPath, bad);
+            Assert(!opt.WriteSettings(DpsMeterMode.Advanced, false, true, out error) && File.ReadAllText(opt.SettingsPath) == bad, "foreign file not overwritten");
+        }
+    }
+
+    static void InstallDlss5Module()
+    {
+        var f = NewFixture("dlss5-module");
+        const string rel = @"Saved\Mods\lua\mods\cpdd_runtime_fixes\Dlss5.lua";
+        WriteText(Path.Combine(f.PayloadDir, rel), "-- dlss5\nreturn {}\n");
+        WriteOwnedFiles(f.PayloadDir);
+        var core = f.Core();
+        string reason;
+        Assert(core.Install(f.PayloadDir, out reason), "install succeeds: " + reason);
+        Assert(File.Exists(f.G(rel)), "Dlss5.lua copied");
+        bool listed = false;
+        foreach (string p in core.ReadInstalledList()) if (p.Replace('/', '\\').Equals(rel, StringComparison.OrdinalIgnoreCase)) listed = true;
+        Assert(listed, "Dlss5.lua in installed_files.json");
+        Assert(core.Uninstall(f.PayloadDir), "uninstall ok");
+        Assert(!File.Exists(f.G(rel)), "Dlss5.lua removed on uninstall");
+        Assert(File.Exists(f.G(@"Saved\Mods\lua\cpdd_patcher_settings.lua")), "settings kept");
     }
 
     static void OptionsVisualClarity()
