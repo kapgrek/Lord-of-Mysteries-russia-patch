@@ -27,7 +27,7 @@ $vendorDir = Join-Path $root 'vendor\cpdd'
 $refRoot = Join-Path $root 'reference\cpdd'
 $batchesDir = Join-Path $root 'source\translation_batches'
 
-$verbatimComponents = @('bridge', 'loader', 'stringdb', 'sourceindex', 'bakedtext', 'dps', 'chat', 'engineini', 'schedule', 'widgets')
+$verbatimComponents = @('bridge', 'loader', 'stringdb', 'sourceindex', 'bakedtext', 'dps', 'chat', 'dlss5', 'engineini', 'schedule', 'widgets')
 $allComponents = $verbatimComponents + @('runtime', 'state', 'shards', 'gamestate')
 if ($Components -contains 'all') { $Components = $allComponents }
 $Components = @($Components | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim().ToLower() } | Where-Object { $_ })
@@ -111,6 +111,7 @@ function Get-Component([string]$rel) {
             'DpsMeter.lua' { return 'dps' }
             'DpsTelemetry.lua' { return 'dps' }
             'DesktopChat.lua' { return 'chat' }
+            'Dlss5.lua' { return 'dlss5' }
             'EngineIniBridge.lua' { return 'engineini' }
             'ServerScheduleFix.lua' { return 'schedule' }
             'WidgetNameIndex.lua' { return 'widgets' }
