@@ -26,6 +26,7 @@ local Loader = {
         AdvancedDpsMeter = true,
         ExternalDpsMeter = false,
         DesktopChatUI = false,
+        Dlss5Unlock = false,
     },
     Telemetry = {
         BootStartedMs = 0,
@@ -136,6 +137,9 @@ local function apply_feature_settings(settings)
     end
     if type(settings.DesktopChatUI) == "boolean" then
         Loader.Features.DesktopChatUI = settings.DesktopChatUI
+    end
+    if type(settings.Dlss5Unlock) == "boolean" then
+        Loader.Features.Dlss5Unlock = settings.Dlss5Unlock
     end
     if settings.DpsMeterMode == "advanced" then
         Loader.Features.StatisticsEverywhere = true
@@ -600,6 +604,8 @@ for _, name in ipairs(manifest.Load or {}) do
         enabled = Loader.Features.ExternalDpsMeter == true
     elseif name == "mods.cpdd_runtime_fixes.DesktopChat" then
         enabled = Loader.Features.DesktopChatUI == true
+    elseif name == "mods.cpdd_runtime_fixes.Dlss5" then
+        enabled = Loader.Features.Dlss5Unlock == true
     end
     if enabled then
         local ok, message = xpcall(function() require(name) end, debug.traceback)
