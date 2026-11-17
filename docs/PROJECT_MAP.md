@@ -29,7 +29,7 @@
 | **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `min_installer_version`, `supported_base_paks`, `base_launch_block`, `owned_files`; без `supported_game.json` формата 2 сборка падает) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish`: черновик → загрузка assets (`--clobber`, повторяемо) → публикация как latest; `-WhatIfPublish` только печатает поиск релиза (через `gh api`, с черновиками) и команды `gh` |
 | **Диагностика для разработки** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruDiagnostics.lua`<br>`tools/CollectDiagLogs.ps1`<br>`docs/DIAGNOSTICS.md` | Модуль сбора (хуки, непереведённое, переполнение, шрифты, текстуры); включается только файлом `Saved/Mods/lua/absoluteru_dev.lua` в игре. `CollectDiagLogs` копирует логи ИЗ игры в `reference/logs/<дата>/` и строит отчёты в `report/` |
 | **Выгрузка ассетов «Божий путь» (TASK-018)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruAssetExport.lua`<br>`tools/GodWayExport.ps1`<br>`docs/DIAGNOSTICS.md` (раздел AssetExport) | Dev-only (флаг `AssetExport` в `absoluteru_dev.lua`): пробы (`Probe = true` / `"retainer"`) и полная выгрузка текстур, атласов, материалов, раскладки, дорожки и кадров RetainerBox из памяти игры. `GodWayExport.ps1` копирует ИЗ игры в `reference/godway_export/raw/`, режет спрайты, пишет `manifest.json` и `summary.md` |
-| **Дополнительные моды (DPS Meter, Чат)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua`<br>`patch_payload/Saved/Mods/ExternalDpsMeter/` | Мод чата для ПК и автономный счетчик урона |
+| **Дополнительные моды (DPS Meter, Чат, DLSS 5)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua`<br>`patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Dlss5.lua`<br>`patch_payload/Saved/Mods/ExternalDpsMeter/` | Мод чата для ПК, разблокировка DLSS 5 (CPDD 2.7.6, `Dlss5Unlock`, по умолчанию выкл., лог `[LOMDlss5]`) и автономный счетчик урона |
 | **Правила и защита ИИ-агента** | `AGENTS.md`<br>`.claude/settings.json`<br>`.claude/hooks/` | Регламент; permissions; хук-сторож папки игры и Stop-хук перекомпиляции шардов |
 | **Задачи и уроки** | `docs/tasks/TASK-xxx.md`<br>`docs/LESSONS.md` | Планы из аналитического чата; разбор прошлых инцидентов |
 | **Временные файлы агента (Scratch)** | `temp/` | Промежуточные файлы и одноразовые скрипты (пользователь может очистить) |
@@ -99,6 +99,7 @@ AbsoluteRU/
 │                   ├── Init.lua             # Ядро перехвата строк и UI Repair
 │                   ├── AbsruDiagnostics.lua # Диагностика для разработки (только при Saved/Mods/lua/absoluteru_dev.lua)
 │                   ├── DesktopChat.lua      # Адаптация окна чата для ПК
+│                   ├── Dlss5.lua            # Разблокировка DLSS 5 (Dlss5Unlock, TASK-049)
 │                   ├── DpsMeter.lua         # Встроенный счетчик урона
 │                   ├── DpsTelemetry.lua     # Телеметрия боя
 │                   ├── EngineIniBridge.lua  # Мост параметров движка
