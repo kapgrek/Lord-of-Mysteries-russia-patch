@@ -274,6 +274,7 @@ return {
     ["门后余生"] = "Жизнь за дверью",
     ["【战略技能】学徒传送之门-B端传A端"] = "[Strategic Skill] Apprentice Teleport Door - End B to End A",
     ["歌颂者：勇气之歌3筛选"] = "Bard: Song of Courage 3 Filter",
+    ["牌桌狒狒"] = "Card Table Baboon",
     ["与Npc进行对话  玩家发送任务道具  玩家播放单句黑屏字幕  延迟执行  玩家播放单句黑屏字幕"] = "Поговорить с NPC; игрок отправляет квестовый предмет; проигрыватель воспроизводит однострочные субтитры на черном экране; отложенное исполнение; плеер воспроизводит однострочные субтитры с черным экраном.",
     ["Gather collection item with specified TemplateID  Player plays story dialogue  Player removes public group (does not take effect in open world)"] = "Собрать предмет коллекции с указанным TemplateID. Игрок воспроизводит сюжетный диалог. Игрок удаляет общедоступную группу (не действует в открытом мире).",
     ["Ana"] = "Ана",

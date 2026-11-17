@@ -1,6 +1,7 @@
 {
   "Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua.compat.luac": "d224604d10be733ac8750b84eaafee20c52027d2d9e48892eb5b0e492156bac4",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua.compat.luac": "735e0a3ba78e7336756b4576c6df10b0986129a0c15d02297be31a4633f3d026",
+  "Saved/Mods/lua/mods/cpdd_runtime_fixes/Dlss5.lua.compat.luac": "df1226d86e854f675b727c40e4efbbd8013a6a3e4de4b2691a9981b4def51e1f",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/DpsMeter.lua.compat.luac": "ea95aa08f8c3f944eef9583c47b4a0bc77c3f0f15502dee01bf78ba9916401b6",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/DpsTelemetry.lua.compat.luac": "1f397bfd8e48182fac05720fc08da046c3756e618a5baa8b707acf2b2b41c253",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/EngineIniBridge.lua.compat.luac": "0d5e386d9bdb06382e378bb4a44172c8826f54401a2b0585c988591d9ba1f916",
@@ -262,6 +263,6 @@
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/LanguageSourceIndex_ff.lua.compat.luac": "6643328f3d027d71b17f6c4d1f0a1040a9d313aa49ea6561f08fc0ccea5ad2e9",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/ServerScheduleFix.lua.compat.luac": "1669a6935d580aa695946adbe73c03ac8d270470e50b9de58334b7c338abaf7b",
   "Saved/Mods/lua/mods/cpdd_runtime_fixes/WidgetNameIndex.lua.compat.luac": "c1e21ded022c62f7b30b995eea80801fe67ca418a86374f317be95dd1c5343d9",
-  "Saved/Mods/manifest.lua.compat.luac": "99298e1313a43b942dc3a5a734972f63ae238957c3dfa319a08e4455cc9ddb80",
+  "Saved/Mods/manifest.lua.compat.luac": "5795dec3ac63e4e7f418b853577ec1a4ea453380bac2e5484e1c03e1a153891d",
   "Saved/Mods/translation-overrides.lua.compat.luac": "085071013f5350c2ee77be6e864e767826316e9f1977ddf0e09c5f351c42d8fb"
 }

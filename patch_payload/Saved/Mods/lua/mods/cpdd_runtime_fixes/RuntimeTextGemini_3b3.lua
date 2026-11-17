@@ -266,6 +266,7 @@ return {
     ["Mirror Server 2 Cross-Server Central Server"] = "Зеркальный сервер 2, межсерверный центральный сервер",
     ["The tower rises into the gray mist, with faint light flowing ceaselessly from its body."] = "Высокая башня уходит в серую дымку, и слабый свет непрерывно струится по её стенам.",
     ["超级加倍后获得胜利"] = "Победить после суперудвоения",
+    ["【自走棋装备】全场生命最低的其他神弃之地友军，羁绊8"] = "[Auto Chess Equipment] Other Forsaken Land of the Gods ally with the lowest Health on the field, bond 8",
     ["将死亡骑士煽动至此，完成一次对“死亡”本身的征服。"] = "Заманите сюда Рыцаря Смерти, совершив победу над самой «Смертью».",
     ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

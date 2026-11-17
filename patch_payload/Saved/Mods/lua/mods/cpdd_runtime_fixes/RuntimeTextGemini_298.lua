@@ -294,5 +294,6 @@ return {
     ["{{targetPlayer.name}}反制了{{player.name}}的魅惑，将其轻松驯服，并感叹魔女的滋味真不错啊。（状态持续<Chat_Highlight>3</>分钟）"] = "{{targetPlayer.name}} дал отпор чарам {{player.name}}, легко укротил его и воскликнул, что вкус Демоницы просто чудесен. (Состояние длится <Chat_Highlight>3</> мин.)",
     ["只要您不断提供养料，它就不会衰败，它会复生，永远留在您的身边。"] = "Пока Вы будете давать ему пищу, он не зачахнет. Он возродится и навсегда останется подле Вас.",
     ["Удерживайте <img id=\"KeyPrompt_LeftMouseButton\" width=\"33\" height=\"41\"/>, чтобы обвести область <Highlight></>, где вы хотите построить здание."] = "Удерживайте <img id=\"KeyPrompt_LeftMouseButton\" width=\"33\" height=\"41\"/>, чтобы обвести область <Highlight></>, где вы хотите построить здание.",
+    ["罗塞尔Boss终局-磁电回收-扇形法术代理"] = "Roselle Boss Finale - Electromagnetic Recovery - Cone Spell proxy",
     ["Hershel"] = "Гершель",
 }

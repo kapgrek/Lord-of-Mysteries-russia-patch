@@ -7,5 +7,6 @@ return {
         "mods.cpdd_runtime_fixes.DpsMeter",
         "mods.cpdd_runtime_fixes.DpsTelemetry",
         "mods.cpdd_runtime_fixes.DesktopChat",
+        "mods.cpdd_runtime_fixes.Dlss5",
     },
 }

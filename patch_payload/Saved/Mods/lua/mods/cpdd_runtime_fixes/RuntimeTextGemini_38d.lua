@@ -262,6 +262,7 @@ return {
     ["Gain <HighLight>2 random pieces of Fine Equipment</> and <HighLight>1 Equipment Reforger</>."] = "Вы получаете <HighLight>2 случайных предмета отличного снаряжения</> и <HighLight>1 переплавщик снаряжения</>.",
     ["终末猎杀-草丛04合并隐匿01（含6块原范围）"] = "Final Hunt - Bush 04 Merged Concealment 01 (Includes 6 original areas)",
     ["终末猎杀-草丛05合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 05 Merged Concealment 01 (Includes 2 original areas)",
+    ["<ChatTag_GVG>[斗邪恶]</>"] = "<ChatTag_GVG>[Fight Evil]</>",
     ["Ahmer"] = "Ахмер",
     ["空步骤  玩家停止自己播放情绪音乐"] = "Пустой шаг, плеер перестает играть эмоциональную музыку",
 }
