@@ -363,7 +363,7 @@ namespace LotmRussianPatcher
 
         public static bool ApplyOptions(string gameDir, GameOptionsState options, Action<string> log, List<string> errors)
         {
-            if (log != null) log("Запись настроек DPS и «Чистая картинка»...");
+            if (log != null) log("Запись настроек DPS, «Чистая картинка» и DLSS 5...");
             return new GameOptions(gameDir, log).Apply(options, errors);
         }
 

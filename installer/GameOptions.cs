@@ -20,10 +20,11 @@ namespace LotmRussianPatcher
         public DpsMeterMode DpsMode = DpsMeterMode.Advanced;
         public bool DesktopChat;
         public bool VisualClarity;
+        public bool Dlss5;   // Dlss5Unlock (CPDD 2.7.6 Dlss5.lua), default off
 
         public bool SameAs(GameOptionsState other)
         {
-            return other != null && DpsMode == other.DpsMode && DesktopChat == other.DesktopChat && VisualClarity == other.VisualClarity;
+            return other != null && DpsMode == other.DpsMode && DesktopChat == other.DesktopChat && VisualClarity == other.VisualClarity && Dlss5 == other.Dlss5;
         }
     }
 
@@ -68,6 +69,7 @@ namespace LotmRussianPatcher
 
         private static readonly Regex ModeEntry = new Regex("^DpsMeterMode\\s*=\\s*\"(off|native|advanced|external)\"$");
         private static readonly Regex ChatEntry = new Regex("^DesktopChatUI\\s*=\\s*(true|false)$");
+        private static readonly Regex Dlss5Entry = new Regex("^Dlss5Unlock\\s*=\\s*(true|false)$");
         private static readonly Regex TableFile = new Regex("^\\s*return\\s*\\{(?<body>[^{}]*)\\}\\s*$");
         private static readonly Regex LineComment = new Regex("--[^\\n]*");
 
@@ -96,11 +98,12 @@ namespace LotmRussianPatcher
             var state = new GameOptionsState();
             string settingsError;
             DpsMeterMode mode;
-            bool chat;
-            if (TryReadSettings(out mode, out chat, out settingsError))
+            bool chat, dlss5;
+            if (TryReadSettings(out mode, out chat, out dlss5, out settingsError))
             {
                 state.DpsMode = mode;
                 state.DesktopChat = chat;
+                state.Dlss5 = dlss5;
             }
             else error = settingsError;
 
@@ -116,7 +119,7 @@ namespace LotmRussianPatcher
         {
             bool ok = true;
             string error;
-            if (!WriteSettings(desired.DpsMode, desired.DesktopChat, out error)) { ok = false; errors.Add(error); }
+            if (!WriteSettings(desired.DpsMode, desired.DesktopChat, desired.Dlss5, out error)) { ok = false; errors.Add(error); }
             if (!SetVisualClarity(desired.VisualClarity, out error)) { ok = false; errors.Add(error); }
             return ok;
         }
@@ -145,22 +148,32 @@ namespace LotmRussianPatcher
             }
         }
 
-        // Exactly the file the CPDD installer writes.
-        public static string FormatSettings(DpsMeterMode mode, bool desktopChat)
+        // Exactly the file the CPDD installer writes. Dlss5Unlock is written only when on (TASK-049): with it off the file
+        // stays byte for byte the pre-2.7.6 one, which installers 3.1.6-3.1.8 (ParseSettings without the key) accept.
+        public static string FormatSettings(DpsMeterMode mode, bool desktopChat, bool dlss5 = false)
         {
-            return "return {\n    DpsMeterMode = \"" + ModeName(mode) + "\",\n    DesktopChatUI = " + (desktopChat ? "true" : "false") + ",\n}\n";
+            return "return {\n    DpsMeterMode = \"" + ModeName(mode) + "\",\n    DesktopChatUI = " + (desktopChat ? "true" : "false") + ",\n" +
+                (dlss5 ? "    Dlss5Unlock = true,\n" : "") + "}\n";
         }
 
-        // Accepts `return { ... }` with only DpsMeterMode / DesktopChatUI entries (the CPDD formats, old one-key files included).
         public static bool ParseSettings(string text, out DpsMeterMode mode, out bool desktopChat)
+        {
+            bool dlss5;
+            return ParseSettings(text, out mode, out desktopChat, out dlss5);
+        }
+
+        // Accepts `return { ... }` with only DpsMeterMode / DesktopChatUI / Dlss5Unlock entries, any order, no repeats
+        // (the CPDD formats, old one-key files included).
+        public static bool ParseSettings(string text, out DpsMeterMode mode, out bool desktopChat, out bool dlss5)
         {
             mode = DpsMeterMode.Advanced;
             desktopChat = false;
+            dlss5 = false;
             if (text == null) return false;
             if (text.Length > 0 && text[0] == '\uFEFF') text = text.Substring(1);
             Match m = TableFile.Match(LineComment.Replace(text.Replace("\r\n", "\n"), ""));
             if (!m.Success) return false;
-            bool seenMode = false, seenChat = false;
+            bool seenMode = false, seenChat = false, seenDlss5 = false;
             foreach (string raw in m.Groups["body"].Value.Split(',', ';'))
             {
                 string entry = raw.Trim();
@@ -169,6 +182,8 @@ namespace LotmRussianPatcher
                 if (e.Success && !seenMode) { mode = ParseMode(e.Groups[1].Value); seenMode = true; continue; }
                 e = ChatEntry.Match(entry);
                 if (e.Success && !seenChat) { desktopChat = e.Groups[1].Value == "true"; seenChat = true; continue; }
+                e = Dlss5Entry.Match(entry);
+                if (e.Success && !seenDlss5) { dlss5 = e.Groups[1].Value == "true"; seenDlss5 = true; continue; }
                 return false;
             }
             return true;
@@ -176,13 +191,20 @@ namespace LotmRussianPatcher
 
         public bool TryReadSettings(out DpsMeterMode mode, out bool desktopChat, out string error)
         {
+            bool dlss5;
+            return TryReadSettings(out mode, out desktopChat, out dlss5, out error);
+        }
+
+        public bool TryReadSettings(out DpsMeterMode mode, out bool desktopChat, out bool dlss5, out string error)
+        {
             error = null;
             mode = DpsMeterMode.Advanced;
             desktopChat = false;
+            dlss5 = false;
             string path = SettingsPath;
             if (!File.Exists(path)) return true;
             string text;
-            if (!TryReadUtf8(path, out text) || !ParseSettings(text, out mode, out desktopChat))
+            if (!TryReadUtf8(path, out text) || !ParseSettings(text, out mode, out desktopChat, out dlss5))
             {
                 error = "Файл изменён вручную и не распознан: " + SettingsRel + ".";
                 return false;
@@ -193,17 +215,22 @@ namespace LotmRussianPatcher
         // Refuses to overwrite a file it does not understand (foreign keys, syntax); cpdd_user_settings.lua is never touched.
         public bool WriteSettings(DpsMeterMode mode, bool desktopChat, out string error)
         {
+            return WriteSettings(mode, desktopChat, false, out error);
+        }
+
+        public bool WriteSettings(DpsMeterMode mode, bool desktopChat, bool dlss5, out string error)
+        {
             error = null;
             string path = SettingsPath;
-            string wanted = FormatSettings(mode, desktopChat);
+            string wanted = FormatSettings(mode, desktopChat, dlss5);
             if (File.Exists(path))
             {
                 string text;
                 DpsMeterMode oldMode;
-                bool oldChat;
-                if (!TryReadUtf8(path, out text) || !ParseSettings(text, out oldMode, out oldChat))
+                bool oldChat, oldDlss5;
+                if (!TryReadUtf8(path, out text) || !ParseSettings(text, out oldMode, out oldChat, out oldDlss5))
                 {
-                    error = "Файл изменён вручную: " + SettingsRel + ". Настройки DPS и чата не записаны; удалите файл или исправьте его.";
+                    error = "Файл изменён вручную: " + SettingsRel + ". Настройки DPS, чата и DLSS 5 не записаны; удалите файл или исправьте его.";
                     log("ОШИБКА: " + error);
                     return false;
                 }
@@ -211,7 +238,7 @@ namespace LotmRussianPatcher
             }
             Directory.CreateDirectory(Path.GetDirectoryName(path));
             File.WriteAllText(path, wanted, new UTF8Encoding(false));
-            log("  -> Настройки: DpsMeterMode = \"" + ModeName(mode) + "\", DesktopChatUI = " + (desktopChat ? "true" : "false") + ".");
+            log("  -> Настройки: DpsMeterMode = \"" + ModeName(mode) + "\", DesktopChatUI = " + (desktopChat ? "true" : "false") + ", Dlss5Unlock = " + (dlss5 ? "true" : "false") + ".");
             return true;
         }
 

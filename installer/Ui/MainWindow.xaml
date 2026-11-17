@@ -117,6 +117,12 @@
                                 <TextBlock Text="без тумана, облаков, свечения, бликов и размытия" Style="{StaticResource Hint}"/>
                             </StackPanel>
                         </CheckBox>
+                        <CheckBox x:Name="Dlss5Check" Margin="0,8,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="DLSS 5" Width="170"/>
+                                <TextBlock Text="экспериментально, NVIDIA" Style="{StaticResource Hint}"/>
+                            </StackPanel>
+                        </CheckBox>
                     </StackPanel>
                 </Border>
             </StackPanel>

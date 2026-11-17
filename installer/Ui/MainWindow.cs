@@ -22,7 +22,7 @@ namespace LotmRussianPatcher
             "Logo", "StatusBadge", "StatusDot", "StatusText", "VersionText", "HeaderHowToButton",
             "GamePathBox", "AutoDetectButton", "BrowseButton", "FolderCheckText", "FolderHowToHint", "FolderHowToLink",
             "DpsNative", "DpsAdvanced", "DpsExternal", "DpsOff", "DpsHint", "LaunchMeterButton",
-            "ClarityCheck",
+            "ClarityCheck", "Dlss5Check",
             "MainButton", "ApplyButton", "UninstallButton", "ProgressRow", "Progress", "ProgressText", "CancelButton",
             "LogBox", "SendLogsButton", "TelegramChannelButton", "TelegramAuthorButton", "BoostyButton",
             "CpddLink", "PayloadText"
@@ -33,6 +33,11 @@ namespace LotmRussianPatcher
             "Убирает туман и облака, размытие в движении, блики, свечение и лучи света. " +
             "Остальные настройки графики не меняются.";
 
+        // CPDD 2.7.6 Dlss5.lua (Dlss5Unlock), TASK-049.
+        private const string Dlss5Tooltip =
+            "Открывает пункт DLSS 5 в настройках графики. Нужна поддержка видеокарты и драйвера; на старых картах не проверено. " +
+            "Включение: DLSS → Нейронный рендеринг.";
+
         private readonly Window window;
         private readonly Border statusBadge;
         private readonly System.Windows.Shapes.Ellipse statusDot;
@@ -41,7 +46,7 @@ namespace LotmRussianPatcher
         private readonly TextBox gamePathBox, logBox;
         private readonly Button autoDetectButton, browseButton, launchMeterButton, mainButton, applyButton, uninstallButton, cancelButton, sendLogsButton;
         private readonly RadioButton dpsNative, dpsAdvanced, dpsExternal, dpsOff;
-        private readonly CheckBox clarityCheck;
+        private readonly CheckBox clarityCheck, dlss5Check;
         private readonly ProgressBar progress;
         private readonly DispatcherTimer pathTimer, blockerTimer;
 
@@ -109,6 +114,7 @@ namespace LotmRussianPatcher
             dpsHint = UiKit.Find<TextBlock>(window, "DpsHint");
             launchMeterButton = UiKit.Find<Button>(window, "LaunchMeterButton");
             clarityCheck = UiKit.Find<CheckBox>(window, "ClarityCheck");
+            dlss5Check = UiKit.Find<CheckBox>(window, "Dlss5Check");
             mainButton = UiKit.Find<Button>(window, "MainButton");
             applyButton = UiKit.Find<Button>(window, "ApplyButton");
             uninstallButton = UiKit.Find<Button>(window, "UninstallButton");
@@ -125,6 +131,7 @@ namespace LotmRussianPatcher
             dpsExternal.ToolTip = Tip("Внешний счётчик: данные боя передаются в отдельное окно-оверлей Lord of Mysteries Combat Meter.");
             dpsOff.ToolTip = Tip("Выключает все счётчики урона.");
             clarityCheck.ToolTip = Tip(ClarityTooltip);
+            dlss5Check.ToolTip = Tip(Dlss5Tooltip);
             sendLogsButton.ToolTip = Tip("Копирует 3 последних лога игры в папку рядом с установщиком и подсказывает, куда их отправить.");
             launchMeterButton.ToolTip = Tip("Запускает Saved\\Mods\\ExternalDpsMeter\\Lord of Mysteries Combat Meter.exe. Доступно в режиме «Внешний».");
             UiKit.Find<TextBlock>(window, "CreditsText").ToolTip = Tip("Русификатор использует загрузчик, моды и DPS-метр английского патча CPDD.");
@@ -180,6 +187,7 @@ namespace LotmRussianPatcher
             RoutedEventHandler optionChanged = (s, e) => { UpdateDpsHint(); UpdateButtons(); };
             foreach (RadioButton rb in new[] { dpsNative, dpsAdvanced, dpsExternal, dpsOff }) rb.Checked += optionChanged;
             clarityCheck.Checked += optionChanged; clarityCheck.Unchecked += optionChanged;
+            dlss5Check.Checked += optionChanged; dlss5Check.Unchecked += optionChanged;
             launchMeterButton.Click += (s, e) => LaunchMeter();
             sendLogsButton.Click += (s, e) => SendLogsAsync();
             mainButton.Click += (s, e) => InstallAsync();
@@ -534,6 +542,7 @@ namespace LotmRussianPatcher
             else o.DpsMode = DpsMeterMode.Advanced;
             o.DesktopChat = false;   // the CPDD desktop chat is not offered (user decision 2026-09-26)
             o.VisualClarity = clarityCheck.IsChecked == true;
+            o.Dlss5 = dlss5Check.IsChecked == true;
             return o;
         }
 
@@ -545,6 +554,7 @@ namespace LotmRussianPatcher
             dpsExternal.IsChecked = o.DpsMode == DpsMeterMode.External;
             dpsOff.IsChecked = o.DpsMode == DpsMeterMode.Off;
             clarityCheck.IsChecked = o.VisualClarity;
+            dlss5Check.IsChecked = o.Dlss5;
             UpdateDpsHint();
         }
 
