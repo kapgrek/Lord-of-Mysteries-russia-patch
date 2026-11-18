@@ -278,6 +278,7 @@ return {
     ["童话故事-苹果骑士-冲锋筛选最远两名玩家（非奶）"] = "Fairy Tale - Apple Knight - Charge and filter the two furthest players (non-healers)",
     ["双十一·聚合因子幸运礼"] = "Двойная одиннадцать · Счастливый подарок: фактор слияния",
     ["人脉专属服装"] = "Эксклюзивный наряд связей",
+    ["Bullen"] = "Брен",
     ["Callahan"] = "Каллахан",
     ["收获%d/400个优质酒舍物产。"] = "Собирайте высококачественные продукты таверны %d/400.",
     ["Wait time  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Время ожидания. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя.",

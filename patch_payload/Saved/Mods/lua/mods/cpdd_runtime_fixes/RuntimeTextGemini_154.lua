@@ -282,6 +282,6 @@ return {
     ["那您听听这句台词。"] = "Тогда послушайте эту реплику.",
     ["The Chamber of Commerce tickets at the start of each Railway Tycoon game are divided into two parts:\n1: Tickets initially granted for each route, with the amount provided by the Chamber of Commerce based on the route's difficulty.\n2: Additional tickets brought by workshop products. The higher the level of the product, the more tickets it can provide. You can carry up to three types of products, and the maximum total quantity you can carry is determined by the train's upgrade level."] = "Билеты торговой палаты в начале каждой партии «Железнодорожного магната» делятся на две части:\n1: Стартовые билеты за каждый маршрут. Торговая палата выдаёт определённый лимит в зависимости от сложности маршрута.\n2: Дополнительные билеты от товаров мастерской. Чем выше уровень товара, тем больше билетов он даёт. Можно взять до трёх видов товаров, а максимальный общий объём определяется уровнем улучшения поезда.",
     ["[不要欺负老百姓]"] = "[Не обижайте простой народ]",
-    ["【自走棋装备】神弃之地专属装备效果"] = "[Auto Chess Equipment] Forsaken Land of the Gods exclusive equipment effect",
+    ["【自走棋装备】神弃之地专属装备效果"] = "【Автошахматы: снаряжение】Эффект эксклюзивного снаряжения Заброшенной земли богов",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,",
 }

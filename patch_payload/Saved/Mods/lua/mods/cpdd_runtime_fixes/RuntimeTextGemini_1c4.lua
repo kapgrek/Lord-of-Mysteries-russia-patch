@@ -286,7 +286,7 @@ return {
     ["取消预购成功"] = "Предзаказ отменен",
     ["罗塞尔终局-密码台1-可交互"] = "Финал Розеля - Шифровальный пульт 1 - Интерактивный",
     ["比起教师，他更像个医生，总是对小少爷的病情问东问西。"] = "Он больше похож на врача, чем на учителя, и всё выспрашивает про болезнь юного господина.",
-    ["主观看月亮"] = "Subjectively watching the moon",
+    ["主观看月亮"] = "Главный смотрит на луну",
     ["Lauren"] = "Лорен",
     ["Butler John watched Baron Hawkes grow up and has taken care of Hawkes for over thirty years. The butler once saved the Baron's life in a hunting accident, and the two had an <InvHighlight> extremely close </> relationship. \n The servant is timid and honest by nature and <InvHighlight> is not good at lying. </> \n Dr. Evan used to <InvHighlight> care very much about </> the Baron's physical condition, but his attitude has become noticeably cold recently."] = "Дворецкий Джон видел, как рос барон Хоукс, и заботился о нем больше тридцати лет. Однажды на охоте дворецкий спас барону жизнь, и их отношения были <InvHighlight>чрезвычайно близкими.</>\nСлуга по натуре робок и простодушен, он <InvHighlight>совершенно не умеет лгать.</>\nДоктор Эван раньше <InvHighlight>очень беспокоился</> о здоровье барона, но в последнее время стал заметно холоднее к нему.",
     ["%s Memory Fragment: %s"] = "%s Фрагмент памяти: %s",

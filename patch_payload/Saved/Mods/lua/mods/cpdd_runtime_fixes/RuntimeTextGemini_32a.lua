@@ -286,5 +286,5 @@ return {
     ["After a hearty meal..."] = "Плотно поев...",
     ["<Assistant_Title1>【蝠影与猫步】</>\n<Assistant_Title2>描述：</>神眷时装\n<Assistant_Title2>使用：</>使用后获得蝠影与猫步套装，可点击<Assistant_System>外观-换装</>查看并使用，也可兑换为<Assistant_Red>2</>张神眷牌。\n<Assistant_Title2>获取：</>通过<Assistant_System>召唤-灵界焕容</>获得，或在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>2</>张神眷牌兑换"] = "<Assistant_Title1>【Тень летучей мыши и кошачья поступь】</>\n<Assistant_Title2>Описание:</> наряд Божьей милости\n<Assistant_Title2>Использование:</> после использования вы получите комплект «Тень летучей мыши и кошачья поступь»; его можно посмотреть и надеть в <Assistant_System>Внешний вид — Переодевание</> или обменять на <Assistant_Red>2</> карты Божьей милости.\n<Assistant_Title2>Получение:</> выпадает в <Assistant_System>Призыв — Преображение Мира Духов</> или обменивается на <Assistant_Red>2</> карты Божьей милости в <Assistant_System>Магазине даров Богини Красоты</>",
     ["1354年8月10日，下午13时22分"] = "10 августа 1354 г., 13:22",
-    ["罗塞尔Boss困难-1&2阶段-知识抽取-交互中buff"] = "Roselle Boss Hard - Phases 1 & 2 - Knowledge Extraction - Interaction Buff",
+    ["罗塞尔Boss困难-1&2阶段-知识抽取-交互中buff"] = "Босс Розель, сложный режим, фазы 1 и 2 — Извлечение знаний — бафф при взаимодействии",
 }

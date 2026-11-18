@@ -3,552 +3,552 @@
     "id": "152412",
     "source_cn": "[卡了]",
     "ref_en": "[Lagging]",
-    "target_ru": ""
+    "target_ru": "[Лаги]"
   },
   {
     "id": "152413",
     "source_cn": "[置顶]",
     "ref_en": "[Pinned]",
-    "target_ru": ""
+    "target_ru": "[Закреплено]"
   },
   {
     "id": "152414",
     "source_cn": "【PVP测试】100级属性",
     "ref_en": "[PVP Test] Level 100 Stats",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 100 ур."
   },
   {
     "id": "152415",
     "source_cn": "【PVP测试】93级属性-标准",
     "ref_en": "[PVP Test] Level 93 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 93 ур. — стандарт"
   },
   {
     "id": "152416",
     "source_cn": "【PVP测试】95级属性-标准",
     "ref_en": "[PVP Test] Level 95 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 95 ур. — стандарт"
   },
   {
     "id": "152417",
     "source_cn": "【PVP测试】96级属性-标准",
     "ref_en": "[PVP Test] Level 96 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 96 ур. — стандарт"
   },
   {
     "id": "152418",
     "source_cn": "【PVP测试】96级-战略服",
     "ref_en": "[PVP Test] Level 96 - Strategic Server",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】96 ур. — стратегический сервер"
   },
   {
     "id": "152419",
     "source_cn": "【PVP测试】97级属性-标准",
     "ref_en": "[PVP Test] Level 97 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 97 ур. — стандарт"
   },
   {
     "id": "152420",
     "source_cn": "【PVP测试】97级-战略服",
     "ref_en": "[PVP Test] Level 97 - Strategic Server",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】97 ур. — стратегический сервер"
   },
   {
     "id": "152421",
     "source_cn": "【PVP测试】98级属性-标准",
     "ref_en": "[PVP Test] Level 98 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 98 ур. — стандарт"
   },
   {
     "id": "152422",
     "source_cn": "【PVP测试】98级-战略服",
     "ref_en": "[PVP Test] Level 98 - Strategic Server",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】98 ур. — стратегический сервер"
   },
   {
     "id": "152423",
     "source_cn": "【PVP测试】99级属性-标准",
     "ref_en": "[PVP Test] Level 99 Stats - Standard",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】Характеристики 99 ур. — стандарт"
   },
   {
     "id": "152424",
     "source_cn": "【PVP测试】99级-战略服",
     "ref_en": "[PVP Test] Level 99 - Strategic Server",
-    "target_ru": ""
+    "target_ru": "【PVP-тест】99 ур. — стратегический сервер"
   },
   {
     "id": "152425",
     "source_cn": "【自走棋天赋】全场最远的1名敌人",
     "ref_en": "[Auto Chess Talent] The 1 enemy furthest away on the field",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: талант】1 самый дальний враг на поле"
   },
   {
     "id": "152426",
     "source_cn": "【自走棋装备】全场生命最低的其他神弃之地友军，羁绊10",
     "ref_en": "[Auto Chess Equipment] Other Forsaken Land of the Gods ally with the lowest Health on the field, bond 10",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Другой союзник из Заброшенной земли богов с наименьшим здоровьем на поле, резонанс 10"
   },
   {
     "id": "152427",
     "source_cn": "【自走棋装备】全场生命最低的其他神弃之地友军，羁绊6",
     "ref_en": "[Auto Chess Equipment] Other Forsaken Land of the Gods ally with the lowest Health on the field, bond 6",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Другой союзник из Заброшенной земли богов с наименьшим здоровьем на поле, резонанс 6"
   },
   {
     "id": "152428",
     "source_cn": "【自走棋装备】全场生命最低的其他神弃之地友军，羁绊8",
     "ref_en": "[Auto Chess Equipment] Other Forsaken Land of the Gods ally with the lowest Health on the field, bond 8",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Другой союзник из Заброшенной земли богов с наименьшим здоровьем на поле, резонанс 8"
   },
   {
     "id": "152429",
     "source_cn": "【自走棋装备】全场筛选穿着罪恶廷根特殊装备的人",
     "ref_en": "[Auto Chess Equipment] All characters on the field wearing special Sinful Tingen equipment",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Все на поле, носящие особое снаряжение Грешного Тингена"
   },
   {
     "id": "152430",
     "source_cn": "【自走棋装备】所有其他罪恶廷根棋子",
     "ref_en": "[Auto Chess Equipment] All other Sinful Tingen pieces",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Все остальные фигуры Грешного Тингена"
   },
   {
     "id": "152431",
     "source_cn": "【自走棋装备】神弃之地专属装备效果",
     "ref_en": "[Auto Chess Equipment] Forsaken Land of the Gods exclusive equipment effect",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Эффект эксклюзивного снаряжения Заброшенной земли богов"
   },
   {
     "id": "152432",
     "source_cn": "【自走棋装备】血刃专属装备伤害",
     "ref_en": "[Auto Chess Equipment] Blood Blade exclusive equipment damage",
-    "target_ru": ""
+    "target_ru": "【Автошахматы: снаряжение】Урон эксклюзивного снаряжения Кровавого клинка"
   },
   {
     "id": "152433",
     "source_cn": "<Assistant_Title1>【木桩训练场】</>\n<Assistant_Title2>说明：</>训练场提供<Assistant_Property1>首领木桩</>与<Assistant_Property1>治疗木桩</>，可实时查看每秒伤害与每秒治疗量，用于测试配装与技能循环。\n<Assistant_Title2>位置：</>{Location:[廷根(847,791)]|-15032;-20855;-1316;2;5200002;0}\n<Assistant_Title2>介绍：</>对话<Assistant_Red>穆穆</>可进入木桩训练场。进入后打开设置界面，可自由切换木桩类型、修改木桩名称与外观。\n<Assistant_Title2>免费增益：</>训练场内可免费试用属性增益药品，每周各<Assistant_Red>10</>次，且仅在训练场内生效。",
     "ref_en": "<Assistant_Title1>【Dummy Training Ground】</>\n<Assistant_Title2>Description:</>The training ground provides <Assistant_Property1>Boss Dummies</> and <Assistant_Property1>Healing Dummies</>, allowing you to view DPS and HPS in real-time to test gear and skill rotations.\n<Assistant_Title2>Location:</>{Location:[Tingen(847,791)]|-15032;-20855;-1316;2;5200002;0}\n<Assistant_Title2>Introduction:</>Talk to <Assistant_Red>Mumu</> to enter the Dummy Training Ground. After entering, open the settings interface to freely switch dummy types, modify dummy names, and change appearances.\n<Assistant_Title2>Free Buffs:</>You can try out attribute-boosting medicines for free in the training ground, <Assistant_Red>10</> times each per week, which only take effect within the training ground.",
-    "target_ru": ""
+    "target_ru": "<Assistant_Title1>【Тренировочная площадка с манекенами】</>\n<Assistant_Title2>Описание:</>на площадке есть <Assistant_Property1>манекены-боссы</> и <Assistant_Property1>лечебные манекены</>: можно в реальном времени смотреть урон и лечение в секунду, проверяя сборки и ротации навыков.\n<Assistant_Title2>Место:</>{Location:[Тинген(847,791)]|-15032;-20855;-1316;2;5200002;0}\n<Assistant_Title2>Как попасть:</>поговорите с <Assistant_Red>Мум</>, чтобы войти на площадку. Внутри откройте настройки: можно менять тип манекена, его имя и внешний вид.\n<Assistant_Title2>Бесплатные усиления:</>на площадке можно бесплатно пробовать зелья с усилением характеристик, по <Assistant_Red>10</> раз в неделю каждое; действуют только на площадке."
   },
   {
     "id": "152434",
     "source_cn": "<ChatTag_GVG>[斗邪恶]</>",
     "ref_en": "<ChatTag_GVG>[Fight Evil]</>",
-    "target_ru": ""
+    "target_ru": "<ChatTag_GVG>[Бой со злом]</>"
   },
   {
     "id": "152435",
     "source_cn": "<Double>进阶</>",
     "ref_en": "<Double>Advance</>",
-    "target_ru": ""
+    "target_ru": "<Double>Повышение</>"
   },
   {
     "id": "152436",
     "source_cn": "主观看月亮",
     "ref_en": "Subjectively watching the moon",
-    "target_ru": ""
+    "target_ru": "Главный смотрит на луну"
   },
   {
     "id": "152437",
     "source_cn": "人脉话题-罗塞尔3关于蒸汽与机械教会",
     "ref_en": "Connections Topic - Roselle 3 regarding the Church of Steam and Machinery",
-    "target_ru": ""
+    "target_ru": "Тема связей — Розель 3: о Церкви Пара и Машин"
   },
   {
     "id": "152438",
     "source_cn": "代号00-01?",
     "ref_en": "Codename 00-01?",
-    "target_ru": ""
+    "target_ru": "Кодовое имя 00-01?"
   },
   {
     "id": "152439",
     "source_cn": "剩余时间 <Highlight>%s</> ",
     "ref_en": "Remaining time <Highlight>%s</> ",
-    "target_ru": ""
+    "target_ru": "Осталось <Highlight>%s</> "
   },
   {
     "id": "152440",
     "source_cn": "卡娜",
     "ref_en": "Kana",
-    "target_ru": ""
+    "target_ru": "Кана"
   },
   {
     "id": "152441",
     "source_cn": "卡里克",
     "ref_en": "Carick",
-    "target_ru": ""
+    "target_ru": "Карик"
   },
   {
     "id": "152442",
     "source_cn": "吟游诗人五月庄园1",
     "ref_en": "Bard May Manor 1",
-    "target_ru": ""
+    "target_ru": "Бард, поместье Мэй 1"
   },
   {
     "id": "152443",
     "source_cn": "吟游诗人五月庄园2",
     "ref_en": "Bard May Manor 2",
-    "target_ru": ""
+    "target_ru": "Бард, поместье Мэй 2"
   },
   {
     "id": "152444",
     "source_cn": "吟游诗人五月庄园3",
     "ref_en": "Bard May Manor 3",
-    "target_ru": ""
+    "target_ru": "Бард, поместье Мэй 3"
   },
   {
     "id": "152445",
     "source_cn": "埃弗伦",
     "ref_en": "Ephron",
-    "target_ru": ""
+    "target_ru": "Эфрен"
   },
   {
     "id": "152446",
     "source_cn": "塔罗斩杀特效",
     "ref_en": "Tarot Execution Effect",
-    "target_ru": ""
+    "target_ru": "Эффект добивания Таро"
   },
   {
     "id": "152447",
     "source_cn": "布伦",
     "ref_en": "Bullen",
-    "target_ru": ""
+    "target_ru": "Брен"
   },
   {
     "id": "152448",
     "source_cn": "布里彻",
     "ref_en": "Bleacher",
-    "target_ru": ""
+    "target_ru": "Бричер"
   },
   {
     "id": "152449",
     "source_cn": "怪物密偶-大帝红色秘偶",
     "ref_en": "Monster Marionette - Emperor's Red Marionette",
-    "target_ru": ""
+    "target_ru": "Монстр-марионетка — красная марионетка Императора"
   },
   {
     "id": "152450",
     "source_cn": "战士战略技能二阶-拉人",
     "ref_en": "Warrior Strategic Skill Tier 2 - Pull",
-    "target_ru": ""
+    "target_ru": "Стратегический навык Воина, 2 ступень — притягивание"
   },
   {
     "id": "152451",
     "source_cn": "战士战略技能本体-拉人",
     "ref_en": "Warrior Strategic Skill Base - Pull",
-    "target_ru": ""
+    "target_ru": "Стратегический навык Воина, базовый — притягивание"
   },
   {
     "id": "152452",
     "source_cn": "无名的骑士",
     "ref_en": "Nameless Knight",
-    "target_ru": ""
+    "target_ru": "Безымянный рыцарь"
   },
   {
     "id": "152453",
     "source_cn": "歌颂者烈阳之魂筛选BOSS",
     "ref_en": "Bard Soul of the Blazing Sun Filter BOSS",
-    "target_ru": ""
+    "target_ru": "Бард: душа Пылающего солнца, фильтр боссов"
   },
   {
     "id": "152454",
     "source_cn": "歌颂者烈阳之魂筛选玩家",
     "ref_en": "Bard Soul of the Blazing Sun Filter Players",
-    "target_ru": ""
+    "target_ru": "Бард: душа Пылающего солнца, фильтр игроков"
   },
   {
     "id": "152455",
     "source_cn": "测试属性buff100",
     "ref_en": "Test Attribute buff100",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 100"
   },
   {
     "id": "152456",
     "source_cn": "测试属性buff93",
     "ref_en": "Test Attribute Buff 93",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 93"
   },
   {
     "id": "152457",
     "source_cn": "测试属性buff95",
     "ref_en": "Test Attribute Buff 95",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 95"
   },
   {
     "id": "152458",
     "source_cn": "测试属性buff96",
     "ref_en": "Test Attribute Buff 96",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 96"
   },
   {
     "id": "152459",
     "source_cn": "测试属性buff97",
     "ref_en": "Test Attribute Buff 97",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 97"
   },
   {
     "id": "152460",
     "source_cn": "测试属性buff98",
     "ref_en": "Test Attribute Buff 98",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 98"
   },
   {
     "id": "152461",
     "source_cn": "测试属性buff99",
     "ref_en": "Test Attribute Buff 99",
-    "target_ru": ""
+    "target_ru": "Тест характеристик, бафф 99"
   },
   {
     "id": "152462",
     "source_cn": "测试属性buff战略96",
     "ref_en": "Test Attribute Buff Strategy 96",
-    "target_ru": ""
+    "target_ru": "Тест: стратегия баффа атрибутов 96"
   },
   {
     "id": "152463",
     "source_cn": "测试属性buff战略97",
     "ref_en": "Test Attribute Buff Strategy 97",
-    "target_ru": ""
+    "target_ru": "Тест: стратегия баффа атрибутов 97"
   },
   {
     "id": "152464",
     "source_cn": "测试属性buff战略98",
     "ref_en": "Test Attribute Buff Strategy 98",
-    "target_ru": ""
+    "target_ru": "Тест: стратегия баффа атрибутов 98"
   },
   {
     "id": "152465",
     "source_cn": "测试属性buff战略99",
     "ref_en": "Test Attribute Buff Strategy 99",
-    "target_ru": ""
+    "target_ru": "Тест: стратегия баффа атрибутов 99"
   },
   {
     "id": "152466",
     "source_cn": "牌桌狒狒",
     "ref_en": "Card Table Baboon",
-    "target_ru": ""
+    "target_ru": "Павиан за карточным столом"
   },
   {
     "id": "152467",
     "source_cn": "玛奇",
     "ref_en": "Machi",
-    "target_ru": ""
+    "target_ru": "Мачи"
   },
   {
     "id": "152468",
     "source_cn": "神弃之地装备效果",
     "ref_en": "Forsaken Land of the Gods Equipment effect",
-    "target_ru": ""
+    "target_ru": "Эффект снаряжения Заброшенной земли богов"
   },
   {
     "id": "152469",
     "source_cn": "精英棋子特效",
     "ref_en": "Elite Piece effect",
-    "target_ru": ""
+    "target_ru": "Спецэффект элитной фигуры"
   },
   {
     "id": "152470",
     "source_cn": "罗塞尔Boss困难-1&2阶段-知识抽取-交互中buff",
     "ref_en": "Roselle Boss Hard - Phases 1 & 2 - Knowledge Extraction - Interaction Buff",
-    "target_ru": ""
+    "target_ru": "Босс Розель, сложный режим, фазы 1 и 2 — Извлечение знаний — бафф при взаимодействии"
   },
   {
     "id": "152471",
     "source_cn": "罗塞尔Boss困难-3阶段-知识抽取-交互中buff",
     "ref_en": "Roselle Boss Hard - Phase 3 - Knowledge Extraction - Interaction Buff",
-    "target_ru": ""
+    "target_ru": "Босс Розель, сложный режим, фаза 3 — Извлечение знаний — бафф при взаимодействии"
   },
   {
     "id": "152472",
     "source_cn": "罗塞尔Boss终局-圆形600",
     "ref_en": "Roselle Boss Endgame - Circle 600",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — круг 600"
   },
   {
     "id": "152473",
     "source_cn": "罗塞尔Boss终局-圆形700",
     "ref_en": "Roselle Boss Endgame - Circle 700",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — круг 700"
   },
   {
     "id": "152474",
     "source_cn": "罗塞尔Boss终局-恶意俯冲-扩散波法术代理",
     "ref_en": "Roselle Boss Endgame - Malicious Dive - Diffusion Wave Spell Proxy",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Злобное пике — прокси заклинания волны"
   },
   {
     "id": "152475",
     "source_cn": "罗塞尔Boss终局-恶意俯冲选最远玩家",
     "ref_en": "Roselle Boss Finale - Malicious Dive targets the furthest player",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Злобное пике выбирает самого дальнего игрока"
   },
   {
     "id": "152476",
     "source_cn": "罗塞尔Boss终局-灼热目光-点名6个",
     "ref_en": "Roselle Boss Finale - Scorching Gaze - Target 6 players",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Жгучий взгляд — выбор 6 целей"
   },
   {
     "id": "152477",
     "source_cn": "罗塞尔Boss终局-知识抽取-交互中buff",
     "ref_en": "Roselle Boss Finale - Knowledge Extraction - Interaction buff",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Извлечение знаний — бафф при взаимодействии"
   },
   {
     "id": "152478",
     "source_cn": "罗塞尔Boss终局-磁电回收-扇形法术代理",
     "ref_en": "Roselle Boss Finale - Electromagnetic Recovery - Cone Spell proxy",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Магнитный возврат — прокси секторного заклинания"
   },
   {
     "id": "152479",
     "source_cn": "罗塞尔Boss终局-磁电回收点名",
     "ref_en": "Roselle Boss Finale - Electromagnetic Recovery target",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — выбор цели Магнитного возврата"
   },
   {
     "id": "152480",
     "source_cn": "罗塞尔Boss终局-自清洁程序-层数buff二级",
     "ref_en": "Roselle Boss Finale - Self-Cleaning Program - Layer Buff Level 2",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Программа самоочистки — бафф слоёв, 2-й уровень"
   },
   {
     "id": "152481",
     "source_cn": "罗塞尔Boss终局-自清洁程序-范围伤害",
     "ref_en": "Roselle Boss Finale - Self-Cleaning Program - Area of Effect Damage",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Программа самоочистки — урон по области"
   },
   {
     "id": "152482",
     "source_cn": "罗塞尔Boss终局-重力圆点名",
     "ref_en": "Roselle Boss Finale - Gravity Circle Targeting",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — выбор цели Гравитационного круга"
   },
   {
     "id": "152483",
     "source_cn": "罗塞尔Boss终局-重力法则-引力场",
     "ref_en": "Roselle Boss Finale - Law of Gravity - Gravitational Field",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Закон гравитации — поле притяжения"
   },
   {
     "id": "152484",
     "source_cn": "罗塞尔Boss终局-锋利的知识-悬浮齿轮",
     "ref_en": "Roselle Boss Finale - Sharp Knowledge - Floating Gears",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Острое знание — парящие шестерни"
   },
   {
     "id": "152485",
     "source_cn": "罗塞尔Boss终局-锋利的知识-法术场",
     "ref_en": "Roselle Boss Finale - Sharp Knowledge - Spell Field",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Острое знание — поле заклинания"
   },
   {
     "id": "152486",
     "source_cn": "罗塞尔Boss终局-锋利的知识-选第二轮",
     "ref_en": "Roselle Boss Finale - Sharp Knowledge - Select Second Round",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Острое знание — выбор для второго раунда"
   },
   {
     "id": "152487",
     "source_cn": "罗塞尔Boss终局-镜像数据-脱手子技能",
     "ref_en": "Roselle Boss Finale - Mirror Data - Hands-free Sub-skill",
-    "target_ru": ""
+    "target_ru": "Босс Розель, финал — Зеркальные данные — автономный подскилл"
   },
   {
     "id": "152488",
     "source_cn": "罗塞尔残影-法术代理",
     "ref_en": "Roselle Afterimage - Spell Proxy",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — прокси заклинания"
   },
   {
     "id": "152489",
     "source_cn": "罗塞尔残影-齿轮1",
     "ref_en": "Roselle Afterimage - Gear 1",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — шестерня 1"
   },
   {
     "id": "152490",
     "source_cn": "罗塞尔残影-齿轮2",
     "ref_en": "Roselle Afterimage - Gear 2",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — шестерня 2"
   },
   {
     "id": "152491",
     "source_cn": "罗塞尔残影-齿轮3",
     "ref_en": "Roselle Afterimage - Gear 3",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — шестерня 3"
   },
   {
     "id": "152492",
     "source_cn": "罗塞尔残影-齿轮4",
     "ref_en": "Roselle Afterimage - Gear 4",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — шестерня 4"
   },
   {
     "id": "152493",
     "source_cn": "罗塞尔残影-齿轮风暴",
     "ref_en": "Roselle Afterimage - Gear Storm",
-    "target_ru": ""
+    "target_ru": "Остаточный образ Розеля — шторм шестерён"
   },
   {
     "id": "152494",
     "source_cn": "艾欧",
     "ref_en": "Aio",
-    "target_ru": ""
+    "target_ru": "Айо"
   },
   {
     "id": "152495",
     "source_cn": "艾莉",
     "ref_en": "Ellie",
-    "target_ru": ""
+    "target_ru": "Элли"
   },
   {
     "id": "152496",
     "source_cn": "艾鲁",
     "ref_en": "Ailu",
-    "target_ru": ""
+    "target_ru": "Айлу"
   },
   {
     "id": "152497",
     "source_cn": "芬娜",
     "ref_en": "Fenner",
-    "target_ru": ""
+    "target_ru": "Фенна"
   },
   {
     "id": "152498",
     "source_cn": "菲力",
     "ref_en": "Philip",
-    "target_ru": ""
+    "target_ru": "Филип"
   },
   {
     "id": "152499",
     "source_cn": "萨多",
     "ref_en": "Sado",
-    "target_ru": ""
+    "target_ru": "Садо"
   },
   {
     "id": "152500",
     "source_cn": "萨莉",
     "ref_en": "Sally",
-    "target_ru": ""
+    "target_ru": "Салли"
   },
   {
     "id": "152501",
     "source_cn": "顶奢加BUFF筛选-优先加给团队",
     "ref_en": "Top-tier luxury buff filtering - prioritize team",
-    "target_ru": ""
+    "target_ru": "Фильтр баффа высшей роскоши — приоритет команде"
   },
   {
     "id": "152502",
     "source_cn": "顶奢加BUFF筛选-多余名额加给友方",
     "ref_en": "Top-tier luxury buff filtering - assign remaining slots to allies",
-    "target_ru": ""
+    "target_ru": "Фильтр баффа высшей роскоши — лишние места союзникам"
   },
   {
     "id": "152503",
     "source_cn": "马鲁",
     "ref_en": "Maru",
-    "target_ru": ""
+    "target_ru": "Мару"
   }
 ]

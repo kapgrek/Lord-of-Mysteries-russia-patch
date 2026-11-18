@@ -289,6 +289,7 @@ return {
     ["Shunhuonuan"] = "順火暖",
     ["完成系统任务中的序列8晋升任务后解锁。"] = "Открывается после выполнения задания на повышение до Последовательности 8 в системных заданиях.",
     ["Нажмите здесь или используйте <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/><Orange>, чтобы войти в режим прицеливания</>."] = "Нажмите здесь или используйте <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/><Orange>, чтобы войти в режим прицеливания</>.",
+    ["Roselle Boss Endgame - Malicious Dive - Diffusion Wave Spell Proxy"] = "Босс Розель, финал — Злобное пике — прокси заклинания волны",
     ["Abdir"] = "Абдир",
     ["收获%d/400个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/400.",
     ["RequestCutsceneActorComposite: could not find ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",

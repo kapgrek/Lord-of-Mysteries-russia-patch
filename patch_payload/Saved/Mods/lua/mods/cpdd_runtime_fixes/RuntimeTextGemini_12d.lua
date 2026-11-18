@@ -295,6 +295,7 @@ return {
     ["Follow the <h>\"boy\"</> to see what's going on."] = "Следуйте за <h>«мальчиком»</>",
     ["这么重要的事情，我竟然也能忘，该死！"] = "Как я мог забыть о таком важном деле? Проклятье!",
     ["阿勒苏霍德之笔"] = "Перо Альсухода",
+    ["[Lagging]"] = "[Лаги]",
     ["Mallory"] = "Мэллори",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
     ["Respected Guest:\n　　Greetings.\n　　This private room has now initiated a private ritual. A distinguished guest is currently having a deep exchange with the roses inside.\n　　Non-invitees, please do not knock, do not peek, and do not listen. Disturbing a soul in intoxication will be considered a desecration of the garden."] = "Глубокоуважаемый гость!\n　　Приветствуем вас.\n　　В этой ложе в настоящий момент проводится закрытый ритуал. Внутри высокий гость ведет глубокое общение с розами.\n　　Не приглашенным просьба не стучать, не подглядывать и не подслушивать. Нарушить покой упоенной души расценивается как осквернение сада.",

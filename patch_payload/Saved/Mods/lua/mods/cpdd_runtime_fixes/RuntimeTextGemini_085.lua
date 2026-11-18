@@ -300,6 +300,7 @@ return {
     ["购买后<Highlight>每日登录</>领奖，<Highlight>S2赛季更新后</>返本金，更有惊喜奖励"] = "После покупки награды за <Highlight>ежедневный вход</>, возврат вложений <Highlight>после обновления S2</> и призы-сюрпризы",
     ["· +<HighLight>15</>点初始法力，攻击提高<HighLight>25%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>1</>名友军<HighLight>20%</>最大生命值。\n· <HighLight>商会将出现【特选·战法】棋子。</>"] = "· +<HighLight>15</> начальной маны, атака повышена на <HighLight>25%</> на <HighLight>15</> сек. Когда носитель побеждает врага, лечит <HighLight>1</> союзника на <HighLight>20%</> максимума ОЗ.\n· <HighLight>В Торговой палате появится фигура【Избранный·Боевая магия】.</>",
     ["挂扣"] = "Подвесная застёжка",
+    ["[PVP Test] Level 98 Stats - Standard"] = "【PVP-тест】Характеристики 98 ур. — стандарт",
     ["Eliana"] = "Элиана ·",
     ["Sound effect [%s] does not have corresponding lua configuration information generated yet. Please run the script locally to generate it\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat"] = "Для звукового эффекта [%s] ещё не сгенерирована соответствующая конфигурация Lua. Запустите скрипт локально для её создания:\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat",
     ["Bryson"] = "Брайсон",
